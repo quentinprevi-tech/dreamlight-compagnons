@@ -2,6 +2,7 @@ import { useEffect, useRef, useState } from 'react'
 import { COLLECTIONS, isReleased, type Character } from '../data/characters'
 import { PROFESSIONS, type ProfessionId } from '../data/professions'
 import { toSquareThumbnail } from '../lib/image'
+import { sparkleAt } from '../lib/sparkle'
 import { Avatar } from './Avatar'
 
 interface Props {
@@ -48,13 +49,13 @@ export function AssignSheet({ character, current, portrait, onAssign, onPortrait
 
   return (
     <div className="fixed inset-0 z-50 flex items-end justify-center" role="dialog" aria-modal="true" aria-labelledby="sheet-title">
-      <button aria-label="Fermer" className="absolute inset-0 animate-fade-in bg-plum-950/40 backdrop-blur-[2px]" onClick={onClose} />
+      <button aria-label="Fermer" className="absolute inset-0 animate-fade-in bg-night-950/60 backdrop-blur-[2px]" onClick={onClose} />
       <div className="relative w-full max-w-md animate-sheet-up rounded-t-[2rem] bg-white px-5 pt-3 pb-[max(1.25rem,env(safe-area-inset-bottom))] shadow-2xl">
         <div className="mx-auto mb-4 h-1.5 w-12 rounded-full bg-plum-200" />
         <div className="flex items-center gap-4">
           <Avatar character={character} portrait={portrait} size="lg" />
           <div className="min-w-0">
-            <h2 id="sheet-title" className="font-display text-2xl font-bold text-plum-900">
+            <h2 id="sheet-title" className="font-display text-2xl font-semibold text-plum-900">
               {character.name}
             </h2>
             <p className="text-sm text-plum-600">{character.universe}</p>
@@ -74,7 +75,10 @@ export function AssignSheet({ character, current, portrait, onAssign, onPortrait
             return (
               <button
                 key={p.id}
-                onClick={() => pick(p.id)}
+                onClick={(e) => {
+                  sparkleAt(e)
+                  pick(p.id)
+                }}
                 aria-pressed={active}
                 className={`flex items-center gap-2 rounded-2xl px-3 py-3 text-left font-semibold transition active:scale-95 ${
                   active ? `bg-gradient-to-br ${p.gradient} text-plum-950 ring-2 ring-plum-500` : 'bg-plum-50 text-plum-800 hover:bg-plum-100'

@@ -40,7 +40,7 @@ export function PickerSheet({ profession, assignments, portraits, onPick, onClos
 
   return (
     <div className="fixed inset-0 z-50 flex items-end justify-center" role="dialog" aria-modal="true" aria-label={`Ajouter à ${profession.name}`}>
-      <button aria-label="Fermer" className="absolute inset-0 animate-fade-in bg-plum-950/40 backdrop-blur-[2px]" onClick={onClose} />
+      <button aria-label="Fermer" className="absolute inset-0 animate-fade-in bg-night-950/60 backdrop-blur-[2px]" onClick={onClose} />
       <div className="relative flex max-h-[85dvh] w-full max-w-md animate-sheet-up flex-col rounded-t-[2rem] bg-plum-50 shadow-2xl">
         <div className="px-5 pt-3 pb-3">
           <div className="mx-auto mb-3 h-1.5 w-12 rounded-full bg-plum-200" />

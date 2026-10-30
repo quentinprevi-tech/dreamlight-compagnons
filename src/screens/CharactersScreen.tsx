@@ -40,15 +40,15 @@ export function CharactersScreen({ companions, onOpenCharacter }: Props) {
 
   return (
     <div className="animate-fade-up">
-      <div className="sticky top-0 z-20 -mx-4 bg-plum-50/85 px-4 pt-[max(0.5rem,env(safe-area-inset-top))] pb-2 backdrop-blur-md">
-        <h1 className="font-display text-3xl font-bold text-plum-900">Habitants</h1>
+      <div className="sticky top-0 z-20 -mx-4 bg-night-900/80 px-4 pt-[max(0.5rem,env(safe-area-inset-top))] pb-2 backdrop-blur-md">
+        <h1 className="text-gold font-magic text-3xl font-bold">Habitants</h1>
         <input
           type="search"
           value={query}
           onChange={(e) => setQuery(e.target.value)}
           placeholder="Rechercher par nom…"
           aria-label="Rechercher par nom"
-          className="mt-2 w-full rounded-2xl border-0 bg-white px-4 py-3 text-base text-plum-900 shadow-sm ring-1 ring-plum-100 outline-none placeholder:text-plum-300 focus:ring-2 focus:ring-plum-400"
+          className="mt-2 w-full rounded-2xl border-0 bg-white px-4 py-3 text-base text-plum-900 shadow-sm ring-1 ring-gold-300/40 outline-none placeholder:text-plum-300 focus:ring-2 focus:ring-gold-400"
         />
         <div className="no-scrollbar -mx-4 mt-2 flex gap-2 overflow-x-auto px-4 pb-1" role="group" aria-label="Filtrer par métier">
           {chips.map((chip) => (
@@ -57,7 +57,7 @@ export function CharactersScreen({ companions, onOpenCharacter }: Props) {
               onClick={() => setFilter(chip.id)}
               aria-pressed={filter === chip.id}
               className={`shrink-0 rounded-full px-3.5 py-1.5 text-sm font-semibold whitespace-nowrap transition active:scale-95 ${
-                filter === chip.id ? 'bg-plum-700 text-white shadow-md' : 'bg-white text-plum-700 ring-1 ring-plum-100'
+                filter === chip.id ? 'bg-gold-300 text-night-900 shadow-[0_0_12px_rgb(255_214_107/0.6)]' : 'bg-white/10 text-plum-50 ring-1 ring-white/20'
               }`}
             >
               {chip.label}
@@ -66,15 +66,15 @@ export function CharactersScreen({ companions, onOpenCharacter }: Props) {
         </div>
       </div>
 
-      <p className="mt-2 mb-1 text-xs text-plum-500" aria-live="polite">
+      <p className="mt-2 mb-1 text-xs text-plum-200/80" aria-live="polite">
         {count} habitant{count > 1 ? 's' : ''}
       </p>
 
       {groups.map(({ collection, items }) => (
         <section key={collection.id} className="mt-4">
           <h2 className="mb-2 flex items-baseline gap-2 px-1">
-            <span className="font-display text-lg font-bold text-plum-800">{collection.label}</span>
-            {collection.paid && <span className="text-xs text-plum-400">payant</span>}
+            <span className="font-display text-lg font-semibold text-gold-200">✦ {collection.label}</span>
+            {collection.paid && <span className="text-xs text-plum-200/70">payant</span>}
           </h2>
           <ul className="space-y-2">
             {items.map((c) => (
@@ -91,7 +91,7 @@ export function CharactersScreen({ companions, onOpenCharacter }: Props) {
       ))}
 
       {count === 0 && (
-        <div className="mt-8 text-center text-plum-500">
+        <div className="mt-8 text-center text-plum-100/80">
           <p className="text-4xl" aria-hidden>🔍</p>
           <p className="mt-2">Aucun habitant ne correspond.</p>
         </div>

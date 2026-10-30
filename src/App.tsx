@@ -1,6 +1,7 @@
 import { useCallback, useState } from 'react'
 import { CHARACTERS_BY_ID } from './data/characters'
 import { AssignSheet } from './components/AssignSheet'
+import { Sky } from './components/Sky'
 import { hrefFor, useRoute, type Route } from './lib/router'
 import { useCompanions } from './lib/useCompanions'
 import { AboutScreen } from './screens/AboutScreen'
@@ -10,8 +11,8 @@ import { ProfessionScreen } from './screens/ProfessionScreen'
 
 const TABS: { route: Route; label: string; icon: string; match: Route['name'][] }[] = [
   { route: { name: 'home' }, label: 'Accueil', icon: '✨', match: ['home', 'profession'] },
-  { route: { name: 'characters' }, label: 'Habitants', icon: '🏡', match: ['characters'] },
-  { route: { name: 'about' }, label: 'Infos', icon: '💾', match: ['about'] },
+  { route: { name: 'characters' }, label: 'Habitants', icon: '🏰', match: ['characters'] },
+  { route: { name: 'about' }, label: 'Infos', icon: '📜', match: ['about'] },
 ]
 
 export default function App() {
@@ -23,9 +24,10 @@ export default function App() {
 
   return (
     <div className="mx-auto flex min-h-dvh max-w-md flex-col">
+      <Sky />
       <main className="flex-1 px-4 pt-4 pb-28">
         {!companions.ready ? (
-          <p className="mt-24 animate-pulse text-center font-display text-xl text-plum-500">✨ Ouverture de la vallée…</p>
+          <p className="mt-24 animate-pulse text-center font-display text-xl text-gold-200">✨ Ouverture de la vallée…</p>
         ) : route.name === 'profession' ? (
           <ProfessionScreen key={route.id} professionId={route.id} companions={companions} onOpenCharacter={setOpenId} />
         ) : route.name === 'characters' ? (
@@ -46,7 +48,7 @@ export default function App() {
         aria-label="Navigation principale"
         className="fixed inset-x-0 bottom-0 z-40 mx-auto max-w-md px-4 pb-[max(0.75rem,env(safe-area-inset-bottom))]"
       >
-        <ul className="flex justify-around rounded-full bg-white/90 p-1.5 shadow-xl shadow-plum-900/15 ring-1 ring-plum-100 backdrop-blur-md">
+        <ul className="flex justify-around rounded-full bg-night-900/85 p-1.5 shadow-xl shadow-night-950/60 ring-1 ring-gold-300/40 backdrop-blur-md">
           {TABS.map((t) => {
             const active = t.match.includes(route.name)
             return (
@@ -55,7 +57,7 @@ export default function App() {
                   href={hrefFor(t.route)}
                   aria-current={active ? 'page' : undefined}
                   className={`flex flex-col items-center rounded-full py-1.5 text-xs font-semibold transition ${
-                    active ? 'bg-plum-100 text-plum-900' : 'text-plum-500'
+                    active ? 'bg-gold-300/20 text-gold-200 ring-1 ring-gold-300/50' : 'text-plum-200/80'
                   }`}
                 >
                   <span className="text-xl leading-none" aria-hidden>

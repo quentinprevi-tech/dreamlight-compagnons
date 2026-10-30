@@ -33,11 +33,11 @@ export function AboutScreen({ companions }: { companions: Companions }) {
     }
   }
 
-  const card = 'rounded-3xl bg-white/85 p-5 shadow-sm ring-1 ring-plum-100'
+  const card = 'glass rounded-3xl p-5'
 
   return (
     <div className="animate-fade-up space-y-4 pt-[max(0.5rem,env(safe-area-inset-top))]">
-      <h1 className="font-display text-3xl font-bold text-plum-900">Infos</h1>
+      <h1 className="text-gold font-magic text-3xl font-bold">Infos</h1>
 
       <section className={card}>
         <h2 className="font-display text-lg font-bold text-plum-900">💾 Tes données</h2>
@@ -72,7 +72,7 @@ export function AboutScreen({ companions }: { companions: Companions }) {
         </p>
       </section>
 
-      <p className="px-2 pb-4 text-center text-xs text-plum-400">
+      <p className="px-2 pb-4 text-center text-xs text-plum-200/70">
         Application non officielle, faite avec amour pour une joueuse de Dreamlight Valley. ✨
       </p>
     </div>

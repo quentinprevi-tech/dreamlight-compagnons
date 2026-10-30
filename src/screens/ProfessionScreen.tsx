@@ -27,7 +27,7 @@ export function ProfessionScreen({ professionId, companions, onOpenCharacter }: 
         <a href="#/" className="inline-flex items-center gap-1 rounded-full bg-white/70 px-3 py-1.5 text-sm font-semibold text-plum-900 shadow-sm active:scale-95">
           ‹ Accueil
         </a>
-        <h1 className="mt-4 font-display text-4xl font-bold text-plum-950">
+        <h1 className="mt-4 font-magic text-4xl font-bold text-plum-950 drop-shadow-[0_1px_0_rgb(255_255_255/0.6)]">
           <span aria-hidden>{p.emoji}</span> {p.name}
         </h1>
         <p className="text-sm font-medium text-plum-900/75">
@@ -36,7 +36,7 @@ export function ProfessionScreen({ professionId, companions, onOpenCharacter }: 
       </header>
 
       {members.length === 0 ? (
-        <div className="rounded-3xl bg-white/80 p-6 text-center shadow-sm ring-1 ring-plum-100">
+        <div className="glass rounded-3xl p-6 text-center">
           <p className="text-4xl" aria-hidden>🌙</p>
           <p className="mt-2 font-display text-lg font-bold text-plum-900">Aucun habitant n’a ce métier</p>
           <p className="mt-1 text-sm text-plum-600">Ajoute ceux à qui tu l’as confié dans ta partie.</p>
@@ -58,7 +58,7 @@ export function ProfessionScreen({ professionId, companions, onOpenCharacter }: 
 
       <button
         onClick={() => setPicking(true)}
-        className={`mt-4 w-full rounded-full ${p.accent} px-5 py-3.5 font-display text-lg font-bold text-white shadow-lg shadow-plum-900/15 transition active:scale-[0.97]`}
+        className="magic-border mt-4 w-full rounded-full bg-gradient-to-r from-gold-300 via-gold-200 to-gold-400 px-5 py-3.5 font-display text-lg font-semibold text-night-900 transition active:scale-[0.97]"
       >
         + Ajouter des habitants
       </button>

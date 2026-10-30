@@ -5,7 +5,7 @@ export default defineConfig({
   testDir: 'e2e',
   timeout: 30_000,
   use: {
-    baseURL: 'http://localhost:4173',
+    baseURL: 'http://localhost:4174',
     channel: process.env.PW_CHANNEL ?? 'msedge',
     viewport: { width: 360, height: 640 },
     isMobile: true,
@@ -14,8 +14,8 @@ export default defineConfig({
     locale: 'fr-FR',
   },
   webServer: {
-    command: 'npm run build && npx vite preview --port 4173 --strictPort',
-    url: 'http://localhost:4173',
+    command: 'npm run build && npx vite preview --port 4174 --strictPort',
+    url: 'http://localhost:4174',
     reuseExistingServer: false,
     timeout: 120_000,
   },

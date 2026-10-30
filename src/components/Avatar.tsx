@@ -40,7 +40,7 @@ const SIZES = {
 }
 
 export function Avatar({ character, portrait, size = 'md' }: Props) {
-  const base = `${SIZES[size]} shrink-0 rounded-full ring-2 ring-white shadow-md overflow-hidden`
+  const base = `${SIZES[size]} shrink-0 rounded-full ring-2 ring-gold-300/80 shadow-md overflow-hidden`
   if (portrait) {
     return <img src={portrait} alt={`Portrait de ${character.name}`} className={`${base} object-cover`} />
   }
@@ -49,7 +49,7 @@ export function Avatar({ character, portrait, size = 'md' }: Props) {
     <div
       role="img"
       aria-label={`${character.name} (pas de portrait)`}
-      className={`${base} grid place-items-center bg-gradient-to-br ${gradient} font-display font-bold text-white`}
+      className={`${base} grid place-items-center bg-gradient-to-br ${gradient} font-display font-semibold text-white`}
     >
       <span className="drop-shadow-sm">{initials(character.name)}</span>
     </div>
