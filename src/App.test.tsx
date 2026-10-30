@@ -24,9 +24,9 @@ describe('Dreamlight Compagnons', () => {
     window.location.hash = ''
   })
 
-  it('affiche les cinq métiers avec un compteur à zéro', async () => {
+  it('affiche les sept métiers avec un compteur à zéro', async () => {
     render(<App />)
-    for (const name of ['Pêche', 'Jardinage', 'Minage', 'Cueillette', 'Creusage']) {
+    for (const name of ['Pêche', 'Jardinage', 'Extraction', 'Cueillette', 'Excavation', 'Chasse aux anigamis', 'Courbage temporel']) {
       expect(await screen.findByText(name)).toBeInTheDocument()
     }
     expect(screen.getByTestId('count-fishing')).toHaveTextContent('0')
@@ -81,14 +81,14 @@ describe('Dreamlight Compagnons', () => {
     render(<App />)
     await go('#/metier/mining')
     await user.click(await screen.findByRole('button', { name: '+ Ajouter des habitants' }))
-    const picker = screen.getByRole('dialog', { name: 'Ajouter à Minage' })
+    const picker = screen.getByRole('dialog', { name: 'Ajouter à Extraction' })
     await user.type(within(picker).getByLabelText('Rechercher un habitant à ajouter'), 'elsa')
     await user.click(within(picker).getByRole('button', { name: /^Elsa/ }))
     await user.click(within(picker).getByRole('button', { name: 'Terminé' }))
-    expect(within(await screen.findByRole('list', { name: 'Habitants : Minage' })).getByText('Elsa')).toBeInTheDocument()
+    expect(within(await screen.findByRole('list', { name: 'Habitants : Extraction' })).getByText('Elsa')).toBeInTheDocument()
 
     await go('#/personnages')
-    await user.click(await screen.findByRole('button', { name: '⛏️ Minage' }))
+    await user.click(await screen.findByRole('button', { name: '⛏️ Extraction' }))
     expect(screen.getByText('1 habitant')).toBeInTheDocument()
     expect(screen.getByText('Elsa')).toBeInTheDocument()
   })

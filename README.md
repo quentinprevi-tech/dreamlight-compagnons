@@ -21,7 +21,7 @@ npm run test:e2e    # tests navigateur (Playwright + Edge, écran 360 px, hors l
 ## Architecture
 
 - `src/data/characters.ts` : la base des personnages (sources en tête de fichier). Pour ajouter un habitant, ajouter une ligne avec un `id` unique qui ne change plus jamais. `releaseDate` rend un personnage « Bientôt » jusqu’à cette date. `nameToVerify` marque un nom français non confirmé par les sources.
-- `src/data/professions.ts` : les cinq métiers.
+- `src/data/professions.ts` : les sept métiers.
 - `src/lib/storage.ts` : IndexedDB (idb-keyval) : affectations, photos, export/import JSON.
 - `src/lib/useCompanions.ts` : état de l’app, sauvegarde automatique à chaque changement.
 - `src/screens/` : Accueil, Métier, Habitants, Infos. `src/components/` : fiche d’attribution, sélecteur, avatar.

@@ -1,3 +1,4 @@
+import { createPortal } from 'react-dom'
 import { useEffect, useMemo, useState } from 'react'
 import { CHARACTERS } from '../data/characters'
 import type { Profession } from '../data/professions'
@@ -38,7 +39,7 @@ export function PickerSheet({ profession, assignments, portraits, onPick, onClos
     [assignments, profession.id, query],
   )
 
-  return (
+  return createPortal(
     <div className="fixed inset-0 z-50 flex items-end justify-center" role="dialog" aria-modal="true" aria-label={`Ajouter à ${profession.name}`}>
       <button aria-label="Fermer" className="absolute inset-0 animate-fade-in bg-night-950/60 backdrop-blur-[2px]" onClick={onClose} />
       <div className="relative flex max-h-[85dvh] w-full max-w-md animate-sheet-up flex-col rounded-t-[2rem] bg-plum-50 shadow-2xl">
@@ -75,6 +76,7 @@ export function PickerSheet({ profession, assignments, portraits, onPick, onClos
           {candidates.length === 0 && <li className="py-8 text-center text-plum-500">Aucun habitant trouvé.</li>}
         </ul>
       </div>
-    </div>
+    </div>,
+    document.body,
   )
 }

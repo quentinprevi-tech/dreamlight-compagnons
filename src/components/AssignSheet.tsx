@@ -1,3 +1,4 @@
+import { createPortal } from 'react-dom'
 import { useEffect, useRef, useState } from 'react'
 import { COLLECTIONS, isReleased, type Character } from '../data/characters'
 import { PROFESSIONS, type ProfessionId } from '../data/professions'
@@ -47,13 +48,22 @@ export function AssignSheet({ character, current, portrait, onAssign, onPortrait
     }
   }
 
-  return (
+  return createPortal(
     <div className="fixed inset-0 z-50 flex items-end justify-center" role="dialog" aria-modal="true" aria-labelledby="sheet-title">
       <button aria-label="Fermer" className="absolute inset-0 animate-fade-in bg-night-950/60 backdrop-blur-[2px]" onClick={onClose} />
       <div className="relative w-full max-w-md animate-sheet-up rounded-t-[2rem] bg-white px-5 pt-3 pb-[max(1.25rem,env(safe-area-inset-bottom))] shadow-2xl">
         <div className="mx-auto mb-4 h-1.5 w-12 rounded-full bg-plum-200" />
         <div className="flex items-center gap-4">
-          <Avatar character={character} portrait={portrait} size="lg" />
+          <button
+            onClick={() => fileRef.current?.click()}
+            aria-label={portrait ? 'Changer la photo' : 'Choisir ma propre photo'}
+            className="relative shrink-0 rounded-full active:scale-95"
+          >
+            <Avatar character={character} portrait={portrait} size="lg" />
+            <span className="absolute -right-1 -bottom-1 grid size-9 place-items-center rounded-full bg-gold-300 text-lg shadow-md ring-2 ring-white" aria-hidden>
+              📷
+            </span>
+          </button>
           <div className="min-w-0">
             <h2 id="sheet-title" className="font-display text-2xl font-semibold text-plum-900">
               {character.name}
@@ -105,16 +115,17 @@ export function AssignSheet({ character, current, portrait, onAssign, onPortrait
         <div className="mt-5 flex flex-wrap items-center gap-2 border-t border-plum-100 pt-4 text-sm">
           <input ref={fileRef} type="file" accept="image/*" className="hidden" onChange={onFile} data-testid="portrait-input" />
           <button onClick={() => fileRef.current?.click()} className="rounded-full bg-plum-100 px-3 py-2 font-semibold text-plum-800 active:scale-95">
-            📷 {portrait ? 'Changer la photo' : 'Ajouter une photo'}
+            📷 {portrait ? 'Changer ma photo' : 'Mettre ma propre photo'}
           </button>
           {portrait && (
             <button onClick={() => void onPortrait(null)} className="rounded-full px-3 py-2 font-semibold text-plum-500 active:scale-95">
-              Retirer la photo
+              Retirer ma photo
             </button>
           )}
           {photoError && <p className="w-full text-rose-600">{photoError}</p>}
         </div>
       </div>
-    </div>
+    </div>,
+    document.body,
   )
 }

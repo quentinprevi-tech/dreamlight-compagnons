@@ -1,4 +1,12 @@
-export type ProfessionId = 'fishing' | 'gardening' | 'mining' | 'foraging' | 'digging'
+// Les `id` sont enregistrés sur le téléphone : ne jamais les changer, seulement les libellés.
+export type ProfessionId =
+  | 'fishing'
+  | 'gardening'
+  | 'mining'
+  | 'foraging'
+  | 'digging'
+  | 'anigami-hunting'
+  | 'time-bending'
 
 export interface Profession {
   id: ProfessionId
@@ -33,9 +41,9 @@ export const PROFESSIONS: Profession[] = [
   },
   {
     id: 'mining',
-    name: 'Minage',
+    name: 'Extraction',
     emoji: '⛏️',
-    tagline: 'Dans les mines',
+    tagline: 'Gemmes et minerais',
     gradient: 'from-violet-300 via-purple-300 to-fuchsia-200',
     accent: 'bg-violet-500',
     soft: 'bg-violet-100 text-violet-800',
@@ -51,12 +59,30 @@ export const PROFESSIONS: Profession[] = [
   },
   {
     id: 'digging',
-    name: 'Creusage',
+    name: 'Excavation',
     emoji: '🪨',
     tagline: 'Pelle à la main',
     gradient: 'from-orange-300 via-rose-300 to-pink-200',
     accent: 'bg-orange-500',
     soft: 'bg-orange-100 text-orange-800',
+  },
+  {
+    id: 'anigami-hunting',
+    name: 'Chasse aux anigamis',
+    emoji: '🦊',
+    tagline: 'Sur la piste des anigamis',
+    gradient: 'from-rose-300 via-pink-300 to-orange-200',
+    accent: 'bg-rose-500',
+    soft: 'bg-rose-100 text-rose-800',
+  },
+  {
+    id: 'time-bending',
+    name: 'Courbage temporel',
+    emoji: '⏳',
+    tagline: 'Le temps au creux de la main',
+    gradient: 'from-indigo-300 via-blue-300 to-cyan-200',
+    accent: 'bg-indigo-500',
+    soft: 'bg-indigo-100 text-indigo-800',
   },
 ]
 

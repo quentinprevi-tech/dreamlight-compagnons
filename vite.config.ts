@@ -33,6 +33,18 @@ export default defineConfig({
       workbox: {
         globPatterns: ['**/*.{js,css,html,svg,png,woff2}'],
         navigateFallback: 'index.html',
+        // Portraits du wiki : gardés en cache pour fonctionner hors ligne.
+        runtimeCaching: [
+          {
+            urlPattern: /^https:\/\/dreamlightvalleywiki\.com\/images\//,
+            handler: 'CacheFirst',
+            options: {
+              cacheName: 'portraits-wiki',
+              expiration: { maxEntries: 200, maxAgeSeconds: 60 * 60 * 24 * 180 },
+              cacheableResponse: { statuses: [0, 200] },
+            },
+          },
+        ],
       },
     }),
   ],

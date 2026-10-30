@@ -66,9 +66,13 @@ export function AboutScreen({ companions }: { companions: Companions }) {
           Dreamlight Valley Wiki et des guides francophones.
         </p>
         <p className="mt-2 text-sm text-plum-700">
-          Les portraits officiels appartiennent à Disney et Gameloft et ne sont pas libres de réutilisation : ils ne sont donc pas
-          inclus. Chaque habitant a un médaillon à ses initiales, et tu peux lui donner une vraie image avec « Ajouter une photo »
-          (une capture d’écran du jeu, par exemple).
+          Les portraits s’affichent depuis le{' '}
+          <a href="https://dreamlightvalleywiki.com/Characters" className="underline" target="_blank" rel="noreferrer">
+            Dreamlight Valley Wiki
+          </a>{' '}
+          (personnages © Disney / Gameloft) et restent en mémoire pour le mode hors ligne. Tu peux remplacer n’importe quel
+          portrait par ta propre image en touchant la photo dans la fiche d’un habitant. Les personnages annoncés gardent un
+          médaillon à leurs initiales en attendant.
         </p>
       </section>
 

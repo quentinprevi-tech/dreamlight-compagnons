@@ -1,4 +1,6 @@
+import { useState } from 'react'
 import type { Character } from '../data/characters'
+import { wikiPortrait } from '../data/portraits'
 
 // Dégradés doux attribués à chaque univers, pour reconnaître les familles d'un coup d'œil.
 const PALETTE = [
@@ -41,8 +43,20 @@ const SIZES = {
 
 export function Avatar({ character, portrait, size = 'md' }: Props) {
   const base = `${SIZES[size]} shrink-0 rounded-full ring-2 ring-gold-300/80 shadow-md overflow-hidden`
-  if (portrait) {
-    return <img src={portrait} alt={`Portrait de ${character.name}`} className={`${base} object-cover`} />
+  const [failed, setFailed] = useState<string | null>(null)
+  const src = portrait ?? wikiPortrait(character.nameEn)
+  if (src && failed !== src) {
+    return (
+      <img
+        src={src}
+        alt={character.name}
+        loading="lazy"
+        decoding="async"
+        referrerPolicy="no-referrer"
+        onError={() => setFailed(src)}
+        className={`${base} bg-gradient-to-b from-plum-100 to-plum-200 object-cover object-top`}
+      />
+    )
   }
   const gradient = PALETTE[hash(character.universe) % PALETTE.length]
   return (

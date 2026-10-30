@@ -62,12 +62,12 @@ test('PWA : manifeste valide et fonctionnement hors ligne', async ({ page, conte
   await page.reload()
   await expect.poll(() => page.evaluate(() => !!navigator.serviceWorker.controller)).toBe(true)
 
-  await assignFromList(page, 'Stitch', 'Creusage')
+  await assignFromList(page, 'Stitch', 'Excavation')
 
   await context.setOffline(true)
   await page.reload()
   await page.goto('/#/metier/digging')
-  await expect(page.getByRole('list', { name: 'Habitants : Creusage' })).toContainText('Stitch')
+  await expect(page.getByRole('list', { name: 'Habitants : Excavation' })).toContainText('Stitch')
   await page.goto('/#/personnages')
   await expect(page.getByLabel('Rechercher par nom')).toBeVisible()
   await context.setOffline(false)
