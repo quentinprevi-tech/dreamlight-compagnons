@@ -1,0 +1,66 @@
+@import 'tailwindcss';
+
+@theme {
+  --font-sans: 'Nunito', ui-rounded, 'SF Pro Rounded', 'Segoe UI', system-ui, sans-serif;
+  --font-display: ui-rounded, 'SF Pro Rounded', 'Nunito', 'Trebuchet MS', 'Segoe UI', system-ui, sans-serif;
+
+  --color-plum-50: #fbf6ff;
+  --color-plum-100: #f2e8ff;
+  --color-plum-200: #e3d0fb;
+  --color-plum-300: #cdaef5;
+  --color-plum-400: #a985e6;
+  --color-plum-500: #8a63d2;
+  --color-plum-600: #6f4bb8;
+  --color-plum-700: #5b3a9e;
+  --color-plum-800: #472d7c;
+  --color-plum-900: #34205c;
+  --color-plum-950: #1f1238;
+
+  --animate-fade-up: fade-up 0.35s ease-out both;
+  --animate-fade-in: fade-in 0.2s ease-out both;
+  --animate-sheet-up: sheet-up 0.28s cubic-bezier(0.2, 0.9, 0.3, 1.05) both;
+
+  @keyframes fade-up {
+    from { opacity: 0; transform: translateY(8px); }
+    to { opacity: 1; transform: none; }
+  }
+  @keyframes fade-in {
+    from { opacity: 0; }
+    to { opacity: 1; }
+  }
+  @keyframes sheet-up {
+    from { transform: translateY(100%); }
+    to { transform: none; }
+  }
+}
+
+html {
+  -webkit-tap-highlight-color: transparent;
+  color-scheme: light;
+}
+
+body {
+  @apply bg-plum-50 font-sans text-plum-900 antialiased;
+  /* Ciel du soir étoilé, façon Dreamlight */
+  background-image:
+    radial-gradient(circle at 15% 8%, rgb(255 255 255 / 0.9) 0 1px, transparent 2px),
+    radial-gradient(circle at 80% 14%, rgb(255 255 255 / 0.9) 0 1px, transparent 2px),
+    radial-gradient(circle at 60% 4%, rgb(255 236 179 / 0.9) 0 1.5px, transparent 2.5px),
+    radial-gradient(120% 60% at 50% 0%, #f6dcff 0%, #fbf6ff 55%, #fff7ef 100%);
+  background-attachment: fixed;
+  min-height: 100dvh;
+}
+
+.no-scrollbar {
+  scrollbar-width: none;
+}
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+  }
+}

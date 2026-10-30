@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#8a63d2"/>
+      <stop offset="0.55" stop-color="#c26fd6"/>
+      <stop offset="1" stop-color="#ffb38a"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#fff6c9"/>
+      <stop offset="1" stop-color="#ffd76a"/>
+    </radialGradient>
+  </defs>
+  <rect width="512" height="512" rx="112" fill="url(#sky)"/>
+  <!-- collines -->
+  <path d="M0 380 C 120 320 200 350 280 330 S 440 300 512 340 V512 H0Z" fill="#7cc98a"/>
+  <path d="M0 430 C 140 390 260 420 360 400 S 470 390 512 410 V512 H0Z" fill="#5fb07a"/>
+  <!-- lune -->
+  <circle cx="256" cy="210" r="104" fill="url(#glow)"/>
+  <circle cx="300" cy="180" r="92" fill="#b066d4" opacity="0.9"/>
+  <!-- étoiles -->
+  <g fill="#fff">
+    <path d="M120 120 l8 20 20 8 -20 8 -8 20 -8 -20 -20 -8 20 -8z"/>
+    <path d="M400 110 l6 14 14 6 -14 6 -6 14 -6 -14 -14 -6 14 -6z"/>
+    <path d="M390 250 l5 11 11 5 -11 5 -5 11 -5 -11 -11 -5 11 -5z"/>
+  </g>
+</svg>
