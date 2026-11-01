@@ -77,7 +77,7 @@ export const CHARACTERS: Character[] = [
   c('beast', 'La Bête', 'The Beast', 'La Belle et la Bête'),
   c('lumiere', 'Lumière', 'Lumiere', 'La Belle et la Bête'),
   c('cinderella', 'Cendrillon', 'Cinderella', 'Cendrillon'),
-  c('fairy-godmother', 'Marraine la Fée', 'The Fairy Godmother', 'Cendrillon'),
+  c('fairy-godmother', 'La Bonne Fée', 'The Fairy Godmother', 'Cendrillon'),
   c('the-forgotten', 'L’Oublié', 'The Forgotten', 'Dreamlight Valley', 'base', { nameToVerify: true }),
   c('mirabel', 'Mirabel', 'Mirabel', 'Encanto'),
   c('anna', 'Anna', 'Anna', 'La Reine des neiges'),

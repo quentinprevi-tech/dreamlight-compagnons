@@ -51,7 +51,7 @@ export const PROFESSIONS: Profession[] = [
   {
     id: 'foraging',
     name: 'Cueillette',
-    emoji: '🍃',
+    emoji: '🧺',
     tagline: 'Dans les prés et les bois',
     gradient: 'from-amber-200 via-yellow-200 to-lime-200',
     accent: 'bg-amber-500',
@@ -60,7 +60,7 @@ export const PROFESSIONS: Profession[] = [
   {
     id: 'digging',
     name: 'Excavation',
-    emoji: '🪨',
+    emoji: '🪏',
     tagline: 'Pelle à la main',
     gradient: 'from-orange-300 via-rose-300 to-pink-200',
     accent: 'bg-orange-500',
