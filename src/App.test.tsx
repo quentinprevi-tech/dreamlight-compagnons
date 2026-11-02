@@ -92,4 +92,33 @@ describe('Dreamlight Compagnons', () => {
     expect(screen.getByText('1 habitant')).toBeInTheDocument()
     expect(screen.getByText('Elsa')).toBeInTheDocument()
   })
+
+  it('affiche la Numismagie avec filtre par niveau, recherche et détail', async () => {
+    const user = userEvent.setup()
+    render(<App />)
+    await user.click(await screen.findByRole('link', { name: /Numismagie/ }))
+    expect(await screen.findByTestId('scramble-count')).toHaveTextContent('74 adversaires sur 74 recensés')
+    const list = screen.getByRole('list', { name: 'Adversaires de Numismagie' })
+    expect(within(list).getAllByRole('button')).toHaveLength(74)
+
+    // Filtre par niveau : chaque carte visible est du bon niveau
+    const filters = screen.getByRole('group', { name: 'Filtrer par niveau' })
+    await user.click(within(filters).getByRole('button', { name: /Difficile/ }))
+    const hard = within(list).getAllByRole('button')
+    expect(hard.length).toBeGreaterThan(0)
+    for (const card of hard) expect(card).toHaveTextContent('Niveau 3')
+    expect(screen.getByTestId('scramble-count')).toHaveTextContent(`${hard.length} adversaires sur 74`)
+
+    // Recherche combinée au filtre
+    await user.type(screen.getByLabelText('Rechercher un adversaire'), 'dingo')
+    expect(screen.getByText('Aucun adversaire ne correspond.')).toBeInTheDocument()
+    await user.click(within(filters).getByRole('button', { name: /^Tous/ }))
+    const goofy = within(list).getByRole('button', { name: /Dingo/ })
+    expect(goofy).toHaveTextContent('Niveau 1')
+
+    // Détail : les 5 figurines
+    await user.click(goofy)
+    expect(goofy).toHaveAttribute('aria-expanded', 'true')
+    expect(within(goofy).getAllByText('Dingo').length).toBeGreaterThanOrEqual(5)
+  })
 })

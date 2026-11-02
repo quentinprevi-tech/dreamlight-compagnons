@@ -8,10 +8,12 @@ import { AboutScreen } from './screens/AboutScreen'
 import { CharactersScreen } from './screens/CharactersScreen'
 import { HomeScreen } from './screens/HomeScreen'
 import { ProfessionScreen } from './screens/ProfessionScreen'
+import { ScramblecoinScreen } from './screens/ScramblecoinScreen'
 
 const TABS: { route: Route; label: string; icon: string; match: Route['name'][] }[] = [
   { route: { name: 'home' }, label: 'Accueil', icon: '✨', match: ['home', 'profession'] },
   { route: { name: 'characters' }, label: 'Habitants', icon: '🏰', match: ['characters'] },
+  { route: { name: 'scramblecoin' }, label: 'Numismagie', icon: '🪙', match: ['scramblecoin'] },
   { route: { name: 'about' }, label: 'Infos', icon: '📜', match: ['about'] },
 ]
 
@@ -23,7 +25,7 @@ export default function App() {
   const open = openId ? CHARACTERS_BY_ID[openId] : undefined
 
   return (
-    <div className="mx-auto flex min-h-dvh max-w-md flex-col">
+    <div className={`mx-auto flex min-h-dvh max-w-md flex-col ${route.name === 'scramblecoin' ? 'md:max-w-3xl' : ''}`}>
       <Sky />
       <main className="flex-1 px-4 pt-4 pb-28">
         {!companions.ready ? (
@@ -32,6 +34,8 @@ export default function App() {
           <ProfessionScreen key={route.id} professionId={route.id} companions={companions} onOpenCharacter={setOpenId} />
         ) : route.name === 'characters' ? (
           <CharactersScreen companions={companions} onOpenCharacter={setOpenId} />
+        ) : route.name === 'scramblecoin' ? (
+          <ScramblecoinScreen portraits={companions.portraits} />
         ) : route.name === 'about' ? (
           <AboutScreen companions={companions} />
         ) : (

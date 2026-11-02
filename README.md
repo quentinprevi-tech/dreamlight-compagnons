@@ -22,15 +22,15 @@ npm run test:e2e    # tests navigateur (Playwright + Edge, écran 360 px, hors l
 
 - `src/data/characters.ts` : la base des personnages (sources en tête de fichier). Pour ajouter un habitant, ajouter une ligne avec un `id` unique qui ne change plus jamais. `releaseDate` rend un personnage « Bientôt » jusqu’à cette date. `nameToVerify` marque un nom français non confirmé par les sources.
 - `src/data/professions.ts` : les sept métiers.
+- `src/data/scramblecoin.ts` : Numismagie (Scramblecoin). Niveau fixe (1 à 3, ce n’est pas l’mitié) et les 5 figurines de chaque habitant, relevés sur la page Scramblecoin du wiki. Pour ajouter un habitant : une ligne `id: { level, lineup }`.
 - `src/lib/storage.ts` : IndexedDB (idb-keyval) : affectations, photos, export/import JSON.
 - `src/lib/useCompanions.ts` : état de l’app, sauvegarde automatique à chaque changement.
-- `src/screens/` : Accueil, Métier, Habitants, Infos. `src/components/` : fiche d’attribution, sélecteur, avatar.
+- `src/screens/` : Accueil, Métier, Habitants, Numismagie, Infos. `src/components/` : fiche d’attribution, sélecteur, avatar.
 - PWA : `vite-plugin-pwa` (service worker Workbox, tout est mis en cache pour le hors ligne).
 
 ## Portraits
 
-Les portraits officiels (Disney / Gameloft) ne sont pas sous licence libre et ne sont pas inclus.
-Chaque habitant a un médaillon à ses initiales ; on peut lui associer une image depuis le téléphone (« Ajouter une photo »), stockée localement.
+Les portraits sont affichés depuis le Dreamlight Valley Wiki (`src/data/portraits.ts`), sans être copiés dans le dépôt, et gardés en cache pour le hors ligne.
 
 ## Installation et hors ligne
 

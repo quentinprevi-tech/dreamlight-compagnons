@@ -33,7 +33,7 @@ test('affectations conservées après actualisation et nouveau contexte de page'
 })
 
 test('aucun défilement horizontal sur petit écran', async ({ page }) => {
-  for (const hash of ['#/', '#/personnages', '#/metier/digging', '#/infos']) {
+  for (const hash of ['#/', '#/personnages', '#/metier/digging', '#/numismagie', '#/infos']) {
     await page.goto('/' + hash)
     await page.waitForTimeout(400)
     const overflow = await page.evaluate(() => document.documentElement.scrollWidth - window.innerWidth)
@@ -71,4 +71,21 @@ test('PWA : manifeste valide et fonctionnement hors ligne', async ({ page, conte
   await page.goto('/#/personnages')
   await expect(page.getByLabel('Rechercher par nom')).toBeVisible()
   await context.setOffline(false)
+})
+
+test('Numismagie : navigation, filtre et affichage ordinateur', async ({ page }) => {
+  await page.goto('/')
+  await page.getByRole('link', { name: /Numismagie/ }).click()
+  await expect(page.getByTestId('scramble-count')).toContainText('74 adversaires sur 74')
+  await page.getByRole('group', { name: 'Filtrer par niveau' }).getByRole('button', { name: /Facile/ }).click()
+  await expect(page.getByTestId('scramble-count')).not.toContainText('74 adversaires')
+  await page.waitForTimeout(500)
+  await page.screenshot({ path: 'test-results/numismagie-360.png' })
+
+  await page.setViewportSize({ width: 1280, height: 800 })
+  await page.goto('/#/numismagie')
+  await page.waitForTimeout(500)
+  const overflow = await page.evaluate(() => document.documentElement.scrollWidth - window.innerWidth)
+  expect(overflow).toBeLessThanOrEqual(0)
+  await page.screenshot({ path: 'test-results/numismagie-1280.png' })
 })

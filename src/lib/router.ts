@@ -6,12 +6,14 @@ export type Route =
   | { name: 'profession'; id: ProfessionId }
   | { name: 'characters' }
   | { name: 'about' }
+  | { name: 'scramblecoin' }
 
 export function parseHash(hash: string): Route {
   const parts = hash.replace(/^#\/?/, '').split('/').filter(Boolean)
   if (parts[0] === 'metier' && isProfessionId(parts[1])) return { name: 'profession', id: parts[1] }
   if (parts[0] === 'personnages') return { name: 'characters' }
   if (parts[0] === 'infos') return { name: 'about' }
+  if (parts[0] === 'numismagie') return { name: 'scramblecoin' }
   return { name: 'home' }
 }
 
@@ -23,6 +25,8 @@ export function hrefFor(route: Route): string {
       return '#/personnages'
     case 'about':
       return '#/infos'
+    case 'scramblecoin':
+      return '#/numismagie'
     default:
       return '#/'
   }
