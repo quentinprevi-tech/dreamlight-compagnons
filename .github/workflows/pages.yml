@@ -5,10 +5,10 @@ on:
     branches: [main]
   workflow_dispatch:
 
+# Droits minimaux par défaut : lecture du dépôt seulement (suffisant pour le job « build »).
+# Les droits d'écriture Pages / OIDC ne sont accordés qu'au job « deploy » (voir plus bas).
 permissions:
   contents: read
-  pages: write
-  id-token: write
 
 concurrency:
   group: pages
@@ -33,6 +33,10 @@ jobs:
   deploy:
     needs: build
     runs-on: ubuntu-latest
+    # Requis par actions/deploy-pages : publier sur Pages et prouver l'identité du workflow (jeton OIDC).
+    permissions:
+      pages: write
+      id-token: write
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
