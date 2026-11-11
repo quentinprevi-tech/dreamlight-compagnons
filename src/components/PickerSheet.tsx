@@ -29,9 +29,8 @@ export function PickerSheet({ profession, assignments, portraits, onPick, onClos
   )
 
   return (
-    <BottomSheet onClose={onClose} label={`Ajouter à ${profession.name}`} panelClassName="flex max-h-[85dvh] flex-col bg-plum-50">
-      <div className="px-5 pt-3 pb-3">
-        <div className="mx-auto mb-3 h-1.5 w-12 rounded-full bg-plum-200" />
+    <BottomSheet onClose={onClose} label={`Ajouter à ${profession.name}`} panelClassName="flex max-h-[85dvh] flex-col bg-plum-50" closeButton={false}>
+      <div className="px-5 pb-3">
         <div className="flex items-center justify-between">
           <h2 className="font-display text-xl font-bold text-plum-900">
             {profession.emoji} Ajouter à {profession.name}

@@ -10,6 +10,7 @@
     "noUnusedParameters": true,
     "skipLibCheck": true,
     "resolveJsonModule": true,
+    "allowImportingTsExtensions": true,
     "isolatedModules": true,
     "types": ["vite/client", "vite-plugin-pwa/client", "@testing-library/jest-dom", "node"]
   },

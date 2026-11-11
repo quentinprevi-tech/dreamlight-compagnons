@@ -7,6 +7,9 @@ Petite PWA pour retrouver quel habitant de Disney Dreamlight Valley a quel méti
 - [`docs/comprendre-l-application.md`](docs/comprendre-l-application.md) : guide pédagogique du fonctionnement (React, TypeScript, IndexedDB, hooks, sauvegarde, migrations, synchronisation, service worker, recettes).
 - [`docs/modifications-audit-2026-11.md`](docs/modifications-audit-2026-11.md) : journal de l’audit des phases 0 à 5 : constats, corrections, alternatives écartées, limites des contrôles.
 
+- [`docs/ameliorations-ux-2026-11.md`](docs/ameliorations-ux-2026-11.md) : fermeture des fiches (croix, glissement, Échap) et images des ingrédients : fonctionnement, choix, tests, limites.
+- [`docs/etude-synchronisation-sauvegarde-ddv.md`](docs/etude-synchronisation-sauvegarde-ddv.md) : étude de faisabilité d’un import de la sauvegarde du jeu (aucune synchronisation cloud développée).
+
 ## Lancer
 
 ```bash
@@ -141,10 +144,15 @@ Conséquences **mesurées le 11/11/2026** (Edge 157, un seul portrait, 20 copies
 - une erreur transitoire du wiki mise en cache sous forme opaque ne peut pas être distinguée d’une image valide (le
   repli sur les initiales s’affiche) ; elle reste tant que l’entrée est utilisée (Workbox rafraîchit la date à chaque
   usage), donc réduire la durée de 180 jours n’y change rien.
-Aucun réglage discuté (nombre d’entrées, durée) n’agit sur ce coût, la stratégie n’a donc pas été modifiée. Piste, si le
-coût devient gênant : tester si le wiki envoie des en-têtes CORS (une requête), puis charger les images avec
-`crossOrigin="anonymous"` et ne garder que le statut `200` (réponses normales, quelques Ko). **Non testé**, et risqué :
-sans CORS côté wiki, tous les portraits disparaîtraient.
+Aucun réglage discuté (nombre d’entrées, durée) n’agit sur ce coût, la stratégie n’a donc pas été modifiée.
+**CORS testé le 11/11/2026** (une requête `HEAD` avec un en-tête `Origin`, sur une vignette) : le wiki n’envoie **aucun** en-tête
+`Access-Control-Allow-Origin`. La piste `crossOrigin="anonymous"` + statut `200` seul est donc **impraticable** (les images
+ne se chargeraient plus) tant que le wiki ne change pas.
+
+**Motif du cache (modifié le 11/11/2026)** : il ne couvre plus tout `/images/` du wiki mais exactement les 74 adresses de
+portraits (`portraitCachePattern()` dans `src/data/portraits.ts`). Sinon les 198 vignettes d’ingrédients, hébergées dans le
+même dossier, seraient entrées dans ce cache (≈ 1,8 Go de quota comptabilisé). Elles passent par le cache HTTP normal du
+navigateur (voir [`docs/ameliorations-ux-2026-11.md`](docs/ameliorations-ux-2026-11.md)).
 
 ## Installation et hors ligne
 

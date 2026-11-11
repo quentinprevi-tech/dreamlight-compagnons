@@ -36,7 +36,6 @@ export function ConfirmSheet({ title, message, rows, confirmLabel, tone = 'norma
 
   return (
     <BottomSheet onClose={() => !busy && onClose()} labelledBy="confirm-title" panelClassName="max-h-[90dvh] overflow-y-auto overscroll-contain bg-white px-5 pt-3 pb-[max(1.25rem,env(safe-area-inset-bottom))]">
-      <div className="mx-auto mb-4 h-1.5 w-12 rounded-full bg-plum-200" />
       <h2 id="confirm-title" className="font-display text-2xl font-semibold text-plum-900">
         {title}
       </h2>

@@ -3,6 +3,7 @@ import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 import tailwindcss from '@tailwindcss/vite'
 import { VitePWA } from 'vite-plugin-pwa'
+import { portraitCachePattern } from './src/data/portraits.ts'
 
 export default defineConfig({
   // Chemins relatifs : l'app fonctionne aussi hébergée dans un sous-dossier.
@@ -33,10 +34,11 @@ export default defineConfig({
       workbox: {
         globPatterns: ['**/*.{js,css,html,svg,png,woff2}'],
         navigateFallback: 'index.html',
-        // Portraits du wiki : gardés en cache pour fonctionner hors ligne.
+        // Portraits du wiki : gardés en cache pour fonctionner hors ligne. Motif = les adresses exactes des portraits,
+        // pas tout `/images/` : les vignettes d'ingrédients (même dossier) ne doivent pas entrer ici (voir portraits.ts).
         runtimeCaching: [
           {
-            urlPattern: /^https:\/\/dreamlightvalleywiki\.com\/images\//,
+            urlPattern: portraitCachePattern(),
             handler: 'CacheFirst',
             options: {
               cacheName: 'portraits-wiki',

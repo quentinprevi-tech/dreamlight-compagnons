@@ -1,5 +1,7 @@
 import { nameKey, type CustomNames } from '../../lib/names'
-import type { Collection, FrStatus, IngredientRecord, RecipeRecord, RecipeType, Value } from './types'
+import { WIKI_BASE } from '../../data/portraits'
+import { INGREDIENT_IMAGE_PATHS } from './ingredientImages'
+import type { Collection, FrStatus, GroupId, IngredientRecord, RecipeRecord, RecipeType, Value } from './types'
 
 /**
  * Nom affiché, avec son origine. AUCUN nom français n'est présenté comme officiel ou vérifié en jeu :
@@ -76,4 +78,35 @@ export function describeValue(v: Value): { text: string; note?: string } {
     return { text, note: `${base} ${other[0].toUpperCase()}${other.slice(1)}.` }
   }
   return { text, note: base }
+}
+
+/** Adresse de la vignette d'un ingrédient (table vérifiée, jamais reconstruite à l'affichage), ou undefined si aucune n'est connue. */
+export function ingredientImageUrl(id: string): string | undefined {
+  const path = Object.hasOwn(INGREDIENT_IMAGE_PATHS, id) ? INGREDIENT_IMAGE_PATHS[id] : undefined
+  return path && `${WIKI_BASE}/images/${path}`
+}
+
+/** Emoji de repli propres à certains ingrédients (affichés tant que l'image n'est pas là, ou si elle est indisponible). */
+const INGREDIENT_EMOJI: Record<string, string> = {
+  herring: '🐟', lemon: '🍋', onion: '🧅', garlic: '🧄', 'bell-pepper': '🫑', egg: '🥚', cheese: '🧀', wheat: '🌾', milk: '🥛',
+  'chili-pepper': '🌶️', blueberry: '🫐', 'coffee-bean': '☕', potato: '🥔', carrot: '🥕', cucumber: '🥒', mushroom: '🍄',
+  zucchini: '🥒', eggplant: '🍆', tomato: '🍅', lettuce: '🥬', broccoli: '🥦', cabbage: '🥬', corn: '🌽', pumpkin: '🎃',
+  spinach: '🥬', seaweed: '🌿', strawberry: '🍓', cherry: '🍒', apple: '🍎', 'golden-apple': '🍎', banana: '🍌', grapes: '🍇',
+  coconut: '🥥', melon: '🍈', 'honeydew-melon': '🍈', pineapple: '🍍', peanut: '🥜', 'sweet-chestnut': '🌰', olives: '🫒',
+  beans: '🫘', 'green-beans': '🫛', rice: '🍚', butter: '🧈', 'golden-honey': '🍯', 'salt-crystal': '🧂', oyster: '🦪', clam: '🦪',
+  mussel: '🦪', shrimp: '🦐', 'prisma-shrimp': '🦐', lobster: '🦞', crab: '🦀', squid: '🦑', octopus: '🐙', scorpion: '🦂',
+  'sea-snail': '🐌', 'trumpet-snail': '🐌', 'acorn-snail': '🐌', 'measuring-tape-snail': '🐌', pork: '🥓', poultry: '🍗',
+  venison: '🥩', ginger: '🫚', mint: '🌿', basil: '🌿', oregano: '🌿', dill: '🌿', 'cocoa-bean': '🍫', 'festive-cocoa-bean': '🍫',
+  'dark-chocolate-coffee-beans': '🍫', 'chrysanthemum-tea-leaves': '🍵', 'jasmine-tea-leaves': '🍵', 'oolong-tea-leaves': '🍵',
+  majestea: '🍵', truffle: '🍄', 'porcini-mushrooms': '🍄', 'button-mushroom': '🍄', 'slush-ice': '🧊', koi: '🐠',
+}
+const GROUP_EMOJI: Record<GroupId, string> = {
+  fruit: '🍎', grain: '🌾', 'dairy-oil': '🥛', fish: '🐟', protein: '🍗', seafood: '🦐', spice: '🧂', sweet: '🍬', vegetable: '🥕', ice: '🧊', meat: '🥩',
+}
+
+/** Emoji de repli : celui de l'ingrédient s'il en a un, sinon celui de son groupe (Fruit, Poisson…), sinon une assiette. */
+export function ingredientEmoji(id: string, groups: readonly GroupId[] = []): string {
+  if (Object.hasOwn(INGREDIENT_EMOJI, id)) return INGREDIENT_EMOJI[id]
+  const group = groups.find((g) => Object.hasOwn(GROUP_EMOJI, g))
+  return group ? GROUP_EMOJI[group] : '🍽️'
 }

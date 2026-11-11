@@ -52,7 +52,6 @@ export function AssignSheet({ character, current, portrait, villager, unlocked, 
 
   return (
     <BottomSheet onClose={onClose} labelledBy="sheet-title" panelClassName="bg-white px-5 pt-3 pb-[max(1.25rem,env(safe-area-inset-bottom))]">
-      <div className="mx-auto mb-4 h-1.5 w-12 rounded-full bg-plum-200" />
       <div className="flex items-center gap-4">
         <button
           onClick={() => fileRef.current?.click()}

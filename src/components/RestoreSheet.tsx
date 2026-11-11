@@ -27,7 +27,6 @@ export function RestoreSheet({ parsed, plan, busy, onConfirm, onClose }: Props) 
       labelledBy="restore-title"
       panelClassName="flex max-h-[90dvh] flex-col overflow-y-auto overscroll-contain bg-white px-5 pt-3 pb-[max(1.25rem,env(safe-area-inset-bottom))]"
     >
-      <div className="mx-auto mb-4 h-1.5 w-12 shrink-0 rounded-full bg-plum-200" />
       <h2 id="restore-title" className="font-display text-2xl font-semibold text-plum-900">
         {complete ? 'Restauration complète' : 'Import partiel'}
       </h2>

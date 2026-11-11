@@ -95,3 +95,17 @@ export function wikiPortrait(nameEn: string): string | undefined {
 }
 
 export const WIKI_PORTRAIT_NAMES = Object.keys(PATHS)
+
+const escapeRegExp = (s: string) => s.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')
+
+/**
+ * Motif du cache hors ligne des portraits (service worker, voir vite.config.ts) : EXACTEMENT les adresses des portraits.
+ * Le wiki héberge aussi d'autres images (vignettes des ingrédients) sous le même dossier `/images/` : un motif plus large
+ * les rangerait dans le cache des portraits. Ces réponses « opaques » (sans autorisation CORS du wiki) sont comptées
+ * par le navigateur pour plusieurs mégaoctets chacune, quelle que soit leur taille réelle (≈ 9 Mo mesurés sur Edge) :
+ * 198 vignettes d'ingrédients pèseraient ≈ 1,8 Go de quota. Elles restent donc au simple cache HTTP du navigateur.
+ */
+export function portraitCachePattern(): RegExp {
+  const urls = WIKI_PORTRAIT_NAMES.map((n) => wikiPortrait(n)!)
+  return new RegExp(`^(?:${urls.map(escapeRegExp).join('|')})$`)
+}

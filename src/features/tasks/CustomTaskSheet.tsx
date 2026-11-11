@@ -39,7 +39,6 @@ export function CustomTaskSheet({ task, onSave, onClose }: Props) {
 
   return (
     <BottomSheet onClose={onClose} labelledBy="custom-title" panelClassName="max-h-[90dvh] overflow-y-auto overscroll-contain bg-white px-5 pt-3 pb-[max(1.25rem,env(safe-area-inset-bottom))]">
-      <div className="mx-auto mb-4 h-1.5 w-12 rounded-full bg-plum-200" />
       <h2 id="custom-title" className="font-display text-2xl font-semibold text-plum-900">
         {task ? 'Modifier la tâche' : 'Nouvelle tâche'}
       </h2>
