@@ -164,6 +164,11 @@ export const CHARACTERS_BY_ID: Record<string, Character> = Object.fromEntries(
   CHARACTERS.map((ch) => [ch.id, ch]),
 )
 
+/** Identifiant d'un habitant du catalogue (jamais une propriété héritée comme « constructor »). */
+export function isCharacterId(id: unknown): id is string {
+  return typeof id === 'string' && Object.hasOwn(CHARACTERS_BY_ID, id)
+}
+
 export function isReleased(ch: Character, today: Date = new Date()): boolean {
   if (!ch.releaseDate) return true
   return today >= new Date(`${ch.releaseDate}T00:00:00`)

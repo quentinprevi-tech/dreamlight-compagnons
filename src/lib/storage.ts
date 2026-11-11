@@ -1,35 +1,22 @@
-import { createStore, del, entries, get, set, type UseStore } from 'idb-keyval'
-import { CHARACTERS_BY_ID } from '../data/characters'
+import { del, entries, get, set } from 'idb-keyval'
+import { isCharacterId } from '../data/characters'
 import { isProfessionId, type ProfessionId } from '../data/professions'
+import { sanitizeVillagers, unlockAssigned, VILLAGERS_KEY, type Villagers } from '../features/villagers/model'
+import { db, isPlainObject, PORTRAIT_PREFIX, transact } from './db'
+
+export { resetStoreForTests } from './db'
 
 /** Un personnage → un seul métier. */
 export type Assignments = Record<string, ProfessionId>
 
-const ASSIGNMENTS_KEY = 'assignments'
-const PORTRAIT_PREFIX = 'portrait:'
+export const ASSIGNMENTS_KEY = 'assignments'
 
-let dbName = 'dreamlight-compagnons'
-let store: UseStore | undefined
-function db(): UseStore {
-  store ??= createStore(dbName, 'kv')
-  return store
-}
-
-/**
- * Réservé aux tests : oublie la connexion ouverte (comme un redémarrage).
- * Avec `freshName`, bascule sur une base vide portant ce nom.
- */
-export function resetStoreForTests(freshName?: string) {
-  store = undefined
-  if (freshName) dbName = freshName
-}
-
-/** Ne garde que les entrées valides (personnage connu + métier connu). */
+/** Ne garde que les entrées valides : habitant du catalogue + métier du catalogue. */
 export function sanitizeAssignments(raw: unknown): Assignments {
   const out: Assignments = {}
-  if (!raw || typeof raw !== 'object') return out
+  if (!raw || typeof raw !== 'object' || Array.isArray(raw)) return out
   for (const [id, prof] of Object.entries(raw as Record<string, unknown>)) {
-    if (CHARACTERS_BY_ID[id] && isProfessionId(prof)) out[id] = prof
+    if (isCharacterId(id) && isProfessionId(prof)) out[id] = prof
   }
   return out
 }
@@ -38,15 +25,43 @@ export async function loadAssignments(): Promise<Assignments> {
   return sanitizeAssignments(await get(ASSIGNMENTS_KEY, db()))
 }
 
-export async function saveAssignments(a: Assignments): Promise<void> {
-  await set(ASSIGNMENTS_KEY, a, db())
+/**
+ * Attribue (ou retire) le métier d'UN habitant, par lecture-modification-écriture
+ * atomique : on ne réenregistre jamais un état complet gardé en mémoire, donc un
+ * autre onglet ne peut pas perdre ses propres modifications.
+ * Un habitant qui reçoit un métier est aussi marqué débloqué (même transaction) ;
+ * retirer le métier ne change pas « débloqué ». Renvoie l'état enregistré.
+ */
+export function updateAssignment(
+  characterId: string,
+  profession: ProfessionId | null,
+): Promise<{ assignments: Assignments; villagers: Villagers }> {
+  if (!isCharacterId(characterId) || (profession !== null && !isProfessionId(profession))) {
+    return Promise.reject(new Error('Habitant ou métier inconnu.'))
+  }
+  return transact({ keys: [ASSIGNMENTS_KEY, VILLAGERS_KEY] }, (values) => {
+    const current = values[ASSIGNMENTS_KEY]
+    const next: Record<string, unknown> = isPlainObject(current) ? { ...current } : {}
+    const set: [string, unknown][] = [[ASSIGNMENTS_KEY, next]]
+    let villagers = values[VILLAGERS_KEY]
+    if (profession) {
+      next[characterId] = profession
+      villagers = unlockAssigned(villagers, [characterId])
+      set.push([VILLAGERS_KEY, villagers])
+    } else delete next[characterId]
+    return { ops: { set }, result: { assignments: sanitizeAssignments(next), villagers: sanitizeVillagers(villagers) } }
+  })
+}
+
+/** Test « canard » plutôt que instanceof : un Blob relu peut venir d'un autre contexte JS. */
+export function isBlobLike(value: unknown): value is Blob {
+  return typeof (value as Blob | undefined)?.arrayBuffer === 'function'
 }
 
 export async function loadPortraits(): Promise<Record<string, Blob>> {
   const out: Record<string, Blob> = {}
   for (const [key, value] of await entries<IDBValidKey, Blob>(db())) {
-    // Test « canard » plutôt que instanceof : un Blob relu peut venir d'un autre contexte JS.
-    if (typeof key === 'string' && key.startsWith(PORTRAIT_PREFIX) && typeof value?.arrayBuffer === 'function') {
+    if (typeof key === 'string' && key.startsWith(PORTRAIT_PREFIX) && isBlobLike(value)) {
       out[key.slice(PORTRAIT_PREFIX.length)] = value
     }
   }
@@ -72,21 +87,4 @@ export async function requestPersistentStorage(): Promise<boolean> {
     // Pas disponible (navigation privée, vieux navigateur) : on continue sans.
   }
   return false
-}
-
-export interface Backup {
-  app: 'dreamlight-compagnons'
-  version: 1
-  exportedAt: string
-  assignments: Assignments
-}
-
-export function makeBackup(a: Assignments): Backup {
-  return { app: 'dreamlight-compagnons', version: 1, exportedAt: new Date().toISOString(), assignments: a }
-}
-
-export function parseBackup(text: string): Assignments {
-  const data = JSON.parse(text) as Partial<Backup>
-  if (data?.app !== 'dreamlight-compagnons') throw new Error('Ce fichier ne vient pas de Dreamlight Compagnons.')
-  return sanitizeAssignments(data.assignments)
 }

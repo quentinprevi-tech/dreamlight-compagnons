@@ -12,6 +12,7 @@ export default defineConfig({
     hasTouch: true,
     deviceScaleFactor: 2,
     locale: 'fr-FR',
+    timezoneId: 'Europe/Brussels',
   },
   webServer: {
     command: 'npm run build && npx vite preview --port 4174 --strictPort',

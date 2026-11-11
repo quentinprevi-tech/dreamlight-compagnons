@@ -1,0 +1,485 @@
+#I
+Herring;Lemon;Onion;Garlic;Bell_Pepper;Egg;Cheese;Wheat;Milk;Chili_Pepper;Chrysanthemum_Tea_Leaves;Blueberry;Coffee_Bean;Potato;Carrot;Cucumber;Mushroom;Zucchini;Dreamlight_Fruit;Sugarcane;Slush_Ice;Eggplant;Canola;Tomato;Lettuce;Asparagus;Bamboo;Broccoli;Cabbage;Celery;Corn;Flute_Root;Pumpkin;Seaweed;Spinach;Turnip;Yam;Jasmine_Tea_Leaves;Cocoa_Bean;Okra;Oolong_Tea_Leaves;Raspberry;Oyster;Mint;Leek;Ginger;Butter;Rice;Soya;Cherry;Salmon;Apple;Carp;Basil;Shrimp;Cod;Scallop;Fugu;Here_and_There_Fish;Oregano;Lancetfish;Swordfish;Lobster;Tuna;Anglerfish;Bass;Tilapia;Peanut;White_Sturgeon;Rainbow_Trout;Perch;Sole;Bream;Kingfish;Walleye;Banana;Gooseberry;Vanilla;Coconut;Festive_Cocoa_Bean;Grapes;Pink_Marshmallow;Blue_Marshmallow;Spring_V-EGG-etable;Egg-cellent_Fruit;Wild_Spring_Egg;Agave;Pork;Brilliant_Blue_Starfish;Pretty_Pink_Starfish;Paprika;Clam;Sea_Snail;Crab;Beans;Cumin;Robot_Fish;Almonds;Majestea;Sand_Worm;Melon;Shad;Scorpion;Octopus;Cactoberries;Poultry;Cinnamon;Prisma_Shrimp;Skeleton_Fish;Venison;Ruby_Lentils;Electric_Eel;Pineapple;Cosmic_Figs;Pirarucu;Piranha;Dunebopper;Sand_Fish;Dreamango;Strawberry;Dates;Nestling_Pear;Plain_Yogurt;Ambrosia;Flyleaf_Feta;Olives;Cape_Gooseberry;Faerie_Rye;Golden_Apple;Salt_Crystal;Honeydew_Melon;Stygian_Mudskipper;Lamprey;Lightning_Spice;Elysian_Grain;Persimmon;Cauliflower;Green_Beans;Radicchio;Radish;Porcini_Mushrooms;Chia_Seeds;Spiral_Strawberries;Sour_Berries;Trumpet_Snail;Sorcerer_Hat_Hermit_Crab;Barley;Black_Pepper;Shovel_Bird_Eggs;Rhubarb;Hippocampus;Flying_Fish;Brussels_Sprout;Mussel;Koi;Oats;Sea_Grapes;Sea_Wolf;Ring_Squash;Squid;Nutmeg;Red_Alpine_Bass;Dill;Beetroot;Bonsai_Star_Fruit;Honey_Coral;Scarlet_Kale;Mountain_Whitefish;Dark_Chocolate_Coffee_Beans;Pearly_Barley;Pincushion_Peach;Tigger_Fish;Fairy_Kamut;Button_Mushroom;Red_Currants;Satin-Finned_Betta;Measuring-Tape_Snail;Jellied_Fish;Fairy_Sprinkles;Lollipop_Fruit;Truffle;Golden_Honey;Sweet_Chestnut;Acorn_Snail;Juniper_Berry;Golden_Pattypan;Plush_Fish;Parsnip;Pufflebud_Pods;Tree_Resin;Sweet_Jelly;Festive_Anglerfish;Festive_Bass;Festive_Fugu;Festive_Salmon;Catfish;Pike;Festive_Squid
+#G
+28,4c,15,35,3b,1f,3d,3r,23,b,3c,1,4u,2w,c,4q,4k,i,3z,2p,1d,26,3a,24,3y,3i,4o,2s,3k,4z,3m,45,34,54,58,52/7,42,4p,1b,3j,4b,4s,3q/3x,2c,2d,3h,2m,1c,3g,44,m,3e,2b,32,6,1a,1v,5,8,2u,2r/5b,5c,5d,5e,1t,4n,39,1j,4a,1x,47,2t,0,4d,1y,1r,4w,30,1e,1z,20,1g,21,4v,5f,38,1u,36,2o,1o,1p,4h,5g,1l,4x,33,22,1w,37,1s,3o,3n,1m,53,56,5a/2f,2x,31,59/5h,2j,16,1k,40,49,2k,2v,1i,4f,2l,46,41,2g,2h,1q,2z/3l,a,11,14,2y,2q,4i,4g,1h,3,19,17,1n,2i,4t,3p,4y,43,50/j,2e,12,2a,29,25,4l/o,u,x,4j,n,3s,4m,48,g,4,10,4e,y,e,2m,h,3w,t,9,q,v,13,d,3u,p,3v,r,32,f,2,z,3t,s,l,18,w,57,55/k
+#R
+|Arendellian Pickled Herring|a|5|1962|532|b|i0,i1,i2,i3,g6=
+|Bell Pepper Puffs|a|3|1272|606|b|i4,i5,i6
+|Buñuelos|a|4|1881|948|b|i7,i6,i8,i5
+|Cheese Platter|a|1|482|216|b|i6
+|Chili Pepper Puffs|a|3|1382|669|b|i9,i5,i6
+|Chrysanthemum Tea|a|2|687|69|b|ia,ib
+|Coffee|a|1|730|43|b|ic
+|Crackers|a|1|80|2|b|g1=
+|Creamy Soup|a|4|1005|568|b|g6=,i8,id,g8=
+|Crudités|a|1|83|26|b|g8=4.e.f.g.h
+|Dream Fizz|a|4|1550|316|b|ii,ij,i7,ik
+|Eggplant Puffs|a|3|1941|991|b|il,i5,i6
+|French Fries|a|2|342|304|b|im,id
+|Gazpacho|a|4|688|548|b|if,in,i2,g6=
+|Green Salad|a|2|180|20|b|g8=,io
+|Grilled Vegetables|a|1|83|9|b|g8=p.q.r.s.t.9.u.l.v.2.w.x.y.z.10
+|Grilled Veggie Platter|a|3|161|33|b|g8=*3
+|Hard-Boiled Eggs|a|1|578|264|b|i5
+|Jasmine Tea|a|2|170|56|b|i11,ij
+|Large Seafood Platter|a|5|1810|56|b|g5=*4,i1
+|Latte|a|2|1358|345|b|ic,i8
+|Mocha|a|3|2246|425|b|ic,i8,i12
+|Okra Soup|a|1|99|136|b|i13
+|Onion Puffs|a|3|1392|798|b|i2,i5,i6
+|Oolong Tea|a|2|559|59|b|i14,i15
+|Oyster Platter|a|2|1155|107|b|i16,i1
+|Peppermint Tea|a|2|993|107|b|i1,i17
+|Pickled Herring|a|4|1609|423|b|i0,i1,i2,g6=
+|Potato Leek Soup|a|5|1984|1415|b|i18,id,i8,i2,i3
+|Potato Puffs|a|3|1333|736|b|id,i5,i6
+|Pottage|a|3|335|208|b|id,g6=,g8=
+|Pumpkin Puffs|a|3|1466|1489|b|iw,i5,i6
+|Pumpkin Soup|a|4|1431|1428|b|g8=,i8,i19,iw
+|Purée|a|1|230|151|b|id
+|Roasted Asparagus|a|2|221|313|b|ip,im
+|Salad|a|1|139|9|b|io
+|Sautéed Mushrooms|a|2|712|286|b|ig,i1a
+|Seafood Appetizer|a|1|242|1|b|g5=
+|Seafood Platter|a|2|458|2|b|g5=*2
+|Sesame Balls|a|5|722|322|b|i7,i19,i1b,i1c,ix
+|Soufflé|a|4|2386|1230|b|i6,i5,i8,i1a
+|Sweet Herring|a|2|723|305|b|i0,i2
+|Tea Sandwiches|a|4|1378|91|b|i7,iu,i1d,g3=
+|Tomato Soup|a|1|83|26|b|in
+|Vegetable Soup|a|2|120|20|b|g8=*2
+|Zucchini Puffs|a|3|1216|632|b|ih,i5,i6
+|Apple-Cider-Glazed Salmon|e|3|1572|271|b|i1e,ij,i1f
+|Baked Carp|e|2|1894|767|b|i1g,i1a
+|Basil Omelet|e|4|2035|1020|b|i1h,i5,i6,i8
+|Bouillabaisse|e|5|2114|529|b|g5=*2,i1i,in,g8=
+|Brandade de Morue|e|5|2336|757|b|i1j,id,i8,i1,i3
+|Carp Salad|e|3|2310|617|b|i1g,i1,io
+|Cheesy Crispy Baked Cod|e|3|840|303|b|i1j,i7,i6
+|Chowder|e|4|1186|547|b|g5=,i8,id,g8=
+|Creamy Garlic Scallops|e|4|1844|484|b|i1k,i1,i1a,i3
+|Crispy Baked Cod|e|2|337|47|b|i1j,i7
+|Fish Creole|e|5|822|225|b|g3=,g8=,i3,i1b,in
+|Fish 'n' Chips|e|4|697|356|b|g3=,i7,im,id
+|Fish Pasta|e|4|1282|424|b|g3=,i3,i7,i8
+|Fish Pie|e|3|867|269|b|g3=,i7,i1a
+|Fish Risotto|e|3|939|352|b|g3=,i1b,i1a
+|Fish Salad|e|3|1140|58|b|g3=,i1,io
+|Fish Sandwich|e|2|337|3|b|g3=,i7
+|Fish Soup|e|3|978|334|b|g3=,g8=,i8
+|Fish Steak|e|3|537|101|b|g3=,in,i1h
+|Fish Tacos|e|4|1171|412|b|g3=,iu,i9,i6
+|Fugu Sushi|e|3|3261|1373|b|i1l,i1b,ix
+|Ghostly Fish Steak|e|5|3282|3596|b|i1m,i1,ip,i4,i1n
+|Greek Pizza|e|5|1012|622|b|g6=,in,i2,i6,i7
+|Grilled Fish|e|1|290|1|b|g3=
+|Grilled Fish Entree|e|2|340|11|b|g3=,g8=
+|Gumbo|e|5|2226|1093|b|i13,i1i,i9,in,i2
+|Hearty Salad|e|3|224|33|b|g8=*2,io
+|Hors d'Oeuvres|e|1|90|18|b|g6=
+|Kappa Maki|e|3|462|335|b|ix,if,i1b
+|Kronk's Spinach Puffs|e|3|750|461|b|iy,i6,im
+|Lancetfish Paella|e|5|4550|1653|b|i1o,i1i,g5=,in,i1b
+|Latkes|e|4|1280|937|b|i2,id,im,i5
+|Leek Soup|e|1|414|370|b|i18
+|Lemon Garlic Swordfish|e|3|3713|1096|b|i1p,i3,i1
+|Lioness Feast|e|4|2368|3153|b|ig,in,i1n,i1m
+|Lobster Roll|e|5|4928|1959|b|i1q,i7,i1,i1a,i3
+|Maguro Sushi|e|4|1206|338|b|i1r,ix,i1b,i19
+|Maki|e|3|471|114|b|g3=,ix,i1b
+|Margherita Pizza|e|4|685|328|b|g6=,in,i6,i7
+|Marvelous Jam|e|2|932|54|b|ii,i7
+|Mediterranean Salad|e|5|836|597|b|if,in,i2,io,g6=
+|Mushroom Pizza|e|4|837|351|b|ig,i7,in,i6
+|Mushu's Congee|e|5|1658|657|b|i1b,i5,ig,i3,i19
+|Nachos|e|3|842|383|b|i9,iu,i6
+|Omelet|e|3|1751|882|b|i5,i6,i8
+|Pan-Fried Angler Fish|e|4|4194|2550|b|i1s,in,ih,id
+|Pan-Seared Bass & Vegetables|e|3|394|57|b|i1t,g8=*2
+|Pan-Seared Tilapia & Vegetables|e|3|2194|862|b|i1u,g8=*2
+|Pasta|e|2|117|30|b|i7,in
+|Peanut Butter Sandwich|e|2|592|262|b|i1v,i7
+|Pesto with Linguine|e|4|1063|438|b|i7,i1a,i3,i1n
+|Pizza|e|3|607|284|b|in,i6,i7
+|Poached Basil-Butter Sturgeon|e|4|4961|2284|b|i1w,i1h,i1,i1a
+|Poutine|e|3|845|580|b|id,im,i6
+|Ranch Salad|e|5|714|396|b|io,i4,iu,in,i2
+|Ratatouille|e|5|1432|906|b|in,il,i2,ih,g6=
+|Sake Maki|e|3|1101|323|b|i1b,ix,i1e
+|Sake Sushi|e|2|1000|274|b|i1e,i1b
+|Savory Fish|e|2|985|43|b|g3=,i1
+|Scrambled Egg|e|2|1070|520|b|i5,i6
+|Seafood Boil|e|4|596|236|b|g5=,g6=,id,iu
+|Seafood Pasta|e|3|921|325|b|g5=,i7,i8
+|Seafood Pie|e|3|813|269|b|g5=,i7,i1a
+|Seafood Salad|e|2|349|11|b|g5=,io
+|Seafood Soup|e|3|340|23|b|g5=,g8=*2
+|Seared Rainbow Trout|e|3|889|338|b|i1x,in,i2
+|Simple Fried Perch|e|3|1317|380|b|i1y,i7,i1a
+|Smoked Peanuts and Anglerfish|e|2|3960|2210|b|i1s,i1v
+|Sole Meunière|e|4|2337|637|b|i1z,i7,i1a,i1
+|Spaghetti Arrabbiata|e|3|373|141|b|in,i7,i9
+|Spicy Baked Bream|e|3|2075|767|b|i20,i9,i1a
+|Steamed Fugu|e|3|3668|1400|b|i1l,i19,i3
+|Sushi|e|2|405|80|b|g3=,i1b
+|Sweet & Sour Kingfish Steak|e|3|2292|702|b|i21,ij,i1
+|Sweet Udon|e|4|1427|180|b|ii,i1b,g5=,g7=
+|Tamagoyaki|e|2|689|310|b|i5,ij
+|Tasty Salad|e|4|517|284|b|io,if,g8=,g6=
+|Tasty Veggies|e|2|127|29|b|g8=,g6=
+|Tekka Maki|e|4|984|366|b|i1r,i1c,ix,i1b
+|Teriyaki Salmon|e|5|1726|557|b|i1c,i1e,ij,i1b,i19
+|Tuna Burger|e|5|1922|491|b|i1r,i2,i1,i7,g8=
+|Vegetarian Pizza|e|5|754|350|b|g8=*2,in,i6,i7
+|Vegetarian Stew|e|3|617|475|b|id,ie,i2
+|Vegetarian Taco|e|4|925|423|b|iu,i9,i6,g8=
+|Veggie Casserole|e|4|688|316|b|g8=*2,i6,g6=
+|Veggie Pasta|e|3|158|43|b|in,i7,g8=
+|Veggie Pie|e|3|634|279|b|g8=,i1a,i7
+|Veggie Skewers|e|4|767|427|b|ig,ih,i2,i4
+|Walleye en Papillote|e|4|3689|1812|b|i22,i1h,i1n,g8=
+|Wheat Porridge|e|2|668|301|b|i8,i7
+|Wheat Porridge with Fruit|e|3|742|336|b|i8,i7,g0=
+|Wonton Soup|e|4|2415|1038|b|i5,i1i,i7,i2
+|"My Hero" Cookie|d|3|679|294|b|i7,i1a,g7=
+|Apple Pie|d|3|1137|303|b|i1f,i7,i1a
+|Apple Sorbet|d|3|1077|271|b|ik,i1f,ij
+|Aurora's Cake|d|5|1572|767|b|i7,ij,i5,g0=,i8
+|Banana Ice Cream|d|4|1884|641|b|ik,i23,i8,ij
+|Banana Pie|d|3|1227|308|b|i23,i7,i1a
+|Banana Split|d|5|2074|714|b|ik,i23,i8,ij,g7=
+|Beignets|d|4|912|524|b|im,i7,i5,ij
+|Berry Salad|d|3|2255|139|b|i15,ib,i24
+|Birthday Cake|d|5|2310|749|b|i12,i7,ij,i5,i1a
+|Biscuits|d|3|679|294|b|i7,ij,i1a
+|Blueberry Pie|d|3|1227|308|b|ib,i7,i1a
+|Boba Tea|d|2|714|323|b|ij,i8
+|Candy|d|1|123|22|b|g7=
+|Cannoli|d|4|1482|678|b|i7,i6,i5,i25
+|Caramel Apples|d|2|638|56|b|ij,i1f
+|Carrot Cake|d|4|908|427|b|ie,i7,i5,ij
+|Cheesecake|d|4|725|314|b|i6,i7,ij,g0=
+|Cherry Pie|d|3|1497|326|b|i1d,i7,i1a
+Cheshire_Cat_Tail_(2)|Cheshire Cat Tail|d|4|1655|418|b|i12,i5,i7,ij
+|Chocolate Chip Cookies|d|4|1569|373|b|i12,i7,ij,i1a
+|Chocolate Ice Cream|d|4|2074|655|b|i12,ij,i8,ik
+|Chocolate Waffles|d|4|2223|735|b|i12,i7,i5,i8
+|Coconut Boba Tea|d|3|1653|406|b|ij,i8,i26
+|Coconut Cake|d|4|1750|424|b|i26,i7,i5,ij
+|Coconut Ice Cream|d|4|2169|661|b|ik,i8,ij,i26
+|Crepe|d|4|1624|753|b|i7,i5,i8,i25
+|Dream Ice Cream|d|3|1976|588|b|ii,i8,ik
+|Festive Blueberry Hot Cocoa|d|4|1647|491|b|ij,i8,i27,ib
+|Festive Cherry Hot Cocoa|d|4|1932|511|b|ij,i8,i27,i1d
+|Festive Mint Hot Cocoa|d|4|1276|523|b|ij,i8,i27,i17
+|Fruit Pie|d|3|634|280|b|g0=26.c.1.15.28,i7,i1a
+|Fruit Salad|d|1|83|10|b|g0=
+|Fruit Sorbet|d|2|467|206|b|ik,g0=
+|Fruitcake|d|4|203|42|b|i7,g0=*3
+|Garlic Chocolate Tart|d|5|2458|783|b|i6,i12,i3,i5,i7
+|Gingerbread House|d|5|1460|545|b|i7,i19,ij,i25,i5
+|Gooseberry Boba Tea|d|3|1833|418|b|ij,i8,i24
+|Gray Stuff|d|3|976|87|b|g2=,ij,i12
+|Halloween Gingerbread Cookies|d|3|735|1001|b|i7,iw,i19
+|Hot Cocoa|d|3|1563|401|b|ij,i8,i12
+|Ice Cream|d|3|1158|558|b|ik,i8,ij
+|Jam Waffles|d|4|1407|691|b|g0=,i7,i5,i8
+|Joyful Meal|d|4|1938|120|b|i7,ib,i15,i23
+|Lemon Sorbet|d|2|1112|237|b|ik,i1
+|Meringue Pie|d|4|2014|667|b|i1,i7,i5,i1a
+|Mermaid Cupcake|d|5|1690|785|b|i1a,i8,i7,ij,i1k
+|Minnie Cupcake|d|5|2040|745|b|i1a,i8,i7,ij,i1f
+|Minnie's Gingerbread Cookies|d|2|379|67|b|i7,i19
+|Mint Boba Tea|d|3|1032|418|b|ij,i8,i17
+|Mint Candy|d|2|391|89|b|i17,ij
+|Mint Chocolate|d|4|1827|445|b|i17,ij,i1a,i12
+|Mint Sorbet|d|2|695|260|b|ik,i17
+|Pastéis de Nata|d|4|1645|774|b|iu,i5,i8,i25
+|Pastry Cream and Fruits|d|5|958|440|b|g0=*3,i8,ij
+|Pawpsicle|d|3|574|248|b|ik,ij,g0=
+|Peanut Butter Waffles|d|4|1938|978|b|i1v,i7,i5,i8
+|Plain Snow Cones|d|1|410|180|b|g9=
+|Princess Aurora Raspberry Cupcake|d|5|1990|738|b|i1a,i8,i7,ij,i15
+|Raspberry Boba Tea|d|3|1248|377|b|ij,i8,i15
+|Red Fruit Sorbet|d|4|2226|359|b|ik,i15,i24,ij
+|Red Velvet|d|5|2458|783|b|i7,i6,i5,i12,i25
+|Roasted Marshmallows|d|4|3470|300|b|i29*2,i2a*2
+|Root Beer|d|3|690|166|b|i19,ij,i25
+|Shake|d|1|80|7|b|g2=
+|S'mores|d|4|1832|156|b|i29,i2a,i7*2
+|Snow White's Gooseberry Pie|d|3|1677|338|b|i24,i7,i1a
+|Sour Snow Cones|d|3|1257|282|b|ik,i1,ij
+|Spaceship Earth Cupcake|d|5|2440|772|b|i1a,i8,i7,ij,i26
+|Spring Chocolate|d|3|1392|254|b|i2b,ij,i12
+|Spring Egg Bowl|d|5|1942|370|b|i2c,i2b,i2d,i12,ij
+|Spring Mimosa Eggs|d|4|1095|336|b|i2b,i2d,i2c,i1h
+|Stitch Cupcake|d|5|2140|751|b|i1a,i8,i7,ij,ib
+|Sweet Slush|d|2|510|219|b|ik,g7=
+|Tropical Pop|d|4|1553|329|b|ik,g0=,ij,i26
+|Vanilla Ice Cream|d|4|1475|673|b|ik,i8,ij,i25
+|Waffles|d|4|1455|706|b|i7,i8,i5,g7=j
+|Wedding Cake|d|5|1680|769|b|i1a,ij,i25,i5,i7
+|Whimsical Pie|d|3|1497|324|b|ii,i7,i1a
+|Wonderland Cookies|d|4|970|391|b|i1a,ij,i25,i7
+|Yule Log|d|4|2147|198|b|i7,i12,i25,i1d
+|Arepas Con Queso|a|3|770|309|r|iu,i6,i2e
+|Baozi|a|4|718|503|r|i2f,i7,i1c,g6=
+|Barbecued Brilliant Blue Starfish|a|2|3118|1202|r|i2g,i17
+|Barbecued Pretty Pink Starfish|a|2|2812|1202|r|i2h,i2i
+|Bulgur Salad|a|5|780|396|r|i7,if,in,i17,g6=
+|Clam Juice|a|2|289|93|r|i2j,in
+|Coleslaw|a|2|387|389|r|is,ie
+|Conch Ceviche|a|4|2646|712|r|i2k,i2,in,i1
+|Crab Melts|a|2|2549|1014|r|i2l,i6
+|Dumplings|a|4|710|493|r|g10=,i7,g8=,i1c
+|Falafel|a|3|528|159|r|i2m,i2n,i3
+|Nuts & Bolts|a|2|3195|866|r|i2o,i2p
+|Roasted Almonds|a|2|1070|86|r|i2p,i2e
+|Royal Ice Tea|a|2|610|234|r|ik,i2q
+|Royal Latte|a|2|814|338|r|i8,i2q
+|Royal Tea|a|1|218|36|r|i2q
+|Sand Worm Carpaccio Plate|a|2|3004|1160|r|i2r,i2s
+|Shad Ceviche|a|4|1696|427|r|i2t,i2,in,i1
+|Spicy Scorpion Skewer|a|2|1792|617|r|i2u,i2i
+|Takoyaki Stick|a|4|2164|898|r|i2v,ix,i5,i1c
+|Thousand Needles|a|3|5625|2497|r|i2g,i2h,i2w
+|Tomato Basil Soup|a|2|255|93|r|in,i1h
+|Vegetarian Dumplings|a|3|225|109|r|i7,g8=,i1c
+|Ajiaco|e|3|757|898|r|iu,id,i2x
+|Baked Beans|e|2|544|388|r|i2m,i2f
+|Best Fish Forever|e|4|4420|1431|r|i2k,i2o,it,i2n
+|Biryani|e|5|1468|1049|r|i2x,i1b,i2y,i2n,i17
+|Blend of the Bayou|e|5|4108|2409|r|i2z,i1b,it,i1a,g6=
+|Bony Osso Buco|e|4|1192|272|r|i30,it,g8=,i28
+|Braised Abalone|e|4|2500|570|r|i16,i2k,ig,i3
+|Braised Bamboo Shoots|e|4|898|461|r|iq,im,i1c,i19
+|Burrito|e|4|809|473|r|g10=,i7,i2m,i2n
+|Butter Chicken|e|5|2142|1215|r|i2x,in,i1a,i1,i2n
+|Cheeseburger|e|4|1113|1785|r|i31,i7,g8=,i6
+|Chicken Souvlaki|e|4|1816|949|r|i2x,i1,i17,i2i
+|Classic Frankfurter|e|4|1511|2628|r|i2f,i2x,i31,i7
+|Classic Mac & Cheese|e|2|541|236|r|i7,i6
+|Club Sandwich|e|4|1075|1161|r|i2f,i2x,i7,in
+|Coq en Barbouille|e|4|880|1030|r|i2x,i2,g8=,i28
+|Cream Cheese Bagel|e|3|652|280|r|i7,i6,g7=
+|Crimson Burger|e|3|187|231|r|i7,g8=,i32
+|Dragon Roll Maki|e|4|3193|1670|r|i33,i1b,ix,g8=
+|Fabulous Fajitas|e|5|852|851|r|i2x,i7,g8=*2,i2n
+|Good Ol' Fashioned Burger|e|3|634|1413|r|i31,i7,io
+|Hamburger Steak|e|4|855|1774|r|i31,id,g8=,i2m
+|Hawaiian Pizza|e|5|1506|1577|r|i2f,i7,in,i6,i34
+|Jerk Chicken|e|4|1105|1102|r|i2x,i2,i3,g6=
+|Lo-Fries|e|3|387|358|r|iv,i10,im
+|Meat Pie|e|3|1047|618|r|g10=,i7,i1a
+|Meaty Taco|e|5|1112|1785|r|i31,i9,iu,g8=,i2n
+|Milky Way Stew|e|4|1872|733|r|i1x,i8,iz,i35
+|Moqueca de Pirarucu|e|4|3453|1024|r|i36,g8=*2,i26
+|Pasta with Herbs|e|3|642|289|r|i7,i1a,g6=
+|Piquant Piranha Soup|e|3|4001|2041|r|i9,iq,i37
+|Pulled Pork|e|4|1021|738|r|i2f,i2,in,i1n
+|Pupusas Revueltas|e|3|627|790|r|i2x,iu,i2m
+|Rainbouillabaisse|e|5|4174|2087|r|i2z,g5=,i1x,in,g8=
+|Ramen|e|3|1128|660|r|i2f,i7,i5
+|Rhapsody Roll|e|4|335|301|r|i1b,iv,ix,g8=
+|Roast|e|1|450|300|r|g10=
+|Royal Burger|e|5|1670|2303|r|i2f,i31,i7,g8=,i6
+|Ruby Masoor Dal|e|3|405|357|r|i9,in,i32
+|Sand Stew|e|5|5625|2244|r|i38,i39,g8=,i2r,g6=
+|Sausage and Sauerkraut Platter|e|3|958|884|r|i2f,is,id
+|Schnitzel|e|3|640|854|r|i2x,i7,im
+|Sesame Seed Bagel|e|2|160|26|r|i7,g7=
+|Shawarma|e|5|2048|1877|r|i31,i1b,i1,i2y,i3
+|Shish Taouk|e|5|1928|1109|r|i2x,i1b,i1,i3,i1n
+|Sweet and Sour Stir-Fry|e|5|2350|2148|r|i2x,ir,im,i3a,i34
+|Tandoori Chicken|e|4|1199|964|r|i9,i2x,i2n,i2i
+|Tofu|e|1|142|82|r|i1c
+|Tourtière|e|4|814|1704|r|i31,i7,id,g8=
+|Turkey Leg|e|4|1123|884|r|i2x,i2n,i2i,i2e
+|Turnip Tartiflette|e|3|1459|863|r|i2f,iz,i6
+|Vegetarian Turnip Tartiflette|e|3|816|399|r|ig,iz,i1c
+|Yakisoba|e|3|789|710|r|i2f,i7,is
+|Apple Sauce|d|2|823|71|r|i1f,i2y
+|Basil Berry Salad|d|3|1355|142|r|ib,i1h,i3b
+|Caramel Macarons|d|3|1724|401|r|i2p,i5,i2e
+|Charlotte Cake|d|3|759|69|r|i7,i3b,i2e
+|Chocolate Macarons|d|3|2354|419|r|i2p,i5,i12
+|Cinnamon Donut|d|4|1094|406|r|i7,i5,i2y,g7=
+|Cotton Candy|d|2|298|56|r|i2e,ij
+|Croissant|d|2|566|249|r|i7,i1a
+|Cupcakes|d|4|1853|433|r|i7,i5,i1d,i2e
+|Danish|d|4|705|314|r|i7,i1a,g0=*2
+|Dreamango Boba Tea|d|3|1833|418|r|i8,i3a,ij
+|French Macarons|d|2|1461|340|r|i2p,i5
+|Fruit Milkshake|d|3|1113|544|r|ik,i8,g0=
+|Glazed Donut|d|3|760|336|r|i7,i5,g7=
+|Gourmet Grubs|d|3|5625|2065|r|i2k,i2r,i2u
+|Jam Macarons|d|3|1581|378|r|i2p,i5,g0=
+|Kanelbulle|d|4|1548|663|r|i7,i1a,i5,i2y
+|Kouign-Amann|d|4|1358|610|r|i7,i1a*2,i2e
+|Maamouls|d|3|1614|100|r|i7,i2p,i3c
+|Makrout|d|4|1157|254|r|i7,im,i3c,i2y
+|Melon Boba Tea|d|3|911|478|r|i8,i2s,ij
+|Mooncake|d|4|465|276|r|i7,im,i2m,i2e
+|Nestling Crepe|d|4|1938|715|r|i7,i5,i8,i3d
+|Pear Upside-Down Cake|d|3|1218|345|r|i7,i5,i3d
+|Pineapple Soft Serve|d|2|717|886|r|ik,i34
+|Popcorn|d|2|201|161|r|iu,im
+|Raspberry Jam Sandwich|d|2|549|29|r|i7,i15
+|Spicy Macarons|d|3|1796|475|r|i9,i2p,i5
+|Spiky Berry Pie|d|5|2058|421|r|i7,i1a,i2w,i3b,g6=
+|Stellar Milkshake|d|3|1169|562|r|ik,i8,i35
+|Strawberry Pie|d|3|1092|300|r|i7,i1a,i3b
+|Strawberry Shortcake|d|3|1173|342|r|i7,i5,i3b
+|Stuffed Dates|d|2|1495|91|r|i2p,i3c
+|Sugar-Free Banana Muffin|d|2|677|39|r|i7,i23
+|Sugar-Free Blueberry Muffin|d|2|677|39|r|i7,ib
+|Sugar-Free Fruit Explosion Muffin|d|4|354|66|r|i7,g0=*2,i2e
+|Sugar-Free Fruit Muffin|d|2|117|13|r|i7,g0=
+|Sweet Popcorn|d|3|390|209|r|iu,im,i2e
+|Sweet Tofu|d|2|183|100|r|i1c,g0=
+|Taiyaki|d|2|374|102|r|i39,i2m
+|Vanilla Macarons|d|3|1787|436|r|i2p,i5,i25
+|Ambrosia Smoothie|a|2|1155|247|s|i3e,i3f
+|Baked Feta & Olives|a|2|815|142|s|i3g,i3h
+|Cape Gooseberry Smoothie|a|2|781|227|s|i3e,i3i
+|Faerie Rye Crackers|a|1|126|74|s|i3j
+|Golden Apple Smoothie|a|2|985|299|s|i3e,i3k
+|Greek Potatoes|a|5|688|351|s|id,g0=,i3,i3l,g6=
+|Honeydew Smoothie|a|2|769|318|s|i3e,i3m
+|Lightning Bolt|a|5|5625|5038|s|i3n,i3o,i3p*2,g7=
+|Olympian Tapenade|a|4|1090|456|s|i3q,i3h,i3m,g6=
+|Persimmon Smoothie|a|2|1070|188|s|i3e,i3r
+|Radicchio Slaw|a|4|835|739|s|i3s,i3t,i3u,i3v
+|Sautéed Porcini|a|2|500|136|s|i3w,i3
+|Simple Chia Pudding|a|1|80|7|s|i3x
+|Sparkling Ambrosia|a|2|883|175|s|i3p,i3f
+|Spiral Strawberry Smoothie|a|2|1410|221|s|i3e,i3y
+|Tzatziki|a|3|1094|460|s|if,i3e,i3
+|A Very Unusual Tea Time|e|4|2377|345|s|i3e,i3y,i3l,i3z
+|Aquatic Escargot|e|3|581|182|s|i40,i3,i3l
+|Arcane Garlic Crab|e|4|3250|1327|s|i41,i3,i3l,g6=
+|Argossian Pizza|e|5|1384|668|s|i3q,i2,g8=,i3g,i3h
+|Barley Salad|e|4|453|280|s|i42,i3s,i3v,g6=
+|Cacio e Pepe|e|3|379|403|s|i3q,i3g,i43
+|Cape Gooseberry Chia Pancakes|e|4|749|214|s|i7,i3x,i44,i3i
+|Caprese Salad|e|5|1092|244|s|g8=,i3g,i3h,i3l,g6=
+|Cauliflower Steak|e|1|165|30|s|i3s
+|Chia Pudding|e|4|742|425|s|i3x,i45,i2y,g7=
+|Chia Seed Bread|e|3|478|122|s|i7,i3x,i44
+|Chimera Skewer|e|5|2720|1560|s|i46,i40,i47,g3=,i48
+|Electric Radicchio & Persimmon Salad|e|3|1176|303|s|i3u,i3r,i3p
+|Flying Fish Quenelles|e|5|890|325|s|i47,i3w,g8=,i3g,g2=
+|Garlic Steam Mussels|e|3|825|413|s|i49,i2,i3
+|Grecian Baked Fish|e|5|5200|2808|s|i3n,i3q,i3h,i3l,i3f
+|Greek Salad|e|5|1476|654|s|if,i3v,g8=,i3g,i3h
+|Green Bean Casserole|e|3|652|607|s|i3t,i2,i3w
+|Grilled Koi Gyro|e|5|1428|417|s|i4a,i7,if,i3h,g6=
+|Hermit Crab Pasta|e|3|2829|1143|s|i41,i7,g6=
+|Hippocampus Cepelinai Dumplings|e|5|2634|1965|s|i46,i2,id,i3y,i43
+|Koi Sashimi|e|1|290|60|s|i4a
+|Lamprey Sashimi|e|1|2930|1800|s|i3o
+|Loaded Breakfast Yogurt|e|4|2425|508|s|i4b,i3e,i3y,i3f
+|Loaded Golden Apple Porridge|e|4|1570|566|s|i4b*2,i3k,i3f
+|Loaded Honeydew Porridge|e|4|1328|588|s|i4b*2,i3m,i3f
+|Loaded Persimmon Porridge|e|4|1665|438|s|i4b*2,i3r,i3f
+|Loaded Rhubarb Porridge|e|4|1370|744|s|i4b*2,i45,i3f
+|Loaded Sea Grape Porridge|e|4|1142|431|s|i4b*2,i4c,i3f
+|Lupine Cullen Skink|e|4|1681|736|s|i4d,i2,id,i3e
+|Mussel Risotto|e|5|1488|377|s|i49,i1b,i3h,i3,g6=
+|Oatmeal|e|1|210|118|s|i4b
+|Olive Plate|e|1|610|42|s|i3h
+|Persimmon Chia Pancakes|e|4|1072|169|s|i7,i3x,i44,i3r
+|Radicchio-Stuffed Porcini|e|3|677|370|s|i3w,i3u,i43
+|Roasted Barley & Veggies|e|5|1422|476|s|i42,i48,i2,g8=,i3g
+|Roasted Brussels Sprouts|e|2|959|104|s|i48,i3
+|Roasted Green Beans|e|2|379|336|s|i3t,i3
+|Salt-Baked Sea Wolf|e|2|602|123|s|i4d,i3l
+|Salt-Pickled Cauliflower|e|3|269|84|s|i3s,i3l,g6=
+|Salt-Pickled Garlic|e|3|383|119|s|i3,i3l,g6=
+|Salt-Pickled Green Beans|e|3|246|341|s|i3t,i3l,g6=
+|Salt-Pickled Radicchio|e|3|474|226|s|i3u,i3l,g6=
+|Salt-Pickled Radish|e|3|314|235|s|i3v,i3l,g6=
+|Salt-Pickled Sea Grapes|e|3|185|77|s|i4c,i3l,g6=
+|Scottish Porridge|e|2|255|139|s|i4b,g0=
+|Sea Grape Chia Pancakes|e|4|549|162|s|i7,i3x,i44,i4c
+|Seaweed Salad|e|4|382|365|s|i3v,g8=,i4c,i43
+|Shovel Bird Eggs Benedict|e|4|1522|420|s|i3q,i44,i3y,i3l
+|Soda Bread & Feta|e|3|309|135|s|i7,i3g,i3l
+|Spanakopita|e|5|982|561|s|i2,iy,i3g,i3,g6=
+|Spiral Strawberry Chia Pancakes|e|4|1452|207|s|i7,i3x,i44,i3y
+|Sprout-Stuffed Porcini|e|3|1063|235|s|i48,i3w,i43
+|Squash-Stuffed Porcini|e|3|400|250|s|i3w,i4e,i43
+|Squid Sashimi|e|1|1650|600|s|i4f
+|Steamed Mussels|e|1|290|90|s|i49
+|Stuffed Ring Squash|e|3|980|225|s|i4e,i3,i3f
+|Tuna Sashimi|e|1|610|114|s|i1r
+|Aphrodite's Delight|d|2|1070|234|s|i3k,i3f
+|Cape Gooseberry Sour Fondue|d|2|951|123|s|i3i,i3z
+|Cinnamon Cake|d|4|1330|348|s|i7,i44,i3e,i2y
+|Cinnamon Cookies|d|4|1037|256|s|i7,i3e,i2y,g7=
+|Golden Apple Pie|d|3|894|268|s|i7,i44,i3k
+|Honeydew Sour Fondue|d|2|939|214|s|i3m,i3z
+|Lightning Cake|d|4|1302|400|s|i7,i44,i3e,i3p
+|Lightning Cookies|d|4|1009|308|s|i7,i3e,g7=,i3p
+|Merryweather's Gingersnaps|d|5|2596|443|s|i3j,i44,i19,i4g,i3z
+|Nutmeg Cake|d|4|1891|370|s|i7,i44,i3e,i4g
+|Nutmeg Cookies|d|4|1598|278|s|i7,i3e,i4g,g7=
+|Persimmon Pie|d|3|984|149|s|i7,i44,i3r
+|Persimmon Sour Fondue|d|2|1240|84|s|i3r,i3z
+|Rice Pudding|d|3|579|293|s|i4b,i1b,i25
+|Sour Berry Dessert|d|2|1325|143|s|i3f,i3z
+|Sour Berry Pie|d|3|1164|170|s|i7,i44,i3z
+|Spicy Yogurt|d|2|602|175|s|i3e,g6=
+|Spiral Strawberry Pie|d|3|1344|184|s|i7,i44,i3y
+|Spiral Strawberry Sour Fondue|d|2|1580|117|s|i3y,i3z
+|Strawberry Rhubarb Pie|d|4|1881|601|s|i7,i3e,i45,i3y
+|Underworld Cake|d|5|2746|603|s|i3j,i44,i3e,i4g,i3f
+|Vanilla Yogurt|d|2|789|221|s|i3e,i25
+|Alpine Fishcakes|a|2|2370|1027|w|i4h,i4i
+|Buttermilk Borscht|a|4|1656|766|w|i4j,i5,i8,i4i
+|Fizzy Nectar Soda|a|2|1197|247|w|i4k,ik
+|Rosehip Honey Tea|a|1|570|210|w|i4l
+|Scarlet Bouquet Salad|a|1|160|34|w|i4m
+|Smoked Fish Charcuterie Spread|a|4|1321|191|w|i4n,i1r,g3=,i7
+|101 Teeny Tiny Dalmatian Cupcakes|e|4|862|460|w|i4o,i5,i7,ij
+|Afternoon Tea Set|e|4|985|235|w|i4o,i4p,g8=,i4q
+|Baked Whitefish and Roasted Beets|e|2|400|66|w|i4n,i4j
+|Beet-iful Spaetzle|e|3|778|339|w|i7,i4j,i5
+|Bread Bowl Pumpkin Soup|e|4|4153|3901|w|i4r,i4s,iw,i8
+|Button Stew|e|2|375|135|w|i4t,ie
+|Eton Mess|e|3|1994|407|w|i4u,i4q,i5
+|Felted Breakfast Spread|e|3|2597|1022|w|i4t,i5,i4v
+|Fishy Pineapple Jelly|e|5|5625|2767|w|i4w,i4x,i2l,i4m,g3=
+|Friendly Bento|e|4|3877|2717|w|i4r,i4m,i4l,g8=
+|Honey-Glazed Carrots|e|3|944|362|w|i4l,ie,i4i
+|Honey Pancakes|e|3|1263|555|w|i4l,i7,i5
+|Horace's Ham Sandwich|e|3|643|326|w|i4p,i6,g8=
+|Jellied Fish Terrine|e|1|2450|1200|w|i4x
+|Jellied Salad|e|2|2717|1337|w|i4x,i4m
+|Kanine Krunchies Cereal|e|2|796|107|w|i4p,i4q
+|Pixie Pizza|e|5|1268|718|w|i4s,i6,in,i4y,i4t
+|Scarlet Kale and Cheese Pinwheels|e|3|694|294|w|i7,i4m,i6
+|Stargazy Pie|e|4|5026|1953|w|i4w,i4v,i4h,i7
+|Vintage Peach Trifle|e|5|1752|544|w|i4q,i8,i4p,ij,g0=
+|Beauty and the Beets Napoleon|d|5|2782|1109|w|i4j,i1a,i5,i8,i4u
+|Beet Brownie Stack|d|3|826|363|w|i4j,i5,g7=
+|Beet Sugar Sculpture|d|2|223|51|w|i4j,ij
+|Fairy Boot Cake|d|5|2052|1212|w|i4s,i4l,i5,i1a,i4o
+|Fairy Bread|d|2|360|243|w|i4s,i4y
+|Fairy Wands|d|3|1028|229|w|i4k,i4z,g0=
+|Pixie Ice Cream Dome Cake|d|4|1489|554|w|i4s,i4y,ik,i4u
+|Red Currant Linzer Cookies|d|4|1379|365|w|i7,i1a,i4u,ij
+|Red Currant Valley Cakes|d|3|1895|676|w|i5,i8,i4u
+|Tigger Tails|d|2|437|253|w|i4z,i4y
+|Blustery Day Soup|a|4|1339|226|h|g2=,ig,i50,i51
+|Honeycrunch Bar|a|2|1410|107|h|i52,i51
+|Sweet Acorn Porridge|a|3|661|119|h|i53,g0=,g1=
+|Warm Milk & Honey|a|2|1316|344|h|i8,i51
+|Foresty Quiche|e|5|1376|248|h|g3=,g2=,i54,i50,i55
+|Honey-Glazed Plush Fish|e|3|3507|1320|h|i56,g8=,i51
+|Rabbit's Garden Pie|e|5|448|323|h|i55,i57,i58,ie,g1=
+|Toasted Picnic Sandwich|e|5|1208|173|h|i51,i57,g2=,i59,g6=
+|Brunchfast|d|4|2967|1303|h|i5a,i1a,i5,g0=
+|Honey Macarons|d|4|3316|802|h|i51,i5a,g1=,i52
+|Honey Triffle|d|4|1567|239|h|i58,i51,i59,i54
+|Pooh's Birthday Cake|d|5|1060|112|h|i51,g7=,g2=,g0=,g1=

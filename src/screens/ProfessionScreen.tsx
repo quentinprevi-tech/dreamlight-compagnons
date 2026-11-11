@@ -24,8 +24,8 @@ export function ProfessionScreen({ professionId, companions, onOpenCharacter }: 
         <span className="pointer-events-none absolute -right-8 -bottom-10 text-[9rem] opacity-25 select-none" aria-hidden>
           {p.emoji}
         </span>
-        <a href="#/" className="inline-flex items-center gap-1 rounded-full bg-white/70 px-3 py-1.5 text-sm font-semibold text-plum-900 shadow-sm active:scale-95">
-          ‹ Accueil
+        <a href="#/metiers" className="inline-flex items-center gap-1 rounded-full bg-white/70 px-3 py-1.5 text-sm font-semibold text-plum-900 shadow-sm active:scale-95">
+          ‹ Métiers
         </a>
         <h1 className="mt-4 font-magic text-4xl font-bold text-plum-950 drop-shadow-[0_1px_0_rgb(255_255_255/0.6)]">
           <span aria-hidden>{p.emoji}</span> {p.name}

@@ -1,5 +1,6 @@
 import { useMemo, useState } from 'react'
 import { Avatar } from '../components/Avatar'
+import { FilterChips } from '../components/FilterChips'
 import {
   LEVEL_INFO,
   SCRAMBLECOIN_NOTES,
@@ -55,20 +56,7 @@ export function ScramblecoinScreen({ portraits }: { portraits: Record<string, st
           aria-label="Rechercher un adversaire"
           className="mt-2 w-full rounded-2xl border-0 bg-white px-4 py-3 text-base text-plum-900 shadow-sm ring-1 ring-gold-300/40 outline-none placeholder:text-plum-300 focus:ring-2 focus:ring-gold-400"
         />
-        <div className="no-scrollbar -mx-4 mt-2 flex gap-2 overflow-x-auto px-4 pb-1" role="group" aria-label="Filtrer par niveau">
-          {chips.map((chip) => (
-            <button
-              key={chip.id}
-              onClick={() => setLevel(chip.id)}
-              aria-pressed={level === chip.id}
-              className={`shrink-0 rounded-full px-3.5 py-1.5 text-sm font-semibold whitespace-nowrap transition active:scale-95 ${
-                level === chip.id ? 'bg-gold-300 text-night-900 shadow-[0_0_12px_rgb(255_214_107/0.6)]' : 'bg-white/10 text-plum-50 ring-1 ring-white/20'
-              }`}
-            >
-              {chip.label}
-            </button>
-          ))}
-        </div>
+        <FilterChips label="Filtrer par niveau" chips={chips} value={level} onChange={setLevel} />
       </div>
 
       <p className="mt-2 mb-3 text-xs text-plum-200/80" aria-live="polite" data-testid="scramble-count">

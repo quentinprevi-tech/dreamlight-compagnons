@@ -1,0 +1,5951 @@
+[
+{
+"fr": "Café",
+"energy": "730",
+"price": "43",
+"ing": [
+"1 Grain de café"
+],
+"type": "appetizer",
+"stars": 1,
+"coll": "base"
+},
+{
+"fr": "Crackers",
+"energy": "80",
+"price": "2",
+"ing": [
+"1 Blé"
+],
+"type": "appetizer",
+"stars": 1,
+"coll": "base"
+},
+{
+"fr": "Crudités",
+"energy": "83",
+"price": "26",
+"ing": [
+"1 Légume au choix parmi Carotte, Champignon, Concombre, Courgette, Poivron"
+],
+"type": "appetizer",
+"stars": 1,
+"coll": "base"
+},
+{
+"fr": "Hors-d’œuvre de fruits de mer",
+"energy": "242",
+"price": "54",
+"ing": [
+"1 Fruit de mer au choix"
+],
+"type": "appetizer",
+"stars": 1,
+"coll": "base"
+},
+{
+"fr": "Légumes grillés",
+"energy": "83",
+"price": "9",
+"ing": [
+"1 Légume au choix parmi Algue, Asperges, Aubergine, Citrouille, Épinard, Maïs, Oignon, Piment"
+],
+"type": "appetizer",
+"stars": 1,
+"coll": "base"
+},
+{
+"fr": "Œufs durs",
+"energy": "578",
+"price": "264",
+"ing": [
+"1 Œuf"
+],
+"type": "appetizer",
+"stars": 1,
+"coll": "base"
+},
+{
+"fr": "Plateau de fromages",
+"energy": "482",
+"price": "216",
+"ing": [
+"1 Fromage"
+],
+"type": "appetizer",
+"stars": 1,
+"coll": "base"
+},
+{
+"fr": "Purée",
+"energy": "230",
+"price": "151",
+"ing": [
+"1 Pomme de terre"
+],
+"type": "appetizer",
+"stars": 1,
+"coll": "base"
+},
+{
+"fr": "Salade",
+"energy": "139",
+"price": "9",
+"ing": [
+"1 Laitue"
+],
+"type": "appetizer",
+"stars": 1,
+"coll": "base"
+},
+{
+"fr": "Soupe à la tomate",
+"energy": "83",
+"price": "26",
+"ing": [
+"1 Tomate"
+],
+"type": "appetizer",
+"stars": 1,
+"coll": "base"
+},
+{
+"fr": "Soupe d’okras",
+"energy": "99",
+"price": "136",
+"ing": [
+"1 Okra"
+],
+"type": "appetizer",
+"stars": 1,
+"coll": "base"
+},
+{
+"fr": "Thé royal",
+"energy": "218",
+"price": "36",
+"ing": [
+"1 Majesthé"
+],
+"type": "appetizer",
+"stars": 1,
+"coll": "eternity"
+},
+{
+"fr": "Crackers au seigle féérique",
+"energy": "126",
+"price": "74",
+"ing": [
+"1 Seigle féerique"
+],
+"type": "appetizer",
+"stars": 1,
+"coll": "storybook"
+},
+{
+"fr": "Crème aux graines de chia simple",
+"energy": "80",
+"price": "7",
+"ing": [
+"1 Graine de chia"
+],
+"type": "appetizer",
+"stars": 1,
+"coll": "storybook"
+},
+{
+"fr": "Salade bouquet écarlate",
+"energy": "160",
+"price": "34",
+"ing": [
+"1 Chou frisé écarlate"
+],
+"type": "appetizer",
+"stars": 1,
+"coll": "wishblossom"
+},
+{
+"fr": "Thé au miel et au cynorhodon",
+"energy": "570",
+"price": "210",
+"ing": [
+"1 Corail de miel"
+],
+"type": "appetizer",
+"stars": 1,
+"coll": "wishblossom"
+},
+{
+"fr": "Asperges rôties",
+"energy": "221",
+"price": "313",
+"ing": [
+"1 Asperges",
+"1 Colza"
+],
+"type": "appetizer",
+"stars": 2,
+"coll": "base"
+},
+{
+"fr": "Café crème",
+"energy": "1358",
+"price": "345",
+"ing": [
+"1 Grain de café",
+"1 Lait"
+],
+"type": "appetizer",
+"stars": 2,
+"coll": "base"
+},
+{
+"fr": "Frites",
+"energy": "342",
+"price": "304",
+"ing": [
+"1 Pomme de terre",
+"1 Colza"
+],
+"type": "appetizer",
+"stars": 2,
+"coll": "base"
+},
+{
+"fr": "Hareng mariné",
+"energy": "723",
+"price": "305",
+"ing": [
+"1 Hareng",
+"1 Oignon"
+],
+"type": "appetizer",
+"stars": 2,
+"coll": "base"
+},
+{
+"fr": "Plateau de fruits de mer",
+"energy": "458",
+"price": "116",
+"ing": [
+"2 Fruits de mer"
+],
+"type": "appetizer",
+"stars": 2,
+"coll": "base"
+},
+{
+"fr": "Plateau d’huîtres",
+"energy": "1155",
+"price": "367",
+"ing": [
+"1 Huître",
+"1 Citron"
+],
+"type": "appetizer",
+"stars": 2,
+"coll": "base"
+},
+{
+"fr": "Salade verte",
+"energy": "180",
+"price": "20",
+"ing": [
+"1 Laitue",
+"1 Légume au choix"
+],
+"type": "appetizer",
+"stars": 2,
+"coll": "base"
+},
+{
+"fr": "Sauté de champignons",
+"energy": "712",
+"price": "286",
+"ing": [
+"1 Champignon",
+"1 Beurre"
+],
+"type": "appetizer",
+"stars": 2,
+"coll": "base"
+},
+{
+"fr": "Soupe aux légumes",
+"energy": "120",
+"price": "20",
+"ing": [
+"2 Légumes"
+],
+"type": "appetizer",
+"stars": 2,
+"coll": "base"
+},
+{
+"fr": "Thé à la menthe poivrée",
+"energy": "993",
+"price": "146",
+"ing": [
+"1 Citron",
+"1 Menthe"
+],
+"type": "appetizer",
+"stars": 2,
+"coll": "base"
+},
+{
+"fr": "Amandes rôties",
+"energy": "1070",
+"price": "86",
+"ing": [
+"1 Amandes",
+"1 Agave"
+],
+"type": "appetizer",
+"stars": 2,
+"coll": "eternity"
+},
+{
+"fr": "Brochette de scorpion épicée",
+"energy": "1792",
+"price": "617",
+"ing": [
+"1 Scorpion",
+"1 Paprika"
+],
+"type": "appetizer",
+"stars": 2,
+"coll": "eternity"
+},
+{
+"fr": "Canapés au crabe",
+"energy": "2549",
+"price": "1000",
+"ing": [
+"1 Crabe",
+"1 Fromage"
+],
+"type": "appetizer",
+"stars": 2,
+"coll": "eternity"
+},
+{
+"fr": "Carpaccio de vers des sables",
+"energy": "3004",
+"price": "1100",
+"ing": [
+"1 Ver des sables",
+"1 Melon"
+],
+"type": "appetizer",
+"stars": 2,
+"coll": "eternity"
+},
+{
+"fr": "Écrous et boulons",
+"energy": "3195",
+"price": "866",
+"ing": [
+"1 Poisson-robot",
+"1 Amandes"
+],
+"type": "appetizer",
+"stars": 2,
+"coll": "eternity"
+},
+{
+"fr": "Étoile de mer bleue brillante grillée",
+"energy": "3118",
+"price": "1200",
+"ing": [
+"1 Étoile de mer bleue brillante",
+"1 Menthe"
+],
+"type": "appetizer",
+"stars": 2,
+"coll": "eternity"
+},
+{
+"fr": "Étoile de mer rose au barbecue",
+"energy": "2812",
+"price": "1200",
+"ing": [
+"1 Jolie étoile de mer rose",
+"1 Paprika"
+],
+"type": "appetizer",
+"stars": 2,
+"coll": "eternity"
+},
+{
+"fr": "Jus de palourde",
+"energy": "289",
+"price": "93",
+"ing": [
+"1 Palourde",
+"1 Tomate"
+],
+"type": "appetizer",
+"stars": 2,
+"coll": "eternity"
+},
+{
+"fr": "Latte royal",
+"energy": "814",
+"price": "338",
+"ing": [
+"1 Lait",
+"1 Majesthé"
+],
+"type": "appetizer",
+"stars": 2,
+"coll": "eternity"
+},
+{
+"fr": "Salade de chou",
+"energy": "387",
+"price": "389",
+"ing": [
+"1 Chou",
+"1 Carotte"
+],
+"type": "appetizer",
+"stars": 2,
+"coll": "eternity"
+},
+{
+"fr": "Soupe tomate basilic",
+"energy": "255",
+"price": "93",
+"ing": [
+"1 Tomate",
+"1 Basilic"
+],
+"type": "appetizer",
+"stars": 2,
+"coll": "eternity"
+},
+{
+"fr": "The glacé royal",
+"energy": "610",
+"price": "234",
+"ing": [
+"1 Glace pilée",
+"1 Majesthé"
+],
+"type": "appetizer",
+"stars": 2,
+"coll": "eternity"
+},
+{
+"fr": "Ambroisie étincelante",
+"energy": "883",
+"price": "175",
+"ing": [
+"1 Ambroisie",
+"1 Épice foudroyante"
+],
+"type": "appetizer",
+"stars": 2,
+"coll": "storybook"
+},
+{
+"fr": "Féta et olives au four",
+"energy": "815",
+"price": "142",
+"ing": [
+"1 Olive",
+"1 Féta feuillet"
+],
+"type": "appetizer",
+"stars": 2,
+"coll": "storybook"
+},
+{
+"fr": "Porcinis sautés",
+"energy": "500",
+"price": "136",
+"ing": [
+"1 Porcini",
+"1 Ail"
+],
+"type": "appetizer",
+"stars": 2,
+"coll": "storybook"
+},
+{
+"fr": "Smoothie à l’ambroisie",
+"energy": "1155",
+"price": "247",
+"ing": [
+"1 Yaourt",
+"1 Ambroisie"
+],
+"type": "appetizer",
+"stars": 2,
+"coll": "storybook"
+},
+{
+"fr": "Smoothie au melon miel",
+"energy": "769",
+"price": "318",
+"ing": [
+"1 Yaourt",
+"1 Melon miel"
+],
+"type": "appetizer",
+"stars": 2,
+"coll": "storybook"
+},
+{
+"fr": "Smoothie aux fraises spirales",
+"energy": "1410",
+"price": "221",
+"ing": [
+"1 Yaourt",
+"1 Fraise spirale"
+],
+"type": "appetizer",
+"stars": 2,
+"coll": "storybook"
+},
+{
+"fr": "Smoothie aux kakis",
+"energy": "1070",
+"price": "188",
+"ing": [
+"1 Yaourt",
+"1 Kaki"
+],
+"type": "appetizer",
+"stars": 2,
+"coll": "storybook"
+},
+{
+"fr": "Smoothie aux physalis",
+"energy": "781",
+"price": "227",
+"ing": [
+"1 Yaourt",
+"1 Physalis"
+],
+"type": "appetizer",
+"stars": 2,
+"coll": "storybook"
+},
+{
+"fr": "Smoothie aux pommes d’or",
+"energy": "985",
+"price": "299",
+"ing": [
+"1 Yaourt",
+"1 Pomme d’or"
+],
+"type": "appetizer",
+"stars": 2,
+"coll": "storybook"
+},
+{
+"fr": "Croquettes de poisson alpines",
+"energy": "2370",
+"price": "1000",
+"ing": [
+"1 Oktobar",
+"1 Aneth"
+],
+"type": "appetizer",
+"stars": 2,
+"coll": "wishblossom"
+},
+{
+"fr": "Soda au nectar pétillant",
+"energy": "1197",
+"price": "247",
+"ing": [
+"1 Carambole",
+"1 Glace pilée"
+],
+"type": "appetizer",
+"stars": 2,
+"coll": "wishblossom"
+},
+{
+"fr": "Gougères à la citrouille",
+"energy": "1466",
+"price": "1400",
+"ing": [
+"1 Citrouille",
+"1 Œuf",
+"1 Fromage"
+],
+"type": "appetizer",
+"stars": 3,
+"coll": "base"
+},
+{
+"fr": "Gougères à la courgette",
+"energy": "1216",
+"price": "632",
+"ing": [
+"1 Courgette",
+"1 Œuf",
+"1 Fromage"
+],
+"type": "appetizer",
+"stars": 3,
+"coll": "base"
+},
+{
+"fr": "Gougères à l’aubergine",
+"energy": "1941",
+"price": "991",
+"ing": [
+"1 Aubergine",
+"1 Œuf",
+"1 Fromage"
+],
+"type": "appetizer",
+"stars": 3,
+"coll": "base"
+},
+{
+"fr": "Gougères au piment",
+"energy": "1382",
+"price": "669",
+"ing": [
+"1 Piment",
+"1 Œuf",
+"1 Fromage"
+],
+"type": "appetizer",
+"stars": 3,
+"coll": "base"
+},
+{
+"fr": "Gougères aux oignons",
+"energy": "1392",
+"price": "798",
+"ing": [
+"1 Oignon",
+"1 Œuf",
+"1 Fromage"
+],
+"type": "appetizer",
+"stars": 3,
+"coll": "base"
+},
+{
+"fr": "Gougère aux poivrons",
+"energy": "1272",
+"price": "606",
+"ing": [
+"1 Poivron",
+"1 Œuf",
+"1 Fromage"
+],
+"type": "appetizer",
+"stars": 3,
+"coll": "base"
+},
+{
+"fr": "Gougère aux pommes de terre",
+"energy": "1333",
+"price": "736",
+"ing": [
+"1 Pomme de terre",
+"1 Œuf",
+"1 Fromage"
+],
+"type": "appetizer",
+"stars": 3,
+"coll": "base"
+},
+{
+"fr": "Moka",
+"energy": "2246",
+"price": "425",
+"ing": [
+"1 Grain de café",
+"1 Lait",
+"1 Fève de cacao"
+],
+"type": "appetizer",
+"stars": 3,
+"coll": "base"
+},
+{
+"fr": "Plat de légumes grillés",
+"energy": "161",
+"price": "33",
+"ing": [
+"3 Légumes au choix"
+],
+"type": "appetizer",
+"stars": 3,
+"coll": "base"
+},
+{
+"fr": "Potage",
+"energy": "461",
+"price": "215",
+"ing": [
+"1 Pomme de terre",
+"1 Légume",
+"1 Épice"
+],
+"type": "appetizer",
+"stars": 3,
+"coll": "base"
+},
+{
+"fr": "Arepas con queso",
+"energy": "770",
+"price": "309",
+"ing": [
+"1 Maïs",
+"1 Fromage",
+"1 Agave"
+],
+"type": "appetizer",
+"stars": 3,
+"coll": "eternity"
+},
+{
+"fr": "Dumplings végétariens",
+"energy": "225",
+"price": "109",
+"ing": [
+"1 Blé",
+"1 Légume",
+"1 Soja"
+],
+"type": "appetizer",
+"stars": 3,
+"coll": "eternity"
+},
+{
+"fr": "Falafel",
+"energy": "528",
+"price": "159",
+"ing": [
+"1 Haricots",
+"1 Cumin",
+"1 Ail"
+],
+"type": "appetizer",
+"stars": 3,
+"coll": "eternity"
+},
+{
+"fr": "Mille aiguilles",
+"energy": "5000",
+"price": "2400",
+"ing": [
+"1 Étoile de mer bleue brillante",
+"1 Jolie étoile de mer rose",
+"1 Cactibaies"
+],
+"type": "appetizer",
+"stars": 3,
+"coll": "eternity"
+},
+{
+"fr": "Tzatziki",
+"energy": "1094",
+"price": "460",
+"ing": [
+"1 Yaourt",
+"1 Ail",
+"1 Concombre"
+],
+"type": "appetizer",
+"stars": 3,
+"coll": "storybook"
+},
+{
+"fr": "Sélection de poisson fumés",
+"energy": "1701",
+"price": "288",
+"ing": [
+"2 Thon",
+"1 Poisson au choix",
+"1 Blé"
+],
+"type": "appetizer",
+"stars": 3,
+"coll": "wishblossom"
+},
+{
+"fr": "Buñuelos",
+"energy": "1881",
+"price": "948",
+"ing": [
+"1 Blé",
+"1 Fromage",
+"1 Lait",
+"1 Œuf"
+],
+"type": "appetizer",
+"stars": 4,
+"coll": "base"
+},
+{
+"fr": "Gaspacho",
+"energy": "821",
+"price": "556",
+"ing": [
+"1 Concombre",
+"1 Tomate",
+"1 Oignon",
+"1 Épice"
+],
+"type": "appetizer",
+"stars": 4,
+"coll": "base"
+},
+{
+"fr": "Hareng mariné",
+"energy": "1742",
+"price": "431",
+"ing": [
+"1 Hareng",
+"1 Citron",
+"1 Oignon",
+"1 Épice"
+],
+"type": "appetizer",
+"stars": 4,
+"coll": "base"
+},
+{
+"fr": "Potage à la citrouille",
+"energy": "1431",
+"price": "1500",
+"ing": [
+"1 Légume",
+"1 Lait",
+"1 Gingembre",
+"1 Citrouille"
+],
+"type": "appetizer",
+"stars": 4,
+"coll": "base"
+},
+{
+"fr": "Rêve pétillant",
+"energy": "1550",
+"price": "316",
+"ing": [
+"1 Fruit de Dreamlight",
+"1 Canne à sucre",
+"1 Blé",
+"1 Glace pilée"
+],
+"type": "appetizer",
+"stars": 4,
+"coll": "base"
+},
+{
+"fr": "Soufflé",
+"energy": "2386",
+"price": "1200",
+"ing": [
+"1 Fromage",
+"1 Oeuf",
+"1 Lait",
+"1 Beurre"
+],
+"type": "appetizer",
+"stars": 4,
+"coll": "base"
+},
+{
+"fr": "Soupe crémeuse",
+"energy": "1138",
+"price": "576",
+"ing": [
+"1 Lait",
+"1 Pomme de terre",
+"1 Légume au choix",
+"1 Épice"
+],
+"type": "appetizer",
+"stars": 4,
+"coll": "base"
+},
+{
+"fr": "Baozi",
+"energy": "842",
+"price": "503",
+"ing": [
+"1 Porc",
+"1 Blé",
+"1 Soja",
+"1 Épice"
+],
+"type": "appetizer",
+"stars": 4,
+"coll": "eternity"
+},
+{
+"fr": "Ceviche d’alose",
+"energy": "1696",
+"price": "427",
+"ing": [
+"1 Alose",
+"1 Oignon",
+"1 Tomate",
+"1 Citron"
+],
+"type": "appetizer",
+"stars": 4,
+"coll": "eternity"
+},
+{
+"fr": "Ceviche en conque",
+"energy": "2646",
+"price": "712",
+"ing": [
+"1 Escargot de mer",
+"1 Oignon",
+"1 Tomate",
+"1 Citron"
+],
+"type": "appetizer",
+"stars": 4,
+"coll": "eternity"
+},
+{
+"fr": "Dumplings",
+"energy": "710",
+"price": "493",
+"ing": [
+"1 Protéine",
+"1 Blé",
+"1 Légume",
+"1 Soja"
+],
+"type": "appetizer",
+"stars": 4,
+"coll": "eternity"
+},
+{
+"fr": "Takoyaki",
+"energy": "2164",
+"price": "898",
+"ing": [
+"1 Pieuvre",
+"1 Algue",
+"1 Œuf",
+"1 Soja"
+],
+"type": "appetizer",
+"stars": 4,
+"coll": "eternity"
+},
+{
+"fr": "Salade de radicchio",
+"energy": "835",
+"price": "739",
+"ing": [
+"1 Chou-fleur",
+"1 Radis",
+"1 Radicchio",
+"1 Haricot vert"
+],
+"type": "appetizer",
+"stars": 4,
+"coll": "storybook"
+},
+{
+"fr": "Tapenade olympienne",
+"energy": "1090",
+"price": "456",
+"ing": [
+"1 Grain élysien",
+"1 Olive",
+"1 Melon miel",
+"1 Épice au choix"
+],
+"type": "appetizer",
+"stars": 4,
+"coll": "storybook"
+},
+{
+"fr": "Borscht au beurre",
+"energy": "1656",
+"price": "766",
+"ing": [
+"1 Lait",
+"1 Betterave",
+"1 Œuf",
+"1 Aneth"
+],
+"type": "appetizer",
+"stars": 4,
+"coll": "wishblossom"
+},
+{
+"fr": "Grand plateau de fruits de mer",
+"energy": "1810",
+"price": "340",
+"ing": [
+"4 Fruits de mer",
+"1 Citron"
+],
+"type": "appetizer",
+"stars": 5,
+"coll": "base"
+},
+{
+"fr": "Harengs marinés d’Arendelle",
+"energy": "2102",
+"price": "556",
+"ing": [
+"1 Hareng",
+"1 Citron",
+"1 Oignon",
+"1 Ail",
+"1 Épice"
+],
+"type": "appetizer",
+"stars": 5,
+"coll": "base"
+},
+{
+"fr": "Soupe de pomme de terre et de poireaux",
+"energy": "1984",
+"price": "1400",
+"ing": [
+"1 Poireau",
+"1 Pomme de terre",
+"1 Lait",
+"1 Oignon",
+"1 Ail"
+],
+"type": "appetizer",
+"stars": 5,
+"coll": "base"
+},
+{
+"fr": "Salade de boulghour",
+"energy": "910",
+"price": "396",
+"ing": [
+"1 Blé",
+"1 Concombre",
+"1 Tomate",
+"1 Menthe",
+"1 Épice"
+],
+"type": "appetizer",
+"stars": 5,
+"coll": "eternity"
+},
+{
+"fr": "Éclair de foudre",
+"energy": "5000",
+"price": "5000",
+"ing": [
+"1 Périophtalme stygien",
+"1 Lamproie",
+"2 Épice foudroyante",
+"1 Sucrerie au choix"
+],
+"type": "appetizer",
+"stars": 5,
+"coll": "storybook"
+},
+{
+"fr": "Pommes de terre à la grecque",
+"energy": "688",
+"price": "351",
+"ing": [
+"1 Pomme de terre",
+"1 Fruit au choix",
+"1 Ail",
+"1 Épice au choix",
+"1 Cristal de sel"
+],
+"type": "appetizer",
+"stars": 5,
+"coll": "storybook"
+},
+{
+"fr": "Hors-d’œuvre",
+"energy": "202",
+"price": "24",
+"ing": [
+"1 Épice"
+],
+"type": "entree",
+"stars": 1,
+"coll": "base"
+},
+{
+"fr": "Poisson grillé",
+"energy": "290",
+"price": "30",
+"ing": [
+"1 Poisson au choix"
+],
+"type": "entree",
+"stars": 1,
+"coll": "base"
+},
+{
+"fr": "Soupe de poireau",
+"energy": "414",
+"price": "370",
+"ing": [
+"1 Poireau"
+],
+"type": "entree",
+"stars": 1,
+"coll": "base"
+},
+{
+"fr": "Rôti",
+"energy": "450",
+"price": "300",
+"ing": [
+"1 Protéine"
+],
+"type": "entree",
+"stars": 1,
+"coll": "eternity"
+},
+{
+"fr": "Tofu",
+"energy": "142",
+"price": "82",
+"ing": [
+"1 Soja"
+],
+"type": "entree",
+"stars": 1,
+"coll": "eternity"
+},
+{
+"fr": "Assiette d’olives",
+"energy": "610",
+"price": "42",
+"ing": [
+"1 Olive"
+],
+"type": "entree",
+"stars": 1,
+"coll": "storybook"
+},
+{
+"fr": "Flocons d’avoine",
+"energy": "210",
+"price": "118",
+"ing": [
+"1 Avoine"
+],
+"type": "entree",
+"stars": 1,
+"coll": "storybook"
+},
+{
+"fr": "Moules à la vapeur",
+"energy": "290",
+"price": "90",
+"ing": [
+"1 Moule"
+],
+"type": "entree",
+"stars": 1,
+"coll": "storybook"
+},
+{
+"fr": "Sashimi de calamar",
+"energy": "1650",
+"price": "600",
+"ing": [
+"1 Calamar"
+],
+"type": "entree",
+"stars": 1,
+"coll": "storybook"
+},
+{
+"fr": "Sashimi de carpe koï",
+"energy": "290",
+"price": "60",
+"ing": [
+"1 Carpe koï"
+],
+"type": "entree",
+"stars": 1,
+"coll": "storybook"
+},
+{
+"fr": "Sashimi de lamproie",
+"energy": "2930",
+"price": "1800",
+"ing": [
+"1 Lamproie"
+],
+"type": "entree",
+"stars": 1,
+"coll": "storybook"
+},
+{
+"fr": "Sashimi de thon",
+"energy": "610",
+"price": "114",
+"ing": [
+"1 Thon"
+],
+"type": "entree",
+"stars": 1,
+"coll": "storybook"
+},
+{
+"fr": "Steak de chou-fleur",
+"energy": "165",
+"price": "30",
+"ing": [
+"1 Chou-fleur"
+],
+"type": "entree",
+"stars": 1,
+"coll": "storybook"
+},
+{
+"fr": "Terrine de poisson en gelée",
+"energy": "2450",
+"price": "1200",
+"ing": [
+"1 Poisson en gelée"
+],
+"type": "entree",
+"stars": 1,
+"coll": "wishblossom"
+},
+{
+"fr": "Cacahuètes fumées et baudroie",
+"energy": "3960",
+"price": "2200",
+"ing": [
+"1 Baudroie",
+"1 Cacahuète"
+],
+"type": "entree",
+"stars": 2,
+"coll": "base"
+},
+{
+"fr": "Carpe au four",
+"energy": "1894",
+"price": "767",
+"ing": [
+"1 Carpe",
+"1 Beurre"
+],
+"type": "entree",
+"stars": 2,
+"coll": "base"
+},
+{
+"fr": "Confiture merveilleuse",
+"energy": "932",
+"price": "54",
+"ing": [
+"1 Fruit de Dreamlight",
+"1 Blé"
+],
+"type": "entree",
+"stars": 2,
+"coll": "base"
+},
+{
+"fr": "Entrée de poisson grillé",
+"energy": "340",
+"price": "42",
+"ing": [
+"1 Poisson au choix",
+"1 Légume au choix"
+],
+"type": "entree",
+"stars": 2,
+"coll": "base"
+},
+{
+"fr": "Légumes délicieux",
+"energy": "246",
+"price": "36",
+"ing": [
+"1 Légumes au choix",
+"1 Épice"
+],
+"type": "entree",
+"stars": 2,
+"coll": "base"
+},
+{
+"fr": "Morue croustillante au four",
+"energy": "337",
+"price": "47",
+"ing": [
+"1 Morue",
+"1 Blé"
+],
+"type": "entree",
+"stars": 2,
+"coll": "base"
+},
+{
+"fr": "Œuf brouillé",
+"energy": "1070",
+"price": "520",
+"ing": [
+"1 Œuf",
+"1 Fromage"
+],
+"type": "entree",
+"stars": 2,
+"coll": "base"
+},
+{
+"fr": "Pâtes",
+"energy": "117",
+"price": "30",
+"ing": [
+"1 Blé",
+"1 Tomate"
+],
+"type": "entree",
+"stars": 2,
+"coll": "base"
+},
+{
+"fr": "Poisson savoureux",
+"energy": "985",
+"price": "74",
+"ing": [
+"1 Poisson",
+"1 Citron"
+],
+"type": "entree",
+"stars": 2,
+"coll": "base"
+},
+{
+"fr": "Porridge",
+"energy": "668",
+"price": "301",
+"ing": [
+"1 Lait",
+"1 Blé"
+],
+"type": "entree",
+"stars": 2,
+"coll": "base"
+},
+{
+"fr": "Salade de fruits de mer",
+"energy": "349",
+"price": "68",
+"ing": [
+"1 Fruit de mer",
+"1 Laitue"
+],
+"type": "entree",
+"stars": 2,
+"coll": "base"
+},
+{
+"fr": "Sandwich au beurre de cacahuète",
+"energy": "592",
+"price": "262",
+"ing": [
+"1 Cacahuète",
+"1 Blé"
+],
+"type": "entree",
+"stars": 2,
+"coll": "base"
+},
+{
+"fr": "Sandwich au poisson",
+"energy": "337",
+"price": "34",
+"ing": [
+"1 Poisson au choix",
+"1 Blé"
+],
+"type": "entree",
+"stars": 2,
+"coll": "base"
+},
+{
+"fr": "Sushi",
+"energy": "405",
+"price": "111",
+"ing": [
+"1 Poisson",
+"1 Riz"
+],
+"type": "entree",
+"stars": 2,
+"coll": "base"
+},
+{
+"fr": "Sushi au saumon",
+"energy": "1000",
+"price": "274",
+"ing": [
+"1 Saumon",
+"1 Riz"
+],
+"type": "entree",
+"stars": 2,
+"coll": "base"
+},
+{
+"fr": "Tamagoyaki",
+"energy": "689",
+"price": "310",
+"ing": [
+"1 Œuf",
+"1 Canne à sucre"
+],
+"type": "entree",
+"stars": 2,
+"coll": "base"
+},
+{
+"fr": "Bagel au sésame",
+"energy": "160",
+"price": "26",
+"ing": [
+"1 Blé",
+"1 Aliment sucré"
+],
+"type": "entree",
+"stars": 2,
+"coll": "eternity"
+},
+{
+"fr": "Haricots en sauce",
+"energy": "544",
+"price": "388",
+"ing": [
+"1 Haricots",
+"1 Porc"
+],
+"type": "entree",
+"stars": 2,
+"coll": "eternity"
+},
+{
+"fr": "Pâtes au fromage classiques",
+"energy": "541",
+"price": "236",
+"ing": [
+"1 Blé",
+"1 Fromage"
+],
+"type": "entree",
+"stars": 2,
+"coll": "eternity"
+},
+{
+"fr": "Choux de Bruxelles au four",
+"energy": "959",
+"price": "104",
+"ing": [
+"1 Chou de Bruxelles",
+"1 Ail"
+],
+"type": "entree",
+"stars": 2,
+"coll": "storybook"
+},
+{
+"fr": "Haricots verts au four",
+"energy": "379",
+"price": "336",
+"ing": [
+"1 Haricot vert",
+"1 Ail"
+],
+"type": "entree",
+"stars": 2,
+"coll": "storybook"
+},
+{
+"fr": "Loup de mer en croûte de sel",
+"energy": "602",
+"price": "123",
+"ing": [
+"1 Loup de mer",
+"1 Cristal de sel"
+],
+"type": "entree",
+"stars": 2,
+"coll": "storybook"
+},
+{
+"fr": "Porridge écossais",
+"energy": "255",
+"price": "139",
+"ing": [
+"1 Avoine",
+"1 Fruit au choix"
+],
+"type": "entree",
+"stars": 2,
+"coll": "storybook"
+},
+{
+"fr": "Céréales canines croustillantes",
+"energy": "796",
+"price": "107",
+"ing": [
+"1 Orge perlé",
+"1 Pêche à aiguilles"
+],
+"type": "entree",
+"stars": 2,
+"coll": "wishblossom"
+},
+{
+"fr": "Poisson blanc cuisiné et betteraves rôties",
+"energy": "900",
+"price": "81",
+"ing": [
+"1 Groseilles",
+"1 Poisson blanc des montagnes"
+],
+"type": "entree",
+"stars": 2,
+"coll": "wishblossom"
+},
+{
+"fr": "Ragoût bouton",
+"energy": "375",
+"price": "135",
+"ing": [
+"1 Carotte",
+"1 Champignon bouton"
+],
+"type": "entree",
+"stars": 2,
+"coll": "wishblossom"
+},
+{
+"fr": "Salade en gelée",
+"energy": "2717",
+"price": "1300",
+"ing": [
+"1 Poisson gelée",
+"1 Chou frisé écarlate"
+],
+"type": "entree",
+"stars": 2,
+"coll": "wishblossom"
+},
+{
+"fr": "Bar et légumes poêlés",
+"energy": "394",
+"price": "57",
+"ing": [
+"1 Bar",
+"2 Légumes"
+],
+"type": "entree",
+"stars": 3,
+"coll": "base"
+},
+{
+"fr": "Brême au four épicée",
+"energy": "3155",
+"price": "1200",
+"ing": [
+"1 Brême",
+"1 Piment",
+"1 Beurre"
+],
+"type": "entree",
+"stars": 3,
+"coll": "base"
+},
+{
+"fr": "Espadon à l’ail et au citron",
+"energy": "3713",
+"price": "1100",
+"ing": [
+"1 Espadon",
+"1 Ail",
+"1 Citron"
+],
+"type": "entree",
+"stars": 3,
+"coll": "base"
+},
+{
+"fr": "Fugu cuit à la vapeur",
+"energy": "1368",
+"price": "1400",
+"ing": [
+"1 Fugu",
+"1 Gingembre",
+"1 Ail"
+],
+"type": "entree",
+"stars": 3,
+"coll": "base"
+},
+{
+"fr": "Gougères aux épinards de Kronk",
+"energy": "750",
+"price": "461",
+"ing": [
+"1 Épinard",
+"1 Fromage",
+"1 Colza"
+],
+"type": "entree",
+"stars": 3,
+"coll": "base"
+},
+{
+"fr": "Maki",
+"energy": "471",
+"price": "148",
+"ing": [
+"1 Poisson",
+"1 Algue",
+"1 Riz"
+],
+"type": "entree",
+"stars": 3,
+"coll": "base"
+},
+{
+"fr": "Maki au concombre",
+"energy": "462",
+"price": "335",
+"ing": [
+"1 Algue",
+"1 Concombre",
+"1 Riz"
+],
+"type": "entree",
+"stars": 3,
+"coll": "base"
+},
+{
+"fr": "Maki au saumon",
+"energy": "1101",
+"price": "323",
+"ing": [
+"1 Riz",
+"1 Algue",
+"1 Saumon"
+],
+"type": "entree",
+"stars": 3,
+"coll": "base"
+},
+{
+"fr": "Morue au four croustillante au fromage",
+"energy": "840",
+"price": "303",
+"ing": [
+"1 Morue",
+"1 Blé",
+"1 Fromage"
+],
+"type": "entree",
+"stars": 3,
+"coll": "base"
+},
+{
+"fr": "Omelette",
+"energy": "1751",
+"price": "882",
+"ing": [
+"1 Œuf",
+"1 Fromage",
+"1 Lait"
+],
+"type": "entree",
+"stars": 3,
+"coll": "base"
+},
+{
+"fr": "Parmentier de poisson",
+"energy": "867",
+"price": "303",
+"ing": [
+"1 Poisson",
+"1 Blé",
+"1 Beurre"
+],
+"type": "entree",
+"stars": 3,
+"coll": "base"
+},
+{
+"fr": "Pâtes aux fruits de mer",
+"energy": "921",
+"price": "387",
+"ing": [
+"1 Fruit de mer",
+"1 Blé",
+"1 Lait"
+],
+"type": "entree",
+"stars": 3,
+"coll": "base"
+},
+{
+"fr": "Pâtes végétariennes",
+"energy": "158",
+"price": "43",
+"ing": [
+"1 Tomate",
+"1 Blé",
+"1 Légume"
+],
+"type": "entree",
+"stars": 3,
+"coll": "base"
+},
+{
+"fr": "Perche frite simple",
+"energy": "1314",
+"price": "380",
+"ing": [
+"1 Perche",
+"1 Blé",
+"1 Beurre"
+],
+"type": "entree",
+"stars": 3,
+"coll": "base"
+},
+{
+"fr": "Pizza",
+"energy": "607",
+"price": "284",
+"ing": [
+"1 Tomate",
+"1 Fromage",
+"1 Blé"
+],
+"type": "entree",
+"stars": 3,
+"coll": "base"
+},
+{
+"fr": "Porridge aux fruits",
+"energy": "1155",
+"price": "353",
+"ing": [
+"1 Lait",
+"1 Blé",
+"1 Fruit"
+],
+"type": "entree",
+"stars": 3,
+"coll": "base"
+},
+{
+"fr": "Ragoût végétarien",
+"energy": "617",
+"price": "475",
+"ing": [
+"1 Pomme de terre",
+"1 Carotte",
+"1 Oignon"
+],
+"type": "entree",
+"stars": 3,
+"coll": "base"
+},
+{
+"fr": "Risotto au poisson",
+"energy": "939",
+"price": "386",
+"ing": [
+"1 Poisson",
+"1 Riz",
+"1 Beurre"
+],
+"type": "entree",
+"stars": 3,
+"coll": "base"
+},
+{
+"fr": "Salade à la carpe",
+"energy": "2310",
+"price": "617",
+"ing": [
+"1 Carpe",
+"1 Citron",
+"1 Salade"
+],
+"type": "entree",
+"stars": 3,
+"coll": "base"
+},
+{
+"fr": "Salade copieuse",
+"energy": "224",
+"price": "33",
+"ing": [
+"2 Légumes",
+"1 Laitue"
+],
+"type": "entree",
+"stars": 3,
+"coll": "base"
+},
+{
+"fr": "Salade de poisson",
+"energy": "1140",
+"price": "92",
+"ing": [
+"1 Poisson",
+"1 Citron",
+"1 Salade"
+],
+"type": "entree",
+"stars": 3,
+"coll": "base"
+},
+{
+"fr": "Saumon glacé au cidre",
+"energy": "1572",
+"price": "271",
+"ing": [
+"1 Saumon",
+"1 Canne à sucre",
+"1 Pomme"
+],
+"type": "entree",
+"stars": 3,
+"coll": "base"
+},
+{
+"fr": "Soupe aux fruits de mer",
+"energy": "340",
+"price": "85",
+"ing": [
+"1 Fruit de mer",
+"2 Légumes"
+],
+"type": "entree",
+"stars": 3,
+"coll": "base"
+},
+{
+"fr": "Soupe de poisson",
+"energy": "978",
+"price": "368",
+"ing": [
+"1 Poisson",
+"1 Légume",
+"1 Lait"
+],
+"type": "entree",
+"stars": 3,
+"coll": "base"
+},
+{
+"fr": "Spaghetti arrabbiata",
+"energy": "373",
+"price": "141",
+"ing": [
+"1 Tomate",
+"1 Blé",
+"1 Piment"
+],
+"type": "entree",
+"stars": 3,
+"coll": "base"
+},
+{
+"fr": "Steak de poisson",
+"energy": "537",
+"price": "100",
+"ing": [
+"1 Poisson",
+"1 Tomate",
+"1 Basilic"
+],
+"type": "entree",
+"stars": 3,
+"coll": "base"
+},
+{
+"fr": "Steak de thazard aigre-doux",
+"energy": "2292",
+"price": "702",
+"ing": [
+"1 Thazard",
+"1 Canne à sucre",
+"1 Citron"
+],
+"type": "entree",
+"stars": 3,
+"coll": "base"
+},
+{
+"fr": "Sushi au fugu",
+"energy": "3261",
+"price": "1300",
+"ing": [
+"1 Fugu",
+"1 Riz",
+"1 Algue"
+],
+"type": "entree",
+"stars": 3,
+"coll": "base"
+},
+{
+"fr": "Tarte aux fruits de mer",
+"energy": "813",
+"price": "331",
+"ing": [
+"1 Fruit de mer",
+"1 Blé",
+"1 Beurre"
+],
+"type": "entree",
+"stars": 3,
+"coll": "base"
+},
+{
+"fr": "Tarte végétarienne",
+"energy": "634",
+"price": "279",
+"ing": [
+"1 Légume",
+"1 Beurre",
+"1 Blé"
+],
+"type": "entree",
+"stars": 3,
+"coll": "base"
+},
+{
+"fr": "Tilapia et légumes poêlés",
+"energy": "2194",
+"price": "862",
+"ing": [
+"1 Tilapia",
+"2 Légumes"
+],
+"type": "entree",
+"stars": 3,
+"coll": "base"
+},
+{
+"fr": "Truite arc-en-ciel grillée",
+"energy": "889",
+"price": "338",
+"ing": [
+"1 Truite arc-en-ciel",
+"1 Tomate",
+"1 Oignon"
+],
+"type": "entree",
+"stars": 3,
+"coll": "base"
+},
+{
+"fr": "Ajiaco",
+"energy": "757",
+"price": "898",
+"ing": [
+"1 Maïs",
+"1 Pomme de terre",
+"1 Volaille"
+],
+"type": "entree",
+"stars": 3,
+"coll": "eternity"
+},
+{
+"fr": "Bagel tartiné de fromage",
+"energy": "652",
+"price": "280",
+"ing": [
+"1 Blé",
+"1 Fromage",
+"1 Aliment sucré"
+],
+"type": "entree",
+"stars": 3,
+"coll": "eternity"
+},
+{
+"fr": "Bon vieux hamburger",
+"energy": "634",
+"price": "1400",
+"ing": [
+"1 Gibier",
+"1 Blé",
+"1 Laitue"
+],
+"type": "entree",
+"stars": 3,
+"coll": "eternity"
+},
+{
+"fr": "Choucroute-saucisses",
+"energy": "958",
+"price": "884",
+"ing": [
+"1 Porc",
+"1 Chou",
+"1 Pomme de terre"
+],
+"type": "entree",
+"stars": 3,
+"coll": "eternity"
+},
+{
+"fr": "Dahl aux lentilles corail",
+"energy": "405",
+"price": "357",
+"ing": [
+"1 Piment",
+"1 Tomate",
+"1 Lentilles corail"
+],
+"type": "entree",
+"stars": 3,
+"coll": "eternity"
+},
+{
+"fr": "Frites",
+"energy": "387",
+"price": "358",
+"ing": [
+"1 Yuccarina",
+"1 Igname",
+"1 Colza"
+],
+"type": "entree",
+"stars": 3,
+"coll": "eternity"
+},
+{
+"fr": "Hamburger écarlate",
+"energy": "187",
+"price": "231",
+"ing": [
+"1 Blé",
+"1 Légume",
+"1 Lentilles corail"
+],
+"type": "entree",
+"stars": 3,
+"coll": "eternity"
+},
+{
+"fr": "Nachos",
+"energy": "842",
+"price": "383",
+"ing": [
+"1 Piment",
+"1 Maïs",
+"1 Fromage"
+],
+"type": "entree",
+"stars": 3,
+"coll": "eternity"
+},
+{
+"fr": "Pâtes aux herbes",
+"energy": "759",
+"price": "289",
+"ing": [
+"1 Blé",
+"1 Beurre",
+"1 Épice"
+],
+"type": "entree",
+"stars": 3,
+"coll": "eternity"
+},
+{
+"fr": "Poutine",
+"energy": "845",
+"price": "580",
+"ing": [
+"1 Pomme de terre",
+"1 Colza",
+"1 Fromage"
+],
+"type": "entree",
+"stars": 3,
+"coll": "eternity"
+},
+{
+"fr": "Pupusas Revueltas",
+"energy": "627",
+"price": "790",
+"ing": [
+"1 Volaille",
+"1 Maïs",
+"1 Haricots"
+],
+"type": "entree",
+"stars": 3,
+"coll": "eternity"
+},
+{
+"fr": "Ramen",
+"energy": "1128",
+"price": "660",
+"ing": [
+"1 Porc",
+"1 Blé",
+"1 Œuf"
+],
+"type": "entree",
+"stars": 3,
+"coll": "eternity"
+},
+{
+"fr": "Schnitzel",
+"energy": "640",
+"price": "854",
+"ing": [
+"1 Volaille",
+"1 Blé",
+"1 Colza"
+],
+"type": "entree",
+"stars": 3,
+"coll": "eternity"
+},
+{
+"fr": "Soupe piquante au piranha",
+"energy": "4001",
+"price": "1900",
+"ing": [
+"1 Piment",
+"1 Bambou",
+"1 Piranha"
+],
+"type": "entree",
+"stars": 3,
+"coll": "eternity"
+},
+{
+"fr": "Tartiflette de navet",
+"energy": "1459",
+"price": "863",
+"ing": [
+"1 Porc",
+"1 Navet",
+"1 Fromage"
+],
+"type": "entree",
+"stars": 3,
+"coll": "eternity"
+},
+{
+"fr": "Tartiflette végétarienne aux navets",
+"energy": "816",
+"price": "399",
+"ing": [
+"1 Champignon",
+"1 Navet",
+"1 Soja"
+],
+"type": "entree",
+"stars": 3,
+"coll": "eternity"
+},
+{
+"fr": "Tourte à la viande",
+"energy": "1047",
+"price": "618",
+"ing": [
+"1 Protéine",
+"1 Blé",
+"1 Beurre"
+],
+"type": "entree",
+"stars": 3,
+"coll": "eternity"
+},
+{
+"fr": "Yakisoba",
+"energy": "789",
+"price": "710",
+"ing": [
+"1 Porc",
+"1 Blé",
+"1 Chou"
+],
+"type": "entree",
+"stars": 3,
+"coll": "eternity"
+},
+{
+"fr": "Ail saumuré",
+"energy": "383",
+"price": "119",
+"ing": [
+"1 Ail",
+"1 Cristal de sel",
+"1 Épice au choix"
+],
+"type": "entree",
+"stars": 3,
+"coll": "storybook"
+},
+{
+"fr": "Cacio e pepe",
+"energy": "379",
+"price": "403",
+"ing": [
+"1 Féta feuillet",
+"1 Grain élyséen",
+"1 Poivre noir"
+],
+"type": "entree",
+"stars": 3,
+"coll": "storybook"
+},
+{
+"fr": "Casserole de haricots verts",
+"energy": "652",
+"price": "607",
+"ing": [
+"1 Haricot vert",
+"1 Oignon",
+"1 Porccini"
+],
+"type": "entree",
+"stars": 3,
+"coll": "storybook"
+},
+{
+"fr": "Caviar vert saumuré",
+"energy": "185",
+"price": "77",
+"ing": [
+"1 Sea grape",
+"1 Cristal de sel",
+"1 Épice au choix"
+],
+"type": "entree",
+"stars": 3,
+"coll": "storybook"
+},
+{
+"fr": "Chou-fleur saumuré",
+"energy": "269",
+"price": "84",
+"ing": [
+"1 Chou-fleur",
+"1 Cristal de sel",
+"1 Épice au choix"
+],
+"type": "entree",
+"stars": 3,
+"coll": "storybook"
+},
+{
+"fr": "Courgerond farci",
+"energy": "980",
+"price": "225",
+"ing": [
+"1 Courgerond",
+"1 Ail",
+"1 Ambroisie"
+],
+"type": "entree",
+"stars": 3,
+"coll": "storybook"
+},
+{
+"fr": "Escargot aquatique",
+"energy": "581",
+"price": "182",
+"ing": [
+"1 Escargot Trompette",
+"1 Ail",
+"1 Cristal de sel"
+],
+"type": "entree",
+"stars": 3,
+"coll": "storybook"
+},
+{
+"fr": "Haricots verts saumurés",
+"energy": "246",
+"price": "341",
+"ing": [
+"1 Haricot vert",
+"1 Cristal de sel",
+"1 Épice au choix"
+],
+"type": "entree",
+"stars": 3,
+"coll": "storybook"
+},
+{
+"fr": "Moules à la vapeur à l’ail",
+"energy": "825",
+"price": "413",
+"ing": [
+"1 Moule",
+"1 Ail",
+"1 Oignon"
+],
+"type": "entree",
+"stars": 3,
+"coll": "storybook"
+},
+{
+"fr": "Pain aux graines de chia",
+"energy": "478",
+"price": "122",
+"ing": [
+"1 Blé",
+"1 Œuf d’oiseau-pelle",
+"1 Graine de chia"
+],
+"type": "entree",
+"stars": 3,
+"coll": "storybook"
+},
+{
+"fr": "Pain sans levure et feta",
+"energy": "309",
+"price": "135",
+"ing": [
+"1 Blé",
+"1 Feta feuillet",
+"1 Cristal de sel"
+],
+"type": "entree",
+"stars": 3,
+"coll": "storybook"
+},
+{
+"fr": "Pâtes au Bernard-l’hermite",
+"energy": "2829",
+"price": "1100",
+"ing": [
+"1 Blé",
+"1 Épice au choix",
+"1 Bernard-l’hermite à chapeau de sorcier"
+],
+"type": "entree",
+"stars": 3,
+"coll": "storybook"
+},
+{
+"fr": "Porcini farci au courgerond",
+"energy": "400",
+"price": "250",
+"ing": [
+"1 Porcini",
+"1 Poivre noir",
+"1 Courgerond"
+],
+"type": "entree",
+"stars": 3,
+"coll": "storybook"
+},
+{
+"fr": "Porcini farcis au radicchio",
+"energy": "677",
+"price": "370",
+"ing": [
+"1 Porcini",
+"1 Poivre noir",
+"1 Radicchio"
+],
+"type": "entree",
+"stars": 3,
+"coll": "storybook"
+},
+{
+"fr": "Porcini farcis aux choux de Bruxelles",
+"energy": "1063",
+"price": "235",
+"ing": [
+"1 Porcini",
+"1 Poivre noir",
+"1 Chou de Bruxelles"
+],
+"type": "entree",
+"stars": 3,
+"coll": "storybook"
+},
+{
+"fr": "Radicchio saumuré",
+"energy": "474",
+"price": "226",
+"ing": [
+"1 Radicchio",
+"1 Cristal de sel",
+"1 Épice au choix"
+],
+"type": "entree",
+"stars": 3,
+"coll": "storybook"
+},
+{
+"fr": "Radis saumuré",
+"energy": "314",
+"price": "235",
+"ing": [
+"1 Radis",
+"1 Cristal de sel",
+"1 Épice au choix"
+],
+"type": "entree",
+"stars": 3,
+"coll": "storybook"
+},
+{
+"fr": "Salade électrique au radicchio et au kaki",
+"energy": "1176",
+"price": "303",
+"ing": [
+"1 Épice foudroyante",
+"1 Radicchio",
+"1 Kaki"
+],
+"type": "entree",
+"stars": 3,
+"coll": "storybook"
+},
+{
+"fr": "Carottes glacées au miel",
+"energy": "944",
+"price": "362",
+"ing": [
+"1 Corail de Miel",
+"1 Carotte",
+"1 Aneth"
+],
+"type": "entree",
+"stars": 3,
+"coll": "wishblossom"
+},
+{
+"fr": "Eton Mess",
+"energy": "1994",
+"price": "407",
+"ing": [
+"1 Groseilles",
+"1 Pêche à aiguilles",
+"1 Œuf"
+],
+"type": "entree",
+"stars": 3,
+"coll": "wishblossom"
+},
+{
+"fr": "Hors d’œuvre au chou frisé écarlate et au fromage",
+"energy": "695",
+"price": "294",
+"ing": [
+"1 Blé",
+"1 Fromage",
+"1 Chou frisé écarlate"
+],
+"type": "entree",
+"stars": 3,
+"coll": "wishblossom"
+},
+{
+"fr": "Pancakes au miel",
+"energy": "1263",
+"price": "555",
+"ing": [
+"1 Blé",
+"1 Œuf",
+"1 Corail de Miel"
+],
+"type": "entree",
+"stars": 3,
+"coll": "wishblossom"
+},
+{
+"fr": "Sandwich au jambon d’Horace",
+"energy": "643",
+"price": "326",
+"ing": [
+"1 Fromage",
+"1 Légume au choix",
+"1 Orge perlé"
+],
+"type": "entree",
+"stars": 3,
+"coll": "wishblossom"
+},
+{
+"fr": "Sélection de petit déjeuner feutrée",
+"energy": "2597",
+"price": "1000",
+"ing": [
+"1 Champignon bouton",
+"1 Œuf",
+"1 Combattant à nageoire satinée"
+],
+"type": "entree",
+"stars": 3,
+"coll": "wishblossom"
+},
+{
+"fr": "Spaetzle à la betterave",
+"energy": "778",
+"price": "339",
+"ing": [
+"1 Blé",
+"1 Betterave",
+"1 Œuf"
+],
+"type": "entree",
+"stars": 3,
+"coll": "wishblossom"
+},
+{
+"fr": "Baudroie grillée à la poêle",
+"energy": "4194",
+"price": "2500",
+"ing": [
+"1 Baudroie",
+"1 Tomate",
+"1 Courgette",
+"1 Pomme de terre"
+],
+"type": "entree",
+"stars": 4,
+"coll": "base"
+},
+{
+"fr": "Brochette végétariennes",
+"energy": "767",
+"price": "427",
+"ing": [
+"1 Champignon",
+"1 Courgette",
+"1 Oignon",
+"1 Poivron"
+],
+"type": "entree",
+"stars": 4,
+"coll": "base"
+},
+{
+"fr": "Casserole de légumes",
+"energy": "1810",
+"price": "340",
+"ing": [
+"2 Légumes",
+"1 Fromage",
+"1 Épice"
+],
+"type": "entree",
+"stars": 4,
+"coll": "base"
+},
+{
+"fr": "Chaudrée",
+"energy": "1186",
+"price": "613",
+"ing": [
+"1 Fruit de mer",
+"1 Lait",
+"1 Légume",
+"1 Pomme de terre"
+],
+"type": "entree",
+"stars": 4,
+"coll": "base"
+},
+{
+"fr": "Doré jaune en papillote",
+"energy": "3689",
+"price": "1700",
+"ing": [
+"1 Doré jaune",
+"1 Basilic",
+"1 Origan",
+"1 Légume"
+],
+"type": "entree",
+"stars": 4,
+"coll": "base"
+},
+{
+"fr": "Esturgeon poché au beurre de basilic",
+"energy": "4961",
+"price": "2200",
+"ing": [
+"1 Esturgeon blanc",
+"1 Basilic",
+"1 Citron",
+"1 Beurre"
+],
+"type": "entree",
+"stars": 4,
+"coll": "base"
+},
+{
+"fr": "Festin de lionne",
+"energy": "2368",
+"price": "109",
+"ing": [
+"1 Champignon",
+"1 Tomate",
+"1 Origan",
+"1 Poisson Ici et Là"
+],
+"type": "entree",
+"stars": 4,
+"coll": "base"
+},
+{
+"fr": "Fish ‘n’ Chips",
+"energy": "697",
+"price": "392",
+"ing": [
+"1 Poisson",
+"1 Blé",
+"1 Colza",
+"1 Pomme de terre"
+],
+"type": "entree",
+"stars": 4,
+"coll": "base"
+},
+{
+"fr": "Latkes",
+"energy": "1280",
+"price": "937",
+"ing": [
+"1 Oignon",
+"1 Pomme de terre",
+"1 Colza",
+"1 Œuf"
+],
+"type": "entree",
+"stars": 4,
+"coll": "base"
+},
+{
+"fr": "Maki au thon",
+"energy": "984",
+"price": "366",
+"ing": [
+"1 Thon",
+"1 Soja",
+"1 Algue",
+"1 Riz"
+],
+"type": "entree",
+"stars": 4,
+"coll": "base"
+},
+{
+"fr": "Omelette au basilic",
+"energy": "2035",
+"price": "982",
+"ing": [
+"1 Basilic",
+"1 Œuf",
+"1 Fromage",
+"1 Lait"
+],
+"type": "entree",
+"stars": 4,
+"coll": "base"
+},
+{
+"fr": "Pâtes au poisson",
+"energy": "1282",
+"price": "475",
+"ing": [
+"1 Poisson",
+"1 Ail",
+"1 Blé",
+"1 Lait"
+],
+"type": "entree",
+"stars": 4,
+"coll": "base"
+},
+{
+"fr": "Pétoncles crémeux à l’ail",
+"energy": "1844",
+"price": "499",
+"ing": [
+"1 Pétoncle",
+"1 Citron",
+"1 Beurre",
+"1 Ail"
+],
+"type": "entree",
+"stars": 4,
+"coll": "base"
+},
+{
+"fr": "Pizza aux champignons",
+"energy": "837",
+"price": "351",
+"ing": [
+"1 Champignon",
+"1 Blé",
+"1 Tomate",
+"1 Fromage"
+],
+"type": "entree",
+"stars": 4,
+"coll": "base"
+},
+{
+"fr": "Pizza margherita",
+"energy": "818",
+"price": "336",
+"ing": [
+"1 Épice",
+"1 Tomate",
+"1 Fromage",
+"1 Blé"
+],
+"type": "entree",
+"stars": 4,
+"coll": "base"
+},
+{
+"fr": "Salade délicieuse",
+"energy": "650",
+"price": "292",
+"ing": [
+"1 Laitue",
+"1 Concombre",
+"1 Légume",
+"1 Épice"
+],
+"type": "entree",
+"stars": 4,
+"coll": "base"
+},
+{
+"fr": "Sole meunière",
+"energy": "2337",
+"price": "637",
+"ing": [
+"1 Sole",
+"1 Blé",
+"1 Beurre",
+"1 Citron"
+],
+"type": "entree",
+"stars": 4,
+"coll": "base"
+},
+{
+"fr": "Sushi au thon",
+"energy": "1206",
+"price": "413",
+"ing": [
+"1 Thon",
+"1 Algue",
+"1 Riz",
+"1 Gingembre"
+],
+"type": "entree",
+"stars": 4,
+"coll": "base"
+},
+{
+"fr": "Taco végétarien",
+"energy": "925",
+"price": "423",
+"ing": [
+"1 Maïs",
+"1 Piment",
+"1 Fromage",
+"1 Légume"
+],
+"type": "entree",
+"stars": 4,
+"coll": "base"
+},
+{
+"fr": "Tacos de poisson",
+"energy": "1171",
+"price": "448",
+"ing": [
+"1 Poisson",
+"1 Maïs",
+"1 Piment",
+"1 Fromage"
+],
+"type": "entree",
+"stars": 4,
+"coll": "base"
+},
+{
+"fr": "Udon sucré",
+"energy": "1427",
+"price": "180",
+"ing": [
+"1 Fruit de Dreamlight",
+"1 Riz",
+"1 Fruit de mer",
+"1 Aliment sucré"
+],
+"type": "entree",
+"stars": 4,
+"coll": "base"
+},
+{
+"fr": "Burrito",
+"energy": "809",
+"price": "473",
+"ing": [
+"1 Protéine",
+"1 Blé",
+"1 Haricots",
+"1 Cumin"
+],
+"type": "entree",
+"stars": 4,
+"coll": "eternity"
+},
+{
+"fr": "Club sandwich",
+"energy": "1075",
+"price": "1100",
+"ing": [
+"1 Porc",
+"1 Volaille",
+"1 Blé",
+"1 Tomate"
+],
+"type": "entree",
+"stars": 4,
+"coll": "eternity"
+},
+{
+"fr": "Coq en barbouille",
+"energy": "880",
+"price": "1000",
+"ing": [
+"1 Volaille",
+"1 Oignon",
+"1 Légume",
+"1 Raisin"
+],
+"type": "entree",
+"stars": 4,
+"coll": "eternity"
+},
+{
+"fr": "Cuisse de dinde",
+"energy": "1123",
+"price": "884",
+"ing": [
+"1 Volaille",
+"1 Cumin",
+"1 Paprika",
+"1 Agave"
+],
+"type": "entree",
+"stars": 4,
+"coll": "eternity"
+},
+{
+"fr": "Hamburger au fromage",
+"energy": "1113",
+"price": "1700",
+"ing": [
+"1 Gibier",
+"1 Blé",
+"1 Légume",
+"1 Fromage"
+],
+"type": "entree",
+"stars": 4,
+"coll": "eternity"
+},
+{
+"fr": "Lalkes",
+"energy": "1280",
+"price": "937",
+"ing": [
+"1 Oignon",
+"1 Pomme de terre",
+"1 Colza",
+"1 Œuf"
+],
+"type": "entree",
+"stars": 4,
+"coll": "eternity"
+},
+{
+"fr": "Linguini au pesto",
+"energy": "1063",
+"price": "438",
+"ing": [
+"1 Blé",
+"1 Beurre",
+"1 Ail",
+"1 Origan"
+],
+"type": "entree",
+"stars": 4,
+"coll": "eternity"
+},
+{
+"fr": "Maki rouleur du dragon",
+"energy": "3193",
+"price": "1600",
+"ing": [
+"1 Anguille électrique",
+"1 Riz",
+"1 Algue",
+"1 Légume"
+],
+"type": "entree",
+"stars": 4,
+"coll": "eternity"
+},
+{
+"fr": "Meilleur poisson de tous les temps",
+"energy": "4420",
+"price": "1400",
+"ing": [
+"1 Escargot de mer",
+"1 Poisson-robot",
+"1 Céleri",
+"1 Cumin"
+],
+"type": "entree",
+"stars": 4,
+"coll": "eternity"
+},
+{
+"fr": "Moqueca de Pirarucu",
+"energy": "3453",
+"price": "1000",
+"ing": [
+"1 Pirarucu",
+"2 Légumes",
+"1 Noix de coco"
+],
+"type": "entree",
+"stars": 4,
+"coll": "eternity"
+},
+{
+"fr": "Ormeaux braisés",
+"energy": "2500",
+"price": "570",
+"ing": [
+"1 Escargot de mer",
+"1 Champignon",
+"1 Ail"
+],
+"type": "entree",
+"stars": 4,
+"coll": "eternity"
+},
+{
+"fr": "Osso buco osseaux",
+"energy": "1192",
+"price": "272",
+"ing": [
+"1 Poisson-squelette",
+"1 Céleri",
+"1 Légume",
+"1 Raisin"
+],
+"type": "entree",
+"stars": 4,
+"coll": "eternity"
+},
+{
+"fr": "Porc effiloché",
+"energy": "1021",
+"price": "738",
+"ing": [
+"1 Porc",
+"1 Oignon",
+"1 Tomate",
+"1 Origan"
+],
+"type": "entree",
+"stars": 4,
+"coll": "eternity"
+},
+{
+"fr": "Poulet épicé",
+"energy": "1229",
+"price": "1100",
+"ing": [
+"1 Volaille",
+"1 Oignon",
+"1 Ail",
+"1 Épice"
+],
+"type": "entree",
+"stars": 4,
+"coll": "eternity"
+},
+{
+"fr": "Poulet tandoori",
+"energy": "1199",
+"price": "964",
+"ing": [
+"1 Piment",
+"1 Volaille",
+"1 Cumin",
+"1 Paprika"
+],
+"type": "entree",
+"stars": 4,
+"coll": "eternity"
+},
+{
+"fr": "Pousses de bambou braisées",
+"energy": "898",
+"price": "401",
+"ing": [
+"1 Bambou",
+"1 Colza",
+"1 Soja",
+"1 Gingembre"
+],
+"type": "entree",
+"stars": 4,
+"coll": "eternity"
+},
+{
+"fr": "Ragoût de la Voie lactée",
+"energy": "1872",
+"price": "733",
+"ing": [
+"1 Truite arc-en-ciel",
+"1 Lait",
+"1 Navet",
+"1 Figue cosmique"
+],
+"type": "entree",
+"stars": 4,
+"coll": "eternity"
+},
+{
+"fr": "Rouleau Rhapsodie",
+"energy": "335",
+"price": "301",
+"ing": [
+"1 Riz",
+"1 Yuccarina",
+"1 Algue",
+"1 Légume"
+],
+"type": "entree",
+"stars": 4,
+"coll": "eternity"
+},
+{
+"fr": "Souvlaki",
+"energy": "1816",
+"price": "949",
+"ing": [
+"1 Volaille",
+"1 Citron",
+"1 Menthe",
+"1 Paprika"
+],
+"type": "entree",
+"stars": 4,
+"coll": "eternity"
+},
+{
+"fr": "Steak de hamburger",
+"energy": "855",
+"price": "1700",
+"ing": [
+"1 Gibier",
+"1 Pomme de terre",
+"1 Légume",
+"1 Haricots"
+],
+"type": "entree",
+"stars": 4,
+"coll": "eternity"
+},
+{
+"fr": "Tourtière",
+"energy": "814",
+"price": "1700",
+"ing": [
+"1 Gibier",
+"1 Blé",
+"1 Pomme de terre",
+"1 Légume"
+],
+"type": "entree",
+"stars": 4,
+"coll": "eternity"
+},
+{
+"fr": "Crabe ésotérique à l’ail",
+"energy": "3250",
+"price": "1300",
+"ing": [
+"1 Bernard-l’hermite à chapeau de sorcier",
+"1 Ail",
+"1 Cristal de sel",
+"1 Épice au choix"
+],
+"type": "entree",
+"stars": 4,
+"coll": "storybook"
+},
+{
+"fr": "Crème aux graines de chia",
+"energy": "742",
+"price": "425",
+"ing": [
+"1 Graine au chia",
+"1 Rhubarbe",
+"1 Cannelle",
+"1 Sucrerie au choix"
+],
+"type": "entree",
+"stars": 4,
+"coll": "storybook"
+},
+{
+"fr": "Cullen shink au poisson loup",
+"energy": "1681",
+"price": "736",
+"ing": [
+"1 Yaourt",
+"1 Loup de mer",
+"1 Pomme de terre",
+"1 Oignon"
+],
+"type": "entree",
+"stars": 4,
+"coll": "storybook"
+},
+{
+"fr": "Œufs d’oiseau-pelle Bénédicte",
+"energy": "1522",
+"price": "420",
+"ing": [
+"1 Grain Élyséen",
+"1 Œuf d’oiseau-pelle",
+"1 Fraise spirale",
+"1 Cristal de sel"
+],
+"type": "entree",
+"stars": 4,
+"coll": "storybook"
+},
+{
+"fr": "Pancake au caviar vert et aux graines de chia",
+"energy": "549",
+"price": "162",
+"ing": [
+"1 Blé",
+"1 Graine de chia",
+"1 Œuf d’oiseau-pelle",
+"1 Sea Grape"
+],
+"type": "entree",
+"stars": 4,
+"coll": "storybook"
+},
+{
+"fr": "Pancake au kaki et aux graines de chia",
+"energy": "1072",
+"price": "169",
+"ing": [
+"1 Blé",
+"1 Graine de chia",
+"1 Œuf d’oiseau-pelle",
+"1 Kaki"
+],
+"type": "entree",
+"stars": 4,
+"coll": "storybook"
+},
+{
+"fr": "Pancake aux fraises spirale et aux graines de chia",
+"energy": "1452",
+"price": "207",
+"ing": [
+"1 Blé",
+"1 Graine de chia",
+"1 Œuf d’oiseau-pelle",
+"1 Fraise spirale"
+],
+"type": "entree",
+"stars": 4,
+"coll": "storybook"
+},
+{
+"fr": "Pancake aux physalis et aux graines de chia",
+"energy": "749",
+"price": "214",
+"ing": [
+"1 Blé",
+"1 Graine de chia",
+"1 Œuf d’oiseau-pelle",
+"1 Physalis"
+],
+"type": "entree",
+"stars": 4,
+"coll": "storybook"
+},
+{
+"fr": "Porridge garni à la pomme d’or",
+"energy": "1570",
+"price": "566",
+"ing": [
+"2 Avoine",
+"1 Pomme d’or",
+"1 Ambroisie"
+],
+"type": "entree",
+"stars": 4,
+"coll": "storybook"
+},
+{
+"fr": "Porridge garni à la rhubarbe",
+"energy": "1370",
+"price": "744",
+"ing": [
+"2 Avoine",
+"1 Rhubarbe",
+"1 Ambroisie"
+],
+"type": "entree",
+"stars": 4,
+"coll": "storybook"
+},
+{
+"fr": "Porridge garni au caviar vert",
+"energy": "1142",
+"price": "431",
+"ing": [
+"2 Avoine",
+"1 Sea Grape",
+"1 Ambroisie"
+],
+"type": "entree",
+"stars": 4,
+"coll": "storybook"
+},
+{
+"fr": "Porridge garni au melon miel",
+"energy": "1328",
+"price": "588",
+"ing": [
+"2 Avoine",
+"1 Melon miel",
+"1 Ambroisie"
+],
+"type": "entree",
+"stars": 4,
+"coll": "storybook"
+},
+{
+"fr": "Porridge garni aux kakis",
+"energy": "1665",
+"price": "438",
+"ing": [
+"2 Avoine",
+"1 Kaki",
+"1 Ambroisie"
+],
+"type": "entree",
+"stars": 4,
+"coll": "storybook"
+},
+{
+"fr": "Salade d’algues",
+"energy": "382",
+"price": "365",
+"ing": [
+"1 Légume au choix",
+"1 Radis",
+"1 Sea grapes",
+"1 Poivre noir"
+],
+"type": "entree",
+"stars": 4,
+"coll": "storybook"
+},
+{
+"fr": "Salade d’orge",
+"energy": "453",
+"price": "280",
+"ing": [
+"1 Orge",
+"1 Radis",
+"1 Chou-fleur",
+"1 Épice au choix"
+],
+"type": "entree",
+"stars": 4,
+"coll": "storybook"
+},
+{
+"fr": "Un thé des plus curieux",
+"energy": "2377",
+"price": "345",
+"ing": [
+"1 Yaourt",
+"1 Fraise spirale",
+"1 Cristal de sel",
+"1 Baie acidulée"
+],
+"type": "entree",
+"stars": 4,
+"coll": "storybook"
+},
+{
+"fr": "Yaourt de petit déjeuner garni",
+"energy": "2425",
+"price": "508",
+"ing": [
+"1 Yaourt",
+"1 Avoine",
+"1 Fraise spirale",
+"1 Ambroisie"
+],
+"type": "entree",
+"stars": 4,
+"coll": "storybook"
+},
+{
+"fr": "Bento amical",
+"energy": "3877",
+"price": "2700",
+"ing": [
+"1 Poisson tigre",
+"1 Chou frisée écarlate",
+"1 Corail de Miel",
+"1 Légume au choix"
+],
+"type": "entree",
+"stars": 4,
+"coll": "wishblossom"
+},
+{
+"fr": "Minuscules cupcakes 101 dalmatiens",
+"energy": "862",
+"price": "460",
+"ing": [
+"1 Œuf",
+"1 Blé",
+"1 Canne à sucre",
+"1 Grains de café chocolat foncé"
+],
+"type": "entree",
+"stars": 4,
+"coll": "wishblossom"
+},
+{
+"fr": "Potage à la citrouille dans un bol de pain",
+"energy": "4153",
+"price": "3900",
+"ing": [
+"1 Lait",
+"1 Citrouille",
+"1 Poisson tigre",
+"1 Blé Khorasan féérique"
+],
+"type": "entree",
+"stars": 4,
+"coll": "wishblossom"
+},
+{
+"fr": "Service à thé du goûter",
+"energy": "985",
+"price": "235",
+"ing": [
+"1 Légume au choix",
+"1 Pêche à aiguilles",
+"1 Grains de café chocolat foncé",
+"1 Orge perlé"
+],
+"type": "entree",
+"stars": 4,
+"coll": "wishblossom"
+},
+{
+"fr": "Stargazy Pie",
+"energy": "5000",
+"price": "1900",
+"ing": [
+"1 Combattant à nageoire satinée",
+"1 Escargot mètre ruban",
+"1 Blé",
+"1 Oktobar"
+],
+"type": "entree",
+"stars": 4,
+"coll": "wishblossom"
+},
+{
+"fr": "Bouillabaisse",
+"energy": "2114",
+"price": "671",
+"ing": [
+"2 Fruits de mer",
+"1 Crevette",
+"1 Tomate",
+"1 Légume"
+],
+"type": "entree",
+"stars": 5,
+"coll": "base"
+},
+{
+"fr": "Bouillie de riz de Mushu",
+"energy": "1658",
+"price": "753",
+"ing": [
+"1 Riz",
+"1 Œuf",
+"1 Champignon",
+"1 Ail",
+"1 Gingembre"
+],
+"type": "entree",
+"stars": 5,
+"coll": "base"
+},
+{
+"fr": "Burger au thon",
+"energy": "1922",
+"price": "491",
+"ing": [
+"1 Thon",
+"1 Oignon",
+"1 Citron",
+"1 Blé",
+"1 Légume"
+],
+"type": "entree",
+"stars": 5,
+"coll": "base"
+},
+{
+"fr": "Gombo",
+"energy": "2226",
+"price": "1000",
+"ing": [
+"1 Okra",
+"1 Crevette",
+"1 Piment",
+"1 Tomate",
+"1 Oignon"
+],
+"type": "entree",
+"stars": 5,
+"coll": "base"
+},
+{
+"fr": "Paëlla de cavalos",
+"energy": "4550",
+"price": "1700",
+"ing": [
+"1 Cavalos",
+"1 Crevette",
+"1 Fruit de mer",
+"1 Tomate",
+"1 Riz"
+],
+"type": "entree",
+"stars": 5,
+"coll": "base"
+},
+{
+"fr": "Pizza grecque",
+"energy": "1152",
+"price": "630",
+"ing": [
+"1 Épice",
+"1 Tomate",
+"1 Oignon",
+"1 Fromage",
+"1 Blé"
+],
+"type": "entree",
+"stars": 5,
+"coll": "base"
+},
+{
+"fr": "Pizza végétarienne",
+"energy": "754",
+"price": "350",
+"ing": [
+"2 Légumes",
+"1 Tomate",
+"1 Fromage",
+"1 Blé"
+],
+"type": "entree",
+"stars": 5,
+"coll": "base"
+},
+{
+"fr": "Poisson créole",
+"energy": "822",
+"price": "280",
+"ing": [
+"1 Poisson",
+"1 Légume",
+"1 Ail",
+"1 Riz",
+"1 Tomate"
+],
+"type": "entree",
+"stars": 5,
+"coll": "base"
+},
+{
+"fr": "Ratatouille",
+"energy": "1572",
+"price": "914",
+"ing": [
+"1 Tomate",
+"1 Aubergine",
+"1 Courgette",
+"1 Oignon",
+"1 Épice"
+],
+"type": "entree",
+"stars": 5,
+"coll": "base"
+},
+{
+"fr": "Salade méditerranéenne",
+"energy": "976",
+"price": "605",
+"ing": [
+"1 Concombre",
+"1 Tomate",
+"1 Oignon",
+"1 Laitue",
+"1 Épice"
+],
+"type": "entree",
+"stars": 5,
+"coll": "base"
+},
+{
+"fr": "Salade ranch",
+"energy": "714",
+"price": "396",
+"ing": [
+"1 laitue",
+"1 Poivron",
+"1 Maïs",
+"1 Tomate",
+"1 Oignon"
+],
+"type": "entree",
+"stars": 5,
+"coll": "base"
+},
+{
+"fr": "Sandwich au homard",
+"energy": "4928",
+"price": "1900",
+"ing": [
+"1 Homard",
+"1 Blé",
+"1 Citron",
+"1 Beurre",
+"1 Ail"
+],
+"type": "entree",
+"stars": 5,
+"coll": "base"
+},
+{
+"fr": "Saumon teriyaki",
+"energy": "1726",
+"price": "637",
+"ing": [
+"1 Soja",
+"1 Saumon",
+"1 Canne à sucre",
+"1 Riz",
+"1 Gingembre"
+],
+"type": "entree",
+"stars": 5,
+"coll": "base"
+},
+{
+"fr": "Steak de poisson spectral",
+"energy": "3282",
+"price": "349",
+"ing": [
+"1 Poisson de Ici le Là",
+"1 Citron",
+"1 Asperge",
+"1 Poivron",
+"1 Origan"
+],
+"type": "entree",
+"stars": 5,
+"coll": "base"
+},
+{
+"fr": "Biryani",
+"energy": "1468",
+"price": "1000",
+"ing": [
+"1 Volaille",
+"1 Riz",
+"1 Cannelle",
+"1 Cumin",
+"1 Menthe"
+],
+"type": "entree",
+"stars": 5,
+"coll": "eternity"
+},
+{
+"fr": "Bouillab-en-ciel",
+"energy": "4174",
+"price": "2000",
+"ing": [
+"1 Crevette prismatique",
+"1 Fruit de mer",
+"1 Truite arc-en-ciel",
+"1 Tomate",
+"1 Légume"
+],
+"type": "entree",
+"stars": 5,
+"coll": "eternity"
+},
+{
+"fr": "Brandade de morue",
+"energy": "2336",
+"price": "757",
+"ing": [
+"1 Morue",
+"1 Pomme de terre",
+"1 Lait",
+"1 Citron",
+"1 Ail"
+],
+"type": "entree",
+"stars": 5,
+"coll": "eternity"
+},
+{
+"fr": "Fajitas fabuleuses",
+"energy": "852",
+"price": "851",
+"ing": [
+"1 Volaille",
+"1 Blé",
+"2 Légumes",
+"1 Cumin"
+],
+"type": "entree",
+"stars": 5,
+"coll": "eternity"
+},
+{
+"fr": "Hamburger royal",
+"energy": "1670",
+"price": "2300",
+"ing": [
+"1 Porc",
+"1 Gibier",
+"1 Blé",
+"1 Légume",
+"1 Fromage"
+],
+"type": "entree",
+"stars": 5,
+"coll": "eternity"
+},
+{
+"fr": "Mélange du bayou",
+"energy": "4238",
+"price": "2400",
+"ing": [
+"1 Crevette prismatique",
+"1 Riz",
+"1 Céleri",
+"1 Beurre",
+"1 Épice"
+],
+"type": "entree",
+"stars": 5,
+"coll": "eternity"
+},
+{
+"fr": "Pizza hawaïenne",
+"energy": "1506",
+"price": "1500",
+"ing": [
+"1 Porc",
+"1 Blé",
+"1 Tomate",
+"1 Fromage",
+"1 Ananas"
+],
+"type": "entree",
+"stars": 5,
+"coll": "eternity"
+},
+{
+"fr": "Poulet au beurre",
+"energy": "2142",
+"price": "1200",
+"ing": [
+"1 Volaille",
+"1 Tomate",
+"1 Beurre",
+"1 Citron",
+"1 Cumin"
+],
+"type": "entree",
+"stars": 5,
+"coll": "eternity"
+},
+{
+"fr": "Ragoût de sable",
+"energy": "5000",
+"price": "2200",
+"ing": [
+"1 Poisson des dunes",
+"1 Poisson des sables",
+"1 Légume",
+"1 Ver des sables",
+"1 Épice"
+],
+"type": "entree",
+"stars": 5,
+"coll": "eternity"
+},
+{
+"fr": "Sauté aigre-doux",
+"energy": "2350",
+"price": "2100",
+"ing": [
+"1 Volaille",
+"1 Brocoli",
+"1 Colza",
+"1 Fantasmangue",
+"1 Ananas"
+],
+"type": "entree",
+"stars": 5,
+"coll": "eternity"
+},
+{
+"fr": "Shawarma",
+"energy": "2048",
+"price": "1800",
+"ing": [
+"1 Gibier",
+"1 Riz",
+"1 Citron",
+"1 Cannelle",
+"1 Ail"
+],
+"type": "entree",
+"stars": 5,
+"coll": "eternity"
+},
+{
+"fr": "Shish Taouk",
+"energy": "1928",
+"price": "1100",
+"ing": [
+"1 Volaille",
+"1 Riz",
+"1 Citron",
+"1 Ail",
+"1 Origan"
+],
+"type": "entree",
+"stars": 5,
+"coll": "eternity"
+},
+{
+"fr": "Taco à la viande",
+"energy": "1112",
+"price": "1700",
+"ing": [
+"1 Gibier",
+"1 Piment",
+"1 Maïs",
+"1 Légume",
+"1 Cumin"
+],
+"type": "entree",
+"stars": 5,
+"coll": "eternity"
+},
+{
+"fr": "Brochette chimérique",
+"energy": "2720",
+"price": "481",
+"ing": [
+"1 Hippocampe",
+"1 Escargot Trompette",
+"1 Poisson volant",
+"1 Chou de Bruxelles",
+"1 Poisson au choix"
+],
+"type": "entree",
+"stars": 5,
+"coll": "storybook"
+},
+{
+"fr": "Cepelinai à l’hippocampe",
+"energy": "2634",
+"price": "925",
+"ing": [
+"1 Hippocampe",
+"1 Oignon",
+"1 Pomme de terre",
+"1 Fraise spirale",
+"1 Poivre noir"
+],
+"type": "entree",
+"stars": 5,
+"coll": "storybook"
+},
+{
+"fr": "Kebab de carpe koï grillée",
+"energy": "1428",
+"price": "417",
+"ing": [
+"1 Carpe Koï",
+"1 Blé",
+"1 Concombre",
+"1 Olive",
+"1 Épice au choix"
+],
+"type": "entree",
+"stars": 5,
+"coll": "storybook"
+},
+{
+"fr": "Orge et légumes au four",
+"energy": "1422",
+"price": "476",
+"ing": [
+"1 Orge",
+"1 Chou de Bruxelles",
+"1 Oignon",
+"1 Légume au choix",
+"1 Féta feuillet"
+],
+"type": "entree",
+"stars": 5,
+"coll": "storybook"
+},
+{
+"fr": "Pizza d’Argos",
+"energy": "1384",
+"price": "668",
+"ing": [
+"1 Grain Élyséen",
+"1 Oignon",
+"1 Légume au choix",
+"1 Feta feuillet",
+"1 Olive"
+],
+"type": "entree",
+"stars": 5,
+"coll": "storybook"
+},
+{
+"fr": "Poisson au four à la grecque",
+"energy": "5000",
+"price": "2800",
+"ing": [
+"1 Périophtalme stygien",
+"1 Grain Élyséen",
+"1 Olive",
+"1 Cristal de sel",
+"1 Ambroisie"
+],
+"type": "entree",
+"stars": 5,
+"coll": "storybook"
+},
+{
+"fr": "Quenelles de poisson volant",
+"energy": "890",
+"price": "325",
+"ing": [
+"1 Poisson volant",
+"1 Porcini",
+"1 Légume au choix",
+"1 Protéine au choix",
+"1 Feta feuillet"
+],
+"type": "entree",
+"stars": 5,
+"coll": "storybook"
+},
+{
+"fr": "Risotto aux moules",
+"energy": "1488",
+"price": "377",
+"ing": [
+"1 Moule",
+"1 Riz",
+"1 Olive",
+"1 Ail",
+"1 Épice au choix"
+],
+"type": "entree",
+"stars": 5,
+"coll": "storybook"
+},
+{
+"fr": "Salade caprese",
+"energy": "1092",
+"price": "244",
+"ing": [
+"1 Légume au choix",
+"1 Feta feuillet",
+"1 Olive",
+"1 Cristal de sel",
+"1 Épice au choix"
+],
+"type": "entree",
+"stars": 5,
+"coll": "storybook"
+},
+{
+"fr": "Salade grecque",
+"energy": "1476",
+"price": "654",
+"ing": [
+"1 Concombre",
+"1 Radis",
+"1 Légume au choix",
+"1 Feta feuillet",
+"1 Olive"
+],
+"type": "entree",
+"stars": 5,
+"coll": "storybook"
+},
+{
+"fr": "Spanakopita",
+"energy": "982",
+"price": "561",
+"ing": [
+"1 Oignon",
+"1 Épinard",
+"1 Feta Feuillet",
+"1 Ail",
+"1 Épice au choix"
+],
+"type": "entree",
+"stars": 5,
+"coll": "storybook"
+},
+{
+"fr": "Diplomate rétro à la pêche",
+"energy": "1752",
+"price": "544",
+"ing": [
+"1 Pêche à aiguilles",
+"1 Lait",
+"1 Orge perlé",
+"1 Canne à sucre",
+"1 Fruit au choix"
+],
+"type": "entree",
+"stars": 5,
+"coll": "wishblossom"
+},
+{
+"fr": "Gelée à l’anas poissonneux",
+"energy": "5000",
+"price": "2700",
+"ing": [
+"1 Crabe",
+"1 Poisson gelée",
+"1 Chou frisé écarlate",
+"1 Escargot mètre ruban",
+"1 Poisson au choix"
+],
+"type": "entree",
+"stars": 5,
+"coll": "wishblossom"
+},
+{
+"fr": "Pizza de fée",
+"energy": "1268",
+"price": "718",
+"ing": [
+"1 Tomate",
+"1 Fromage",
+"1 Paillettes féeriques",
+"1 Champignon bouton",
+"1 Blé Khorasan féerique"
+],
+"type": "entree",
+"stars": 5,
+"coll": "wishblossom"
+},
+{
+"fr": "Bonbon",
+"energy": "123",
+"price": "22",
+"ing": [
+"1 Aliment sucré"
+],
+"type": "dessert",
+"stars": 1,
+"coll": "base"
+},
+{
+"fr": "Granité nature",
+"energy": "202",
+"price": "180",
+"ing": [
+"1 Glace pilée"
+],
+"type": "dessert",
+"stars": 1,
+"coll": "base"
+},
+{
+"fr": "Milk Shake",
+"energy": "142",
+"price": "82",
+"ing": [
+"1 Produit laitier"
+],
+"type": "dessert",
+"stars": 1,
+"coll": "base"
+},
+{
+"fr": "Salade de fruits",
+"energy": "450",
+"price": "25",
+"ing": [
+"1 Fruit"
+],
+"type": "dessert",
+"stars": 1,
+"coll": "base"
+},
+{
+"fr": "Bonbon à la menthe",
+"energy": "391",
+"price": "128",
+"ing": [
+"1 Menthe",
+"1 Canne à sucre"
+],
+"type": "dessert",
+"stars": 2,
+"coll": "base"
+},
+{
+"fr": "Gâteaux au pain d’épices de Minnie",
+"energy": "379",
+"price": "132",
+"ing": [
+"1 Blé",
+"1 Gingembre"
+],
+"type": "dessert",
+"stars": 2,
+"coll": "base"
+},
+{
+"fr": "Glace pilée sucrée",
+"energy": "510",
+"price": "219",
+"ing": [
+"1 Glace pilée",
+"1 Aliment sucré"
+],
+"type": "dessert",
+"stars": 2,
+"coll": "base"
+},
+{
+"fr": "Pommes au caramel",
+"energy": "638",
+"price": "56",
+"ing": [
+"1 Canne à sucre",
+"1 Pomme"
+],
+"type": "dessert",
+"stars": 2,
+"coll": "base"
+},
+{
+"fr": "Sorbet à la menthe",
+"energy": "695",
+"price": "299",
+"ing": [
+"1 Glace pilée",
+"1 Menthe"
+],
+"type": "dessert",
+"stars": 2,
+"coll": "base"
+},
+{
+"fr": "Sorbet au citron",
+"energy": "1112",
+"price": "237",
+"ing": [
+"1 Glace pilée",
+"1 Citron"
+],
+"type": "dessert",
+"stars": 2,
+"coll": "base"
+},
+{
+"fr": "Sorbet aux fruits",
+"energy": "857",
+"price": "222",
+"ing": [
+"1 Glace pilée",
+"1 Fruit"
+],
+"type": "dessert",
+"stars": 2,
+"coll": "base"
+},
+{
+"fr": "Thé aux perles",
+"energy": "714",
+"price": "323",
+"ing": [
+"1 Canne à sucre",
+"1 Lait"
+],
+"type": "dessert",
+"stars": 2,
+"coll": "base"
+},
+{
+"fr": "Barbe à papa",
+"energy": "298",
+"price": "56",
+"ing": [
+"1 Agave",
+"1 Canne à sucre"
+],
+"type": "dessert",
+"stars": 2,
+"coll": "eternity"
+},
+{
+"fr": "Compote de pommes",
+"energy": "823",
+"price": "71",
+"ing": [
+"1 Pomme",
+"1 Cannelle"
+],
+"type": "dessert",
+"stars": 2,
+"coll": "eternity"
+},
+{
+"fr": "Croissant",
+"energy": "566",
+"price": "249",
+"ing": [
+"1 Blé",
+"1 Beurre"
+],
+"type": "dessert",
+"stars": 2,
+"coll": "eternity"
+},
+{
+"fr": "Dattes farcies",
+"energy": "1495",
+"price": "91",
+"ing": [
+"1 Amandes",
+"1 Dattes"
+],
+"type": "dessert",
+"stars": 2,
+"coll": "eternity"
+},
+{
+"fr": "Glace à l’italienne à l’ananas",
+"energy": "717",
+"price": "886",
+"ing": [
+"1 Glace pilée",
+"1 Ananas"
+],
+"type": "dessert",
+"stars": 2,
+"coll": "eternity"
+},
+{
+"fr": "Macarons français",
+"energy": "1461",
+"price": "340",
+"ing": [
+"1 Amandes",
+"1 Œuf"
+],
+"type": "dessert",
+"stars": 2,
+"coll": "eternity"
+},
+{
+"fr": "Muffin aux bananes sans sucre",
+"energy": "677",
+"price": "39",
+"ing": [
+"1 Blé",
+"1 Banane"
+],
+"type": "dessert",
+"stars": 2,
+"coll": "eternity"
+},
+{
+"fr": "Muffin aux fruits sans sucre",
+"energy": "117",
+"price": "13",
+"ing": [
+"1 Blé",
+"1 Fruit"
+],
+"type": "dessert",
+"stars": 2,
+"coll": "eternity"
+},
+{
+"fr": "Muffin aux myrtilles sans sucre",
+"energy": "677",
+"price": "39",
+"ing": [
+"1 Blé",
+"1 Myrtille"
+],
+"type": "dessert",
+"stars": 2,
+"coll": "eternity"
+},
+{
+"fr": "Pop Corn",
+"energy": "201",
+"price": "161",
+"ing": [
+"1 Maïs",
+"1 Colza"
+],
+"type": "dessert",
+"stars": 2,
+"coll": "eternity"
+},
+{
+"fr": "Sandwich à la confiture de framboise",
+"energy": "549",
+"price": "29",
+"ing": [
+"1 Blé",
+"1 Framboise"
+],
+"type": "dessert",
+"stars": 2,
+"coll": "eternity"
+},
+{
+"fr": "Taiyaki",
+"energy": "374",
+"price": "102",
+"ing": [
+"1 Poisson des sables",
+"1 Haricots"
+],
+"type": "dessert",
+"stars": 2,
+"coll": "eternity"
+},
+{
+"fr": "Tofu sucré",
+"energy": "183",
+"price": "100",
+"ing": [
+"1 Soja",
+"1 Fruit"
+],
+"type": "dessert",
+"stars": 2,
+"coll": "eternity"
+},
+{
+"fr": "Délice d’Aphrodite",
+"energy": "1070",
+"price": "234",
+"ing": [
+"1 Pomme d’or",
+"1 Ambroisie"
+],
+"type": "dessert",
+"stars": 2,
+"coll": "storybook"
+},
+{
+"fr": "Dessert aux baies acidulées",
+"energy": "1325",
+"price": "143",
+"ing": [
+"1 Baie acidulée",
+"1 Ambroisie"
+],
+"type": "dessert",
+"stars": 2,
+"coll": "storybook"
+},
+{
+"fr": "Fondue acidulée au kaki",
+"energy": "1240",
+"price": "84",
+"ing": [
+"1 Baie acidulée",
+"1 Kaki"
+],
+"type": "dessert",
+"stars": 2,
+"coll": "storybook"
+},
+{
+"fr": "Fondue acidulée au melon miel",
+"energy": "939",
+"price": "214",
+"ing": [
+"1 Baie acidulée",
+"1 Melon miel"
+],
+"type": "dessert",
+"stars": 2,
+"coll": "storybook"
+},
+{
+"fr": "Fondue acidulée aux fraises spirales",
+"energy": "1580",
+"price": "117",
+"ing": [
+"1 Baie acidulée",
+"1 Fraise spirale"
+],
+"type": "dessert",
+"stars": 2,
+"coll": "storybook"
+},
+{
+"fr": "Fondue acidulée aux physalis",
+"energy": "951",
+"price": "123",
+"ing": [
+"1 Baie acidulée",
+"1 Physalis"
+],
+"type": "dessert",
+"stars": 2,
+"coll": "storybook"
+},
+{
+"fr": "Yaourt à la vanille",
+"energy": "789",
+"price": "221",
+"ing": [
+"1 Yaourt",
+"1 Vanille"
+],
+"type": "dessert",
+"stars": 2,
+"coll": "storybook"
+},
+{
+"fr": "Yaourt piquant",
+"energy": "602",
+"price": "175",
+"ing": [
+"1 Yaourt",
+"1 Épice au choix"
+],
+"type": "dessert",
+"stars": 2,
+"coll": "storybook"
+},
+{
+"fr": "Pain féerique",
+"energy": "360",
+"price": "243",
+"ing": [
+"1 Blé Khorason féerique",
+"1 Paillettes féeriques"
+],
+"type": "dessert",
+"stars": 2,
+"coll": "wishblossom"
+},
+{
+"fr": "Queues de tigrou",
+"energy": "437",
+"price": "253",
+"ing": [
+"1 Fruit sucette",
+"1 Paillettes de fées"
+],
+"type": "dessert",
+"stars": 2,
+"coll": "wishblossom"
+},
+{
+"fr": "Sculpture en sucre de betterave",
+"energy": "223",
+"price": "51",
+"ing": [
+"1 Betterave",
+"1 Canne à sucre"
+],
+"type": "dessert",
+"stars": 2,
+"coll": "wishblossom"
+},
+{
+"fr": "Biscuit « Mon héros »",
+"energy": "679",
+"price": "294",
+"ing": [
+"1 Blé",
+"1 Beurre",
+"1 Aliment sucré"
+],
+"type": "dessert",
+"stars": 3,
+"coll": "base"
+},
+{
+"fr": "Biscuits",
+"energy": "679",
+"price": "294",
+"ing": [
+"1 Blé",
+"1 Canne à sucre",
+"1 Beurre"
+],
+"type": "dessert",
+"stars": 3,
+"coll": "base"
+},
+{
+"fr": "Chocolat chaud",
+"energy": "1563",
+"price": "401",
+"ing": [
+"1 Canne à sucre",
+"1 Lait",
+"1 Fève de cacao"
+],
+"type": "dessert",
+"stars": 3,
+"coll": "base"
+},
+{
+"fr": "Chocolat du printemps",
+"energy": "1392",
+"price": "254",
+"ing": [
+"1 Œuf jaune",
+"1 Canne à sucre",
+"1 Fève de cacao"
+],
+"type": "dessert",
+"stars": 3,
+"coll": "base"
+},
+{
+"fr": "Crème glacée",
+"energy": "1158",
+"price": "558",
+"ing": [
+"1 Glace pilée",
+"1 Canne à sucre",
+"1 Lait"
+],
+"type": "dessert",
+"stars": 3,
+"coll": "base"
+},
+{
+"fr": "Crème glacée de rêve",
+"energy": "1976",
+"price": "558",
+"ing": [
+"1 Fruit de Dreamlight",
+"1 Lait",
+"1 Glace pilée"
+],
+"type": "dessert",
+"stars": 3,
+"coll": "base"
+},
+{
+"fr": "Gâteau à la banane",
+"energy": "1227",
+"price": "308",
+"ing": [
+"1 Banane",
+"1 Blé",
+"1 Beurre"
+],
+"type": "dessert",
+"stars": 3,
+"coll": "base"
+},
+{
+"fr": "Glace à l’eau",
+"energy": "987",
+"price": "265",
+"ing": [
+"1 Glace pilée",
+"1 Canne à sucre",
+"1 Fruit"
+],
+"type": "dessert",
+"stars": 3,
+"coll": "base"
+},
+{
+"fr": "Granité acide",
+"energy": "1257",
+"price": "282",
+"ing": [
+"1 Glace pilée",
+"1 Citron",
+"1 Canne à sucre"
+],
+"type": "dessert",
+"stars": 3,
+"coll": "base"
+},
+{
+"fr": "Racinette",
+"energy": "690",
+"price": "250",
+"ing": [
+"1 Gingembre",
+"1 Canne à sucre",
+"1 Vanille"
+],
+"type": "dessert",
+"stars": 3,
+"coll": "base"
+},
+{
+"fr": "Salade de fruits rouges",
+"energy": "2210",
+"price": "139",
+"ing": [
+"1 Framboise",
+"1 Myrtille",
+"1 Groseille"
+],
+"type": "dessert",
+"stars": 3,
+"coll": "base"
+},
+{
+"fr": "Sorbet à la pomme",
+"energy": "1077",
+"price": "271",
+"ing": [
+"1 Glace pilée",
+"1 Pomme",
+"1 Canne à sucre"
+],
+"type": "dessert",
+"stars": 3,
+"coll": "base"
+},
+{
+"fr": "Tarte aux cerises",
+"energy": "1497",
+"price": "326",
+"ing": [
+"1 Cerise",
+"1 Blé",
+"1 Beurre"
+],
+"type": "dessert",
+"stars": 3,
+"coll": "base"
+},
+{
+"fr": "Tarte aux fruits rouges",
+"energy": "1047",
+"price": "297",
+"ing": [
+"1 Fruit",
+"1 Blé",
+"1 Beurre"
+],
+"type": "dessert",
+"stars": 3,
+"coll": "base"
+},
+{
+"fr": "Tarte aux groseilles de Blanche Neige",
+"energy": "1677",
+"price": "338",
+"ing": [
+"1 Groseille",
+"1 Blé",
+"1 Beurre"
+],
+"type": "dessert",
+"stars": 3,
+"coll": "base"
+},
+{
+"fr": "Tarte aux myrtilles",
+"energy": "1227",
+"price": "308",
+"ing": [
+"1 Myrtille",
+"1 Blé",
+"1 Beurre"
+],
+"type": "dessert",
+"stars": 3,
+"coll": "base"
+},
+{
+"fr": "Tarte aux pommes",
+"energy": "1137",
+"price": "303",
+"ing": [
+"1 Pomme",
+"1 Blé",
+"1 Beurre"
+],
+"type": "dessert",
+"stars": 3,
+"coll": "base"
+},
+{
+"fr": "Tarte féerique",
+"energy": "1497",
+"price": "324",
+"ing": [
+"1 Fruit de Dreamlight",
+"1 Blé",
+"1 Beurre"
+],
+"type": "dessert",
+"stars": 3,
+"coll": "base"
+},
+{
+"fr": "Thé aux perles à la framboise",
+"energy": "1203",
+"price": "377",
+"ing": [
+"1 Canne à sucre",
+"1 Lait",
+"1 Framboise"
+],
+"type": "dessert",
+"stars": 3,
+"coll": "base"
+},
+{
+"fr": "Thé aux perles à la groseille",
+"energy": "1833",
+"price": "418",
+"ing": [
+"1 Canne à sucre",
+"1 Lait",
+"1 Groseille"
+],
+"type": "dessert",
+"stars": 3,
+"coll": "base"
+},
+{
+"fr": "Thé aux perles à la menthe",
+"energy": "1032",
+"price": "460",
+"ing": [
+"1 Canne à sucre",
+"1 Lait",
+"1 Menthe"
+],
+"type": "dessert",
+"stars": 3,
+"coll": "base"
+},
+{
+"fr": "Thé aux perles à la noix de coco",
+"energy": "1653",
+"price": "406",
+"ing": [
+"1 Canne à sucre",
+"1 Lait",
+"1 Noix de coco"
+],
+"type": "dessert",
+"stars": 3,
+"coll": "base"
+},
+{
+"fr": "Truc gris",
+"energy": "1046",
+"price": "175",
+"ing": [
+"1 Produit laitier",
+"1 Canne à sucre",
+"1 Fève de cacao"
+],
+"type": "dessert",
+"stars": 3,
+"coll": "base"
+},
+{
+"fr": "Charlotte",
+"energy": "1704",
+"price": "69",
+"ing": [
+"1 Blé",
+"1 Fraise",
+"1 Agave"
+],
+"type": "dessert",
+"stars": 3,
+"coll": "eternity"
+},
+{
+"fr": "Donut glacé",
+"energy": "760",
+"price": "336",
+"ing": [
+"1 Blé",
+"1 Œuf",
+"1 Aliment sucré"
+],
+"type": "dessert",
+"stars": 3,
+"coll": "eternity"
+},
+{
+"fr": "Gâteau aux fraises",
+"energy": "2118",
+"price": "342",
+"ing": [
+"1 Blé",
+"1 Œuf",
+"1 Fraise"
+],
+"type": "dessert",
+"stars": 3,
+"coll": "eternity"
+},
+{
+"fr": "Larves gastronomiques",
+"energy": "5000",
+"price": "2000",
+"ing": [
+"1 Escargot de mer",
+"1 Ver des sables",
+"1 Scorpion"
+],
+"type": "dessert",
+"stars": 3,
+"coll": "eternity"
+},
+{
+"fr": "Maamouls",
+"energy": "1614",
+"price": "100",
+"ing": [
+"1 Blé",
+"1 Amandes",
+"1 Dattes"
+],
+"type": "dessert",
+"stars": 3,
+"coll": "eternity"
+},
+{
+"fr": "Macarons à la confiture",
+"energy": "1581",
+"price": "378",
+"ing": [
+"1 Amandes",
+"1 Œuf",
+"1 Fruit"
+],
+"type": "dessert",
+"stars": 3,
+"coll": "eternity"
+},
+{
+"fr": "Macarons à la vanille",
+"energy": "1787",
+"price": "436",
+"ing": [
+"1 Amandes",
+"1 Œuf",
+"1 Vanille"
+],
+"type": "dessert",
+"stars": 3,
+"coll": "eternity"
+},
+{
+"fr": "Macarons au caramel",
+"energy": "1724",
+"price": "401",
+"ing": [
+"1 Amandes",
+"1 Œuf",
+"1 Agave"
+],
+"type": "dessert",
+"stars": 3,
+"coll": "eternity"
+},
+{
+"fr": "Macarons au chocolat",
+"energy": "2354",
+"price": "419",
+"ing": [
+"1 Amandes",
+"1 Œuf",
+"1 Fève de cacao"
+],
+"type": "dessert",
+"stars": 3,
+"coll": "eternity"
+},
+{
+"fr": "Macarons épicés",
+"energy": "1796",
+"price": "475",
+"ing": [
+"1 Piment",
+"1 Amandes",
+"1 Œuf"
+],
+"type": "dessert",
+"stars": 3,
+"coll": "eternity"
+},
+{
+"fr": "Milk-shake aux fruits",
+"energy": "1113",
+"price": "544",
+"ing": [
+"1 Glace pilée",
+"1 Lait",
+"1 Fruit"
+],
+"type": "dessert",
+"stars": 3,
+"coll": "eternity"
+},
+{
+"fr": "Milk-shake stellaire",
+"energy": "1169",
+"price": "562",
+"ing": [
+"1 Glace pilée",
+"1 lait",
+"1 Figue cosmique"
+],
+"type": "dessert",
+"stars": 3,
+"coll": "eternity"
+},
+{
+"fr": "Pop corn sucré",
+"energy": "390",
+"price": "209",
+"ing": [
+"1 Maïs",
+"1 Colza",
+"1 Agave"
+],
+"type": "dessert",
+"stars": 3,
+"coll": "eternity"
+},
+{
+"fr": "Salade basilic et fruits rouges",
+"energy": "2300",
+"price": "142",
+"ing": [
+"1 Myrtille",
+"1 Basilic",
+"1 Fraise"
+],
+"type": "dessert",
+"stars": 3,
+"coll": "eternity"
+},
+{
+"fr": "Tarte aux fraises",
+"energy": "2037",
+"price": "300",
+"ing": [
+"1 Blé",
+"1 Beurre",
+"1 Fraise"
+],
+"type": "dessert",
+"stars": 3,
+"coll": "eternity"
+},
+{
+"fr": "Tarte tatin aux poires",
+"energy": "1218",
+"price": "345",
+"ing": [
+"1 Blé",
+"1 Œuf",
+"1 Poire imbriquée"
+],
+"type": "dessert",
+"stars": 3,
+"coll": "eternity"
+},
+{
+"fr": "Thé aux perles à la fantasmangue",
+"energy": "1833",
+"price": "418",
+"ing": [
+"1 Lait",
+"1 Fantasmangue",
+"1 Canne à sucre"
+],
+"type": "dessert",
+"stars": 3,
+"coll": "eternity"
+},
+{
+"fr": "Thé aux perles au melon",
+"energy": "911",
+"price": "478",
+"ing": [
+"1 Lait",
+"1 Melon",
+"1 Canne à sucre"
+],
+"type": "dessert",
+"stars": 3,
+"coll": "eternity"
+},
+{
+"fr": "Riz au lait",
+"energy": "579",
+"price": "293",
+"ing": [
+"1 Avoine",
+"1 Riz",
+"1 Vanille"
+],
+"type": "dessert",
+"stars": 3,
+"coll": "storybook"
+},
+{
+"fr": "Tarte aux baies acidulées",
+"energy": "1164",
+"price": "170",
+"ing": [
+"1 Blé",
+"1 Œuf d’oiseau-pelle",
+"1 Baie acidulée"
+],
+"type": "dessert",
+"stars": 3,
+"coll": "storybook"
+},
+{
+"fr": "Tarte aux kakis",
+"energy": "984",
+"price": "149",
+"ing": [
+"1 Blé",
+"1 Œuf d’oiseau-pelle",
+"1 Kaki"
+],
+"type": "dessert",
+"stars": 3,
+"coll": "storybook"
+},
+{
+"fr": "Tarte aux pommes d’or",
+"energy": "894",
+"price": "268",
+"ing": [
+"1 Blé",
+"1 Œuf d’oiseau-pelle",
+"1 Pomme d’or"
+],
+"type": "dessert",
+"stars": 3,
+"coll": "storybook"
+},
+{
+"fr": "Baguette de fée",
+"energy": "1028",
+"price": "229",
+"ing": [
+"1 Carambole",
+"1 Fruit sucette",
+"1 Fruit au choix"
+],
+"type": "dessert",
+"stars": 3,
+"coll": "wishblossom"
+},
+{
+"fr": "Biscuit de la vallée à la groseille",
+"energy": "1895",
+"price": "676",
+"ing": [
+"1 Groseilles",
+"1 Œuf",
+"1 Lait"
+],
+"type": "dessert",
+"stars": 3,
+"coll": "wishblossom"
+},
+{
+"fr": "Pile de brownies à la betterave",
+"energy": "826",
+"price": "363",
+"ing": [
+"1 Betterave",
+"1 Œuf",
+"1 Saveur au choix"
+],
+"type": "dessert",
+"stars": 3,
+"coll": "wishblossom"
+},
+{
+"fr": "Bûche de Noël",
+"energy": "2147",
+"price": "213",
+"ing": [
+"1 Blé",
+"1 Fève de cacao",
+"1 Vanille",
+"1 Cerise"
+],
+"type": "dessert",
+"stars": 4,
+"coll": "base"
+},
+{
+"fr": "Beignets",
+"energy": "912",
+"price": "524",
+"ing": [
+"1 Colza",
+"1 Blé",
+"1 Œuf",
+"1 Canne à sucre"
+],
+"type": "dessert",
+"stars": 4,
+"coll": "base"
+},
+{
+"fr": "Biscuits aux pépites de chocolat",
+"energy": "1569",
+"price": "373",
+"ing": [
+"1 Fève de cacao",
+"1 Blé",
+"1 Canne à sucre",
+"1 Beurre"
+],
+"type": "dessert",
+"stars": 4,
+"coll": "base"
+},
+{
+"fr": "Biscuits du pays des merveilles",
+"energy": "970",
+"price": "406",
+"ing": [
+"1 Beurre",
+"1 Canne à sucre",
+"1 Vanille",
+"1 Blé"
+],
+"type": "dessert",
+"stars": 4,
+"coll": "base"
+},
+{
+"fr": "Cake aux fruits",
+"energy": "1511",
+"price": "96",
+"ing": [
+"1 Blé",
+"3 Fruits"
+],
+"type": "dessert",
+"stars": 4,
+"coll": "base"
+},
+{
+"fr": "Cheesecake",
+"energy": "1161",
+"price": "332",
+"ing": [
+"1 Fromage",
+"1 Blé",
+"1 Canne à sucre",
+"1 Fruit"
+],
+"type": "dessert",
+"stars": 4,
+"coll": "base"
+},
+{
+"fr": "Chocolat à la menthe",
+"energy": "1827",
+"price": "490",
+"ing": [
+"1 Menthe",
+"1 Canne à sucre",
+"1 Beurre",
+"1 Fève de cacao"
+],
+"type": "dessert",
+"stars": 4,
+"coll": "base"
+},
+{
+"fr": "Crème glacée à la banane",
+"energy": "1884",
+"price": "641",
+"ing": [
+"1 Glace pilée",
+"1 Banane",
+"1 Lait",
+"1 Canne à sucre"
+],
+"type": "dessert",
+"stars": 4,
+"coll": "base"
+},
+{
+"fr": "Crème glacée à la noix de coco",
+"energy": "2169",
+"price": "661",
+"ing": [
+"1 Glace pilée",
+"1 Lait",
+"1 Canne à sucre",
+"1 Noix de coco"
+],
+"type": "dessert",
+"stars": 4,
+"coll": "base"
+},
+{
+"fr": "Crème glacée à la vanille",
+"energy": "1475",
+"price": "688",
+"ing": [
+"1 Glace pilée",
+"1 Lait",
+"1 Canne à sucre",
+"1 Vanille"
+],
+"type": "dessert",
+"stars": 4,
+"coll": "base"
+},
+{
+"fr": "Crème glacée au chocolat",
+"energy": "2074",
+"price": "678",
+"ing": [
+"1 Fève de cacao",
+"1 Canne à sucre",
+"1 Lait",
+"1 Glace pilée"
+],
+"type": "dessert",
+"stars": 4,
+"coll": "base"
+},
+{
+"fr": "Crêpe",
+"energy": "1624",
+"price": "768",
+"ing": [
+"1 Blé",
+"1 Œuf",
+"1 Lait",
+"1 Vanille"
+],
+"type": "dessert",
+"stars": 4,
+"coll": "base"
+},
+{
+"fr": "Gâteau à la carotte",
+"energy": "908",
+"price": "427",
+"ing": [
+"1 Carotte",
+"1 Blé",
+"1 Œuf",
+"1 Canne à sucre"
+],
+"type": "dessert",
+"stars": 4,
+"coll": "base"
+},
+{
+"fr": "Gâteau à la noix de coco",
+"energy": "1750",
+"price": "424",
+"ing": [
+"1 Noix de coco",
+"1 Blé",
+"1 Œuf",
+"1 Canne à sucre"
+],
+"type": "dessert",
+"stars": 4,
+"coll": "base"
+},
+{
+"fr": "Gaufres",
+"energy": "1455",
+"price": "706",
+"ing": [
+"1 Blé",
+"1 Lait",
+"1 Œuf",
+"1 Aliment sucré"
+],
+"type": "dessert",
+"stars": 4,
+"coll": "base"
+},
+{
+"fr": "Gaufres à la confiture",
+"energy": "202",
+"price": "24",
+"ing": [
+"1 Fruit",
+"1 Blé",
+"1 Œuf",
+"1 Lait"
+],
+"type": "dessert",
+"stars": 4,
+"coll": "base"
+},
+{
+"fr": "Gaufres au beurre de cacahuète",
+"energy": "1938",
+"price": "978",
+"ing": [
+"1 Cacahuète",
+"1 Blé",
+"1 Œuf",
+"1 Lait"
+],
+"type": "dessert",
+"stars": 4,
+"coll": "base"
+},
+{
+"fr": "Gaufres au chocolat",
+"energy": "2223",
+"price": "735",
+"ing": [
+"1 Fève de cacao",
+"1 Blé",
+"1 Œuf",
+"1 Lait"
+],
+"type": "dessert",
+"stars": 4,
+"coll": "base"
+},
+{
+"fr": "Glace à l’eau tropicale",
+"energy": "1989",
+"price": "347",
+"ing": [
+"1 Glace pilée",
+"1 Canne à sucre",
+"1 Noix de coco",
+"1 Fruit"
+],
+"type": "dessert",
+"stars": 4,
+"coll": "base"
+},
+{
+"fr": "Guimauves grillées",
+"energy": "3470",
+"price": "300",
+"ing": [
+"2 Guimauve rose",
+"2 Guimauve bleue"
+],
+"type": "dessert",
+"stars": 4,
+"coll": "base"
+},
+{
+"fr": "Œufs mimosas de printemps",
+"energy": "1095",
+"price": "298",
+"ing": [
+"1 Œuf jaune",
+"1 Œuf bleu",
+"1 Œuf rose",
+"1 Basilic"
+],
+"type": "dessert",
+"stars": 4,
+"coll": "base"
+},
+{
+"fr": "S’mores",
+"energy": "1832",
+"price": "156",
+"ing": [
+"1 Guimauve rose",
+"1 Guimauve bleue",
+"2 Blé"
+],
+"type": "dessert",
+"stars": 4,
+"coll": "base"
+},
+{
+"fr": "Sorbet aux fruits rouges",
+"energy": "2179",
+"price": "359",
+"ing": [
+"1 Glace pilée",
+"1 Framboise",
+"1 Groseille",
+"1 Canne à sucre"
+],
+"type": "dessert",
+"stars": 4,
+"coll": "base"
+},
+{
+"fr": "Tarte meringuée",
+"energy": "2014",
+"price": "667",
+"ing": [
+"1 Citron",
+"1 Blé",
+"1 Œuf",
+"1 Beurre"
+],
+"type": "dessert",
+"stars": 4,
+"coll": "base"
+},
+{
+"fr": "Cannoli",
+"energy": "1482",
+"price": "678",
+"ing": [
+"1 Blé",
+"1 Fromage",
+"1 Œuf",
+"1 Vanille"
+],
+"type": "dessert",
+"stars": 4,
+"coll": "eternity"
+},
+{
+"fr": "Crête en portefeuille",
+"energy": "1938",
+"price": "715",
+"ing": [
+"1 Blé",
+"1 Œuf",
+"1 Lait",
+"1 Poire imbriquée"
+],
+"type": "dessert",
+"stars": 4,
+"coll": "eternity"
+},
+{
+"fr": "Cupcakes",
+"energy": "1853",
+"price": "433",
+"ing": [
+"1 Blé",
+"1 Œuf",
+"1 Cerise",
+"1 Agave"
+],
+"type": "dessert",
+"stars": 4,
+"coll": "eternity"
+},
+{
+"fr": "Donut à la cannelle",
+"energy": "1094",
+"price": "406",
+"ing": [
+"1 Blé",
+"1 Œuf",
+"1 Cannelle",
+"1 Aliment sucré"
+],
+"type": "dessert",
+"stars": 4,
+"coll": "eternity"
+},
+{
+"fr": "Gâteau de lune",
+"energy": "465",
+"price": "276",
+"ing": [
+"1 Blé",
+"1 Colza",
+"1 Haricots",
+"1 Agave"
+],
+"type": "dessert",
+"stars": 4,
+"coll": "eternity"
+},
+{
+"fr": "Kouign-Amann",
+"energy": "1358",
+"price": "610",
+"ing": [
+"1 Blé",
+"2 Beurres",
+"1 Agave"
+],
+"type": "dessert",
+"stars": 4,
+"coll": "eternity"
+},
+{
+"fr": "Makrout",
+"energy": "1157",
+"price": "254",
+"ing": [
+"1 Blé",
+"1 Colza",
+"1 Dattes",
+"1 Cannelle"
+],
+"type": "dessert",
+"stars": 4,
+"coll": "eternity"
+},
+{
+"fr": "Muffin explosion de fruits sans sucre",
+"energy": "354",
+"price": "66",
+"ing": [
+"1 Blé",
+"2 Fruits",
+"1 Agave"
+],
+"type": "dessert",
+"stars": 4,
+"coll": "eternity"
+},
+{
+"fr": "Pain aux raisins",
+"energy": "705",
+"price": "314",
+"ing": [
+"1 Blé",
+"1 Beurre",
+"2 Fruits"
+],
+"type": "dessert",
+"stars": 4,
+"coll": "eternity"
+},
+{
+"fr": "Pastéis de Nata",
+"energy": "1645",
+"price": "774",
+"ing": [
+"1 Maïs",
+"1 Œuf",
+"1 Lait",
+"1 Vanille"
+],
+"type": "dessert",
+"stars": 4,
+"coll": "eternity"
+},
+{
+"fr": "Roulé à la cannelle",
+"energy": "1548",
+"price": "663",
+"ing": [
+"1 Blé",
+"1 Beurre",
+"1 Œuf",
+"1 Cannelle"
+],
+"type": "dessert",
+"stars": 4,
+"coll": "eternity"
+},
+{
+"fr": "Biscuits à la cannelle",
+"energy": "1037",
+"price": "256",
+"ing": [
+"1 Yaourt",
+"1 Blé",
+"1 Cannelle",
+"1 Sucrerie au choix"
+],
+"type": "dessert",
+"stars": 4,
+"coll": "storybook"
+},
+{
+"fr": "Biscuits à la foudre",
+"energy": "1009",
+"price": "308",
+"ing": [
+"1 Blé",
+"1 Yaourt",
+"1 Sucrerie au choix",
+"1 Épice foudroyante"
+],
+"type": "dessert",
+"stars": 4,
+"coll": "storybook"
+},
+{
+"fr": "Biscuits à la muscade",
+"energy": "1598",
+"price": "278",
+"ing": [
+"1 Blé",
+"1 Yaourt",
+"1 Sucrerie au choix",
+"1 Noix de muscade"
+],
+"type": "dessert",
+"stars": 4,
+"coll": "storybook"
+},
+{
+"fr": "Gâteau à la cannelle",
+"energy": "1330",
+"price": "348",
+"ing": [
+"1 Blé",
+"1 Œuf d’oiseau-pelle",
+"1 Cannelle",
+"1 Yaourt"
+],
+"type": "dessert",
+"stars": 4,
+"coll": "storybook"
+},
+{
+"fr": "Gâteau à la foudre",
+"energy": "1302",
+"price": "400",
+"ing": [
+"1 Blé",
+"1 Œuf d’oiseau-pelle",
+"1 Épice foudroyante",
+"1 Yaourt"
+],
+"type": "dessert",
+"stars": 4,
+"coll": "storybook"
+},
+{
+"fr": "Gâteau à la muscade",
+"energy": "1891",
+"price": "370",
+"ing": [
+"1 Blé",
+"1 Œuf d’oiseau-pelle",
+"1 Noix de muscade",
+"1 Yaourt"
+],
+"type": "dessert",
+"stars": 4,
+"coll": "storybook"
+},
+{
+"fr": "Tarte aux fraises et à la rhubarbe",
+"energy": "1344",
+"price": "184",
+"ing": [
+"1 Blé",
+"1 Yaourt",
+"1 Rhubarbe",
+"1 Fraise spirale"
+],
+"type": "dessert",
+"stars": 4,
+"coll": "storybook"
+},
+{
+"fr": "Biscuits linzer à la groseille",
+"energy": "1379",
+"price": "365",
+"ing": [
+"1 Blé",
+"1 Beurre",
+"1 Groseilles",
+"1 Canne à sucre"
+],
+"type": "dessert",
+"stars": 4,
+"coll": "wishblossom"
+},
+{
+"fr": "Gâteau dôme à la crème glacée de fée",
+"energy": "1489",
+"price": "554",
+"ing": [
+"1 Glace pilée",
+"1 Groseilles",
+"1 Paillettes féeriques",
+"1 Blé Khorasan féerique"
+],
+"type": "dessert",
+"stars": 4,
+"coll": "wishblossom"
+},
+{
+"fr": "Banana Split",
+"energy": "2074",
+"price": "714",
+"ing": [
+"1 Glace pilée",
+"1 Banane",
+"1 Lait",
+"1 Canne à sucre",
+"1 Aliment sucré"
+],
+"type": "dessert",
+"stars": 5,
+"coll": "base"
+},
+{
+"fr": "Bol d’œufs printaniers",
+"energy": "1942",
+"price": "370",
+"ing": [
+"1 Œuf rose",
+"1 Œuf jaune",
+"1 Œuf bleu",
+"1 Fève de cacao",
+"1 Canne à sucre"
+],
+"type": "dessert",
+"stars": 5,
+"coll": "base"
+},
+{
+"fr": "Crème pâtissière et fruits",
+"energy": "2332",
+"price": "497",
+"ing": [
+"3 Fruits",
+"1 Lait",
+"1 Canne à sucre"
+],
+"type": "dessert",
+"stars": 5,
+"coll": "base"
+},
+{
+"fr": "Cupcake à la framboise de la princesse Aurore",
+"energy": "1990",
+"price": "738",
+"ing": [
+"1 Lait",
+"1 Blé",
+"1 Beurre",
+"1 Canne à sucre",
+"1 Framboise"
+],
+"type": "dessert",
+"stars": 5,
+"coll": "base"
+},
+{
+"fr": "Cupcake de Minnie",
+"energy": "2040",
+"price": "745",
+"ing": [
+"1 Lait",
+"1 Blé",
+"1 Beurre",
+"1 Canne à sucre",
+"1 Pomme"
+],
+"type": "dessert",
+"stars": 5,
+"coll": "base"
+},
+{
+"fr": "Cupcake de sirène",
+"energy": "1690",
+"price": "785",
+"ing": [
+"1 Lait",
+"1 Blé",
+"1 Beurre",
+"1 Canne à sucre",
+"1 Pétoncle"
+],
+"type": "dessert",
+"stars": 5,
+"coll": "base"
+},
+{
+"fr": "Cupcake de Spaceship Earth",
+"energy": "2440",
+"price": "772",
+"ing": [
+"1 Lait",
+"1 Blé",
+"1 Beurre",
+"1 Canne à sucre",
+"1 Noix de coco"
+],
+"type": "dessert",
+"stars": 5,
+"coll": "base"
+},
+{
+"fr": "Cupcake de Stitch",
+"energy": "2140",
+"price": "751",
+"ing": [
+"1 Lait",
+"1 Blé",
+"1 Beurre",
+"1 Canne à sucre",
+"1 Myrtille"
+],
+"type": "dessert",
+"stars": 5,
+"coll": "base"
+},
+{
+"fr": "Gâteau d’anniversaire",
+"energy": "2310",
+"price": "749",
+"ing": [
+"1 Fève de cacao",
+"1 Blé",
+"1 Canne à sucre",
+"1 Œuf",
+"1 Beurre"
+],
+"type": "dessert",
+"stars": 5,
+"coll": "base"
+},
+{
+"fr": "Gâteau d’Aurore",
+"energy": "2030",
+"price": "786",
+"ing": [
+"1 Blé",
+"1 Canne à sucre",
+"1 Œuf",
+"1 Fruit",
+"1 Lait"
+],
+"type": "dessert",
+"stars": 5,
+"coll": "base"
+},
+{
+"fr": "Gâteau de mariage",
+"energy": "1680",
+"price": "785",
+"ing": [
+"1 Beurre",
+"1 Canne à sucre",
+"1 Vanille",
+"1 Œuf",
+"1 Blé"
+],
+"type": "dessert",
+"stars": 5,
+"coll": "base"
+},
+{
+"fr": "Maison en pain d’épices",
+"energy": "1460",
+"price": "641",
+"ing": [
+"1 Blé",
+"1 Gingembre",
+"1 Canne à sucre",
+"1 Vanille",
+"1 Œuf"
+],
+"type": "dessert",
+"stars": 5,
+"coll": "base"
+},
+{
+"fr": "Red Velvet",
+"energy": "2458",
+"price": "783",
+"ing": [
+"1 Blé",
+"1 Fromage",
+"1 Œuf",
+"1 Fève de cacao",
+"1 Vanille"
+],
+"type": "dessert",
+"stars": 5,
+"coll": "eternity"
+},
+{
+"fr": "Tarte aux baies piquantes",
+"energy": "3238",
+"price": "421",
+"ing": [
+"1 Blé",
+"1 Beurre",
+"1 Cactobaies",
+"1 Fraise",
+"1 Épice"
+],
+"type": "dessert",
+"stars": 5,
+"coll": "eternity"
+},
+{
+"fr": "Biscuits au gingembre de Pimprenelle",
+"energy": "2596",
+"price": "443",
+"ing": [
+"1 Seigle féerique",
+"1 Œuf d’oiseau-pelle",
+"1 Gingembre",
+"1 Baie acidulée",
+"1 Noix de muscade"
+],
+"type": "dessert",
+"stars": 5,
+"coll": "storybook"
+},
+{
+"fr": "Gâteau de non anniversaire",
+"energy": "2746",
+"price": "603",
+"ing": [
+"1 Seigle féerique",
+"1 Œuf d’oiseau-pelle",
+"1 Noix de muscade",
+"1 Yaourt",
+"1 Ambroisie"
+],
+"type": "dessert",
+"stars": 5,
+"coll": "storybook"
+},
+{
+"fr": "Gâteau chaussure de fée",
+"energy": "2052",
+"price": "1200",
+"ing": [
+"1 Œuf",
+"1 Beurre",
+"1 Blé Khorasan féerique",
+"1 Grains de café chocolat foncé",
+"1 Corail de miel"
+],
+"type": "dessert",
+"stars": 5,
+"coll": "wishblossom"
+},
+{
+"fr": "La belle et les betteraves Napoléon",
+"energy": "2782",
+"price": "1100",
+"ing": [
+"1 Betterave",
+"1 Beurre",
+"1 Œuf",
+"1 Lait",
+"1 Groseilles"
+],
+"type": "dessert",
+"stars": 5,
+"coll": "wishblossom"
+}
+]

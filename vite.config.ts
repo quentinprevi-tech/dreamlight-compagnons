@@ -51,6 +51,8 @@ export default defineConfig({
   server: { host: true, port: 5173 },
   test: {
     environment: 'jsdom',
+    // Fuseau de la joueuse : les récurrences et le changement d'heure sont testés à Bruxelles.
+    env: { TZ: 'Europe/Brussels' },
     setupFiles: ['./src/test/setup.ts'],
     include: ['src/**/*.test.{ts,tsx}'],
   },

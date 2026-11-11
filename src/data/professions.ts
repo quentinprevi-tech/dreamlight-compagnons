@@ -92,5 +92,6 @@ export const PROFESSIONS_BY_ID = Object.fromEntries(PROFESSIONS.map((p) => [p.id
 >
 
 export function isProfessionId(v: unknown): v is ProfessionId {
-  return typeof v === 'string' && v in PROFESSIONS_BY_ID
+  // `Object.hasOwn` et non `in` : « constructor » ou « toString » ne sont pas des métiers.
+  return typeof v === 'string' && Object.hasOwn(PROFESSIONS_BY_ID, v)
 }

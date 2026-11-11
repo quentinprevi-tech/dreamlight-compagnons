@@ -2,10 +2,12 @@ import { useMemo, useState } from 'react'
 import { CHARACTERS, COLLECTIONS } from '../data/characters'
 import { PROFESSIONS, type ProfessionId } from '../data/professions'
 import { CharacterRow } from '../components/CharacterRow'
+import { FilterChips } from '../components/FilterChips'
+import { isUnlocked } from '../features/villagers/model'
 import { byName, matchesQuery } from '../lib/search'
 import type { Companions } from '../lib/useCompanions'
 
-export type Filter = 'all' | 'none' | ProfessionId
+export type Filter = 'all' | 'unlocked' | 'locked' | 'not-asked' | 'none' | ProfessionId
 
 interface Props {
   companions: Companions
@@ -13,29 +15,45 @@ interface Props {
 }
 
 export function CharactersScreen({ companions, onOpenCharacter }: Props) {
-  const { assignments, portraits } = companions
+  const { assignments, villagers, portraits } = companions
   const [query, setQuery] = useState('')
   const [filter, setFilter] = useState<Filter>('all')
 
   const groups = useMemo(() => {
     const visible = CHARACTERS.filter((c) => {
       if (!matchesQuery(c, query)) return false
-      if (filter === 'all') return true
-      if (filter === 'none') return !assignments[c.id]
-      return assignments[c.id] === filter
+      const unlocked = isUnlocked(villagers, assignments, c.id)
+      switch (filter) {
+        case 'all':
+          return true
+        case 'unlocked':
+          return unlocked
+        case 'locked':
+          return !unlocked
+        case 'not-asked':
+          // On ne peut demander un objet qu'à un habitant présent dans la vallée.
+          return unlocked && villagers[c.id]?.askedItem !== true
+        case 'none':
+          return !assignments[c.id]
+        default:
+          return assignments[c.id] === filter
+      }
     })
     return COLLECTIONS.map((col) => ({
       collection: col,
       items: visible.filter((c) => c.collection === col.id).sort(byName),
     })).filter((g) => g.items.length > 0)
-  }, [assignments, filter, query])
+  }, [assignments, villagers, filter, query])
 
   const count = groups.reduce((n, g) => n + g.items.length, 0)
 
   const chips: { id: Filter; label: string }[] = [
     { id: 'all', label: 'Tous' },
-    ...PROFESSIONS.map((p) => ({ id: p.id, label: `${p.emoji} ${p.name}` })),
+    { id: 'unlocked', label: 'Débloqués' },
+    { id: 'locked', label: '🔒 Non débloqués' },
+    { id: 'not-asked', label: '🎁 Pas encore demandé' },
     { id: 'none', label: 'Sans métier' },
+    ...PROFESSIONS.map((p) => ({ id: p.id, label: `${p.emoji} ${p.name}` })),
   ]
 
   return (
@@ -50,20 +68,7 @@ export function CharactersScreen({ companions, onOpenCharacter }: Props) {
           aria-label="Rechercher par nom"
           className="mt-2 w-full rounded-2xl border-0 bg-white px-4 py-3 text-base text-plum-900 shadow-sm ring-1 ring-gold-300/40 outline-none placeholder:text-plum-300 focus:ring-2 focus:ring-gold-400"
         />
-        <div className="no-scrollbar -mx-4 mt-2 flex gap-2 overflow-x-auto px-4 pb-1" role="group" aria-label="Filtrer par métier">
-          {chips.map((chip) => (
-            <button
-              key={chip.id}
-              onClick={() => setFilter(chip.id)}
-              aria-pressed={filter === chip.id}
-              className={`shrink-0 rounded-full px-3.5 py-1.5 text-sm font-semibold whitespace-nowrap transition active:scale-95 ${
-                filter === chip.id ? 'bg-gold-300 text-night-900 shadow-[0_0_12px_rgb(255_214_107/0.6)]' : 'bg-white/10 text-plum-50 ring-1 ring-white/20'
-              }`}
-            >
-              {chip.label}
-            </button>
-          ))}
-        </div>
+        <FilterChips label="Filtrer les habitants" chips={chips} value={filter} onChange={setFilter} />
       </div>
 
       <p className="mt-2 mb-1 text-xs text-plum-200/80" aria-live="polite">
@@ -83,6 +88,7 @@ export function CharactersScreen({ companions, onOpenCharacter }: Props) {
                 character={c}
                 profession={assignments[c.id]}
                 portrait={portraits[c.id]}
+                status={{ ...villagers[c.id], unlocked: isUnlocked(villagers, assignments, c.id) }}
                 onClick={() => onOpenCharacter(c.id)}
               />
             ))}

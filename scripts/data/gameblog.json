@@ -1,0 +1,1507 @@
+[
+{
+"fr": "Café",
+"ing": "Grain de café",
+"price": "43",
+"type": "appetizer",
+"stars": 1
+},
+{
+"fr": "Crackers",
+"ing": "Blé",
+"price": "2",
+"type": "appetizer",
+"stars": 1
+},
+{
+"fr": "Crudités",
+"ing": "Légume",
+"price": "26",
+"type": "appetizer",
+"stars": 1
+},
+{
+"fr": "Hors-d'œuvre de fruits de mer",
+"ing": "Fruit de mer",
+"price": "54",
+"type": "appetizer",
+"stars": 1
+},
+{
+"fr": "Légumes grillés",
+"ing": "Légume",
+"price": "9",
+"type": "appetizer",
+"stars": 1
+},
+{
+"fr": "Œufs durs",
+"ing": "Œuf",
+"price": "264",
+"type": "appetizer",
+"stars": 1
+},
+{
+"fr": "Plateau de fromages",
+"ing": "Fromage",
+"price": "216",
+"type": "appetizer",
+"stars": 1
+},
+{
+"fr": "Purée",
+"ing": "Pomme de terre",
+"price": "151",
+"type": "appetizer",
+"stars": 1
+},
+{
+"fr": "Salade",
+"ing": "Salade",
+"price": "9",
+"type": "appetizer",
+"stars": 1
+},
+{
+"fr": "Soupe à la tomate",
+"ing": "Tomate",
+"price": "26",
+"type": "appetizer",
+"stars": 1
+},
+{
+"fr": "Soupe d'okras",
+"ing": "Okra",
+"price": "136",
+"type": "appetizer",
+"stars": 1
+},
+{
+"fr": "Asperges rôties",
+"ing": "Asperges + Colza",
+"price": "313",
+"type": "appetizer",
+"stars": 2
+},
+{
+"fr": "Café crème",
+"ing": "Grain de café + Lait",
+"price": "345",
+"type": "appetizer",
+"stars": 2
+},
+{
+"fr": "Frites",
+"ing": "Pomme de terre + Colza",
+"price": "304",
+"type": "appetizer",
+"stars": 2
+},
+{
+"fr": "Hareng doux",
+"ing": "Hareng + Oignon",
+"price": "305",
+"type": "appetizer",
+"stars": 2
+},
+{
+"fr": "Plateau de fruits de mer",
+"ing": "Fruits de mer x2",
+"price": "116",
+"type": "appetizer",
+"stars": 2
+},
+{
+"fr": "Plateau d'huîtres",
+"ing": "Huître + Citron",
+"price": "367",
+"type": "appetizer",
+"stars": 2
+},
+{
+"fr": "Salade verte",
+"ing": "Salade + Légume",
+"price": "20",
+"type": "appetizer",
+"stars": 2
+},
+{
+"fr": "Sauté de champignons",
+"ing": "Champignon + Beurre",
+"price": "286",
+"type": "appetizer",
+"stars": 2
+},
+{
+"fr": "Soupe aux légumes",
+"ing": "Légumes x2",
+"price": "20",
+"type": "appetizer",
+"stars": 2
+},
+{
+"fr": "Thé à la menthe poivrée",
+"ing": "Citron + Menthe",
+"price": "146",
+"type": "appetizer",
+"stars": 2
+},
+{
+"fr": "Thé au chrysanthème",
+"ing": "Feuilles de thé au chrysanthème + Myrtille",
+"price": "69",
+"type": "appetizer",
+"stars": 2
+},
+{
+"fr": "Thé au jasmin",
+"ing": "Feuilles de thé au jasmin + Canne à sucre",
+"price": "56",
+"type": "appetizer",
+"stars": 2
+},
+{
+"fr": "Thé oolong",
+"ing": "Feuilles de thé oolong + Framboise",
+"price": "59",
+"type": "appetizer",
+"stars": 2
+},
+{
+"fr": "Gougères à la citrouille",
+"ing": "Citrouille + Œuf + Fromage",
+"price": "1400",
+"type": "appetizer",
+"stars": 3
+},
+{
+"fr": "Gougères à la courgette",
+"ing": "Courgette + Œuf + Fromage",
+"price": "632",
+"type": "appetizer",
+"stars": 3
+},
+{
+"fr": "Gougères à l'aubergine",
+"ing": "Aubergine + Œuf + Fromage",
+"price": "991",
+"type": "appetizer",
+"stars": 3
+},
+{
+"fr": "Gougères au piment",
+"ing": "Piment + Œuf + Fromage",
+"price": "669",
+"type": "appetizer",
+"stars": 3
+},
+{
+"fr": "Gougères aux oignons",
+"ing": "Oignon + Œuf + Fromage",
+"price": "798",
+"type": "appetizer",
+"stars": 3
+},
+{
+"fr": "Gougères aux poivrons",
+"ing": "Poivron + Œuf + Fromage",
+"price": "606",
+"type": "appetizer",
+"stars": 3
+},
+{
+"fr": "Gougères aux pommes de terre",
+"ing": "Pomme de terre + Œuf + Fromage",
+"price": "736",
+"type": "appetizer",
+"stars": 3
+},
+{
+"fr": "Mocha",
+"ing": "Grain de café + Lait + Fève de cacao",
+"price": "425",
+"type": "appetizer",
+"stars": 3
+},
+{
+"fr": "Plat de légumes grillés",
+"ing": "Légumes x3",
+"price": "33",
+"type": "appetizer",
+"stars": 3
+},
+{
+"fr": "Potage",
+"ing": "Pomme de terre + Légume + Épice",
+"price": "215",
+"type": "appetizer",
+"stars": 3
+},
+{
+"fr": "Buñuelos",
+"ing": "Blé + Fromage + Lait + Œuf",
+"price": "948",
+"type": "appetizer",
+"stars": 4
+},
+{
+"fr": "Gaspacho",
+"ing": "Concombre + Tomate + Oignon + Épice",
+"price": "556",
+"type": "appetizer",
+"stars": 4
+},
+{
+"fr": "Hareng saumuré",
+"ing": "Hareng + Citron + Oignon + Épice",
+"price": "431",
+"type": "appetizer",
+"stars": 4
+},
+{
+"fr": "Potage à la citrouille",
+"ing": "Légume + Lait + Gingembre + Citrouille",
+"price": "1500",
+"type": "appetizer",
+"stars": 4
+},
+{
+"fr": "Rêve pétillant",
+"ing": "Fruit de Dreamlight + Canne à sucre + Blé + Glace pilée",
+"price": "316",
+"type": "appetizer",
+"stars": 4
+},
+{
+"fr": "Sandwichs pour le thé",
+"ing": "Blé + Maïs + Cerise + Poisson",
+"price": "91",
+"type": "appetizer",
+"stars": 4
+},
+{
+"fr": "Soufflé",
+"ing": "Fromage + Œuf + Lait + Beurre",
+"price": "1200",
+"type": "appetizer",
+"stars": 4
+},
+{
+"fr": "Soupe crémeuse",
+"ing": "Lait + Pomme de terre + Légume + Épice",
+"price": "576",
+"type": "appetizer",
+"stars": 4
+},
+{
+"fr": "Boulettes de sésame",
+"ing": "Blé + Gingembre + Riz + Soja + Algue",
+"price": "322",
+"type": "appetizer",
+"stars": 5
+},
+{
+"fr": "Grand plateau de fruits de mer",
+"ing": "Fruits de mer x4 + Citron",
+"price": "340",
+"type": "appetizer",
+"stars": 5
+},
+{
+"fr": "Harengs saumurés d'Arendelle",
+"ing": "Hareng + Citron + Oignon + Ail + Épice",
+"price": "556",
+"type": "appetizer",
+"stars": 5
+},
+{
+"fr": "Soupe de pommes de terre et de poireaux",
+"ing": "Poireau + Pomme de terre + Lait + Oignon + Ail",
+"price": "1400",
+"type": "appetizer",
+"stars": 5
+},
+{
+"fr": "Hors-d'œuvre",
+"ing": "Épice",
+"price": "24",
+"type": "entree",
+"stars": 1
+},
+{
+"fr": "Poisson grillé",
+"ing": "Poisson",
+"price": "30",
+"type": "entree",
+"stars": 1
+},
+{
+"fr": "Soupe de poireau",
+"ing": "Poireau",
+"price": "370",
+"type": "entree",
+"stars": 1
+},
+{
+"fr": "Cacahuètes fumées et baudroie",
+"ing": "Baudroie + Cacahuète",
+"price": "2200",
+"type": "entree",
+"stars": 2
+},
+{
+"fr": "Carpe au four",
+"ing": "Carpe + Beurre",
+"price": "767",
+"type": "entree",
+"stars": 2
+},
+{
+"fr": "Confiture merveilleuse",
+"ing": "Fruit de Dreamlight + Blé",
+"price": "54",
+"type": "entree",
+"stars": 2
+},
+{
+"fr": "Entrée de poisson grillé",
+"ing": "Poisson + Légume",
+"price": "42",
+"type": "entree",
+"stars": 2
+},
+{
+"fr": "Légumes délicieux",
+"ing": "Légume + Épice",
+"price": "36",
+"type": "entree",
+"stars": 2
+},
+{
+"fr": "Morue croustillante au four",
+"ing": "Morue + Blé",
+"price": "47",
+"type": "entree",
+"stars": 2
+},
+{
+"fr": "Œuf brouillé",
+"ing": "Œuf + Fromage",
+"price": "520",
+"type": "entree",
+"stars": 2
+},
+{
+"fr": "Pâtes",
+"ing": "Blé + Tomate",
+"price": "30",
+"type": "entree",
+"stars": 2
+},
+{
+"fr": "Poisson savoureux",
+"ing": "Poisson + Citron",
+"price": "74",
+"type": "entree",
+"stars": 2
+},
+{
+"fr": "Porridge",
+"ing": "Lait + Blé",
+"price": "301",
+"type": "entree",
+"stars": 2
+},
+{
+"fr": "Salade de fruits de mer",
+"ing": "Fruit de mer + Salade",
+"price": "68",
+"type": "entree",
+"stars": 2
+},
+{
+"fr": "Sandwich au beurre de cacahuète",
+"ing": "Cacahuète + Blé",
+"price": "262",
+"type": "entree",
+"stars": 2
+},
+{
+"fr": "Sandwichs au poisson",
+"ing": "Poisson + Blé",
+"price": "34",
+"type": "entree",
+"stars": 2
+},
+{
+"fr": "Sushi",
+"ing": "Poisson + Riz",
+"price": "111",
+"type": "entree",
+"stars": 2
+},
+{
+"fr": "Sushi au saumon",
+"ing": "Saumon + Riz",
+"price": "274",
+"type": "entree",
+"stars": 2
+},
+{
+"fr": "Tamagoyaki",
+"ing": "Œuf + Canne à sucre",
+"price": "310",
+"type": "entree",
+"stars": 2
+},
+{
+"fr": "Bar et légumes poêlés",
+"ing": "Bar + Légumes x2",
+"price": "57",
+"type": "entree",
+"stars": 3
+},
+{
+"fr": "Brème au four épicée",
+"ing": "Brème + Piment + Beurre",
+"price": "1200",
+"type": "entree",
+"stars": 3
+},
+{
+"fr": "Espadon à l'ail et au citron",
+"ing": "Espadon + Ail + Citron",
+"price": "1100",
+"type": "entree",
+"stars": 3
+},
+{
+"fr": "Fugu cuit à la vapeur",
+"ing": "Fugu + Gingembre + Ail",
+"price": "1400",
+"type": "entree",
+"stars": 3
+},
+{
+"fr": "Gougères aux épinards de Kronk",
+"ing": "Épinard + Fromage + Colza",
+"price": "461",
+"type": "entree",
+"stars": 3
+},
+{
+"fr": "Maki",
+"ing": "Poisson + Algue + Riz",
+"price": "148",
+"type": "entree",
+"stars": 3
+},
+{
+"fr": "Maki au concombre",
+"ing": "Algue + Concombre + Riz",
+"price": "335",
+"type": "entree",
+"stars": 3
+},
+{
+"fr": "Maki au saumon",
+"ing": "Riz + Algue + Saumon",
+"price": "323",
+"type": "entree",
+"stars": 3
+},
+{
+"fr": "Morue au four croustillante au fromage",
+"ing": "Morue + Blé + Fromage",
+"price": "303",
+"type": "entree",
+"stars": 3
+},
+{
+"fr": "Nachos",
+"ing": "Piment + Maïs + Fromage",
+"price": "383",
+"type": "entree",
+"stars": 3
+},
+{
+"fr": "Omelette",
+"ing": "Œuf + Fromage + Lait",
+"price": "882",
+"type": "entree",
+"stars": 3
+},
+{
+"fr": "Parmentier de poisson",
+"ing": "Poisson + Blé + Beurre",
+"price": "303",
+"type": "entree",
+"stars": 3
+},
+{
+"fr": "Pâtes aux fruits de mer",
+"ing": "Fruit de mer + Blé + Lait",
+"price": "387",
+"type": "entree",
+"stars": 3
+},
+{
+"fr": "Pâtes végétariennes",
+"ing": "Tomate + Blé + Légume",
+"price": "43",
+"type": "entree",
+"stars": 3
+},
+{
+"fr": "Perche frite simple",
+"ing": "Perche + Blé + Beurre",
+"price": "380",
+"type": "entree",
+"stars": 3
+},
+{
+"fr": "Pizza",
+"ing": "Tomate + Fromage + Blé",
+"price": "284",
+"type": "entree",
+"stars": 3
+},
+{
+"fr": "Porridge aux fruits",
+"ing": "Lait + Blé + Fruit",
+"price": "353",
+"type": "entree",
+"stars": 3
+},
+{
+"fr": "Poutine",
+"ing": "Pomme de terre + Colza + Fromage",
+"price": "580",
+"type": "entree",
+"stars": 3
+},
+{
+"fr": "Ragoût végétarien",
+"ing": "Pomme de terre + Carotte + Oignon",
+"price": "475",
+"type": "entree",
+"stars": 3
+},
+{
+"fr": "Risotto au poisson",
+"ing": "Poisson + Riz + Beurre",
+"price": "386",
+"type": "entree",
+"stars": 3
+},
+{
+"fr": "Salade à la carpe",
+"ing": "Carpe + Citron + Salade",
+"price": "617",
+"type": "entree",
+"stars": 3
+},
+{
+"fr": "Salade copieuse",
+"ing": "Légumes x2 + Salade",
+"price": "33",
+"type": "entree",
+"stars": 3
+},
+{
+"fr": "Salade de poisson",
+"ing": "Poisson + Citron + Salade",
+"price": "92",
+"type": "entree",
+"stars": 3
+},
+{
+"fr": "Saumon glacé au jus de pommes",
+"ing": "Saumon + Canne à sucre + Pomme",
+"price": "271",
+"type": "entree",
+"stars": 3
+},
+{
+"fr": "Soupe aux fruits de mer",
+"ing": "Fruit de mer + Légumes x2",
+"price": "85",
+"type": "entree",
+"stars": 3
+},
+{
+"fr": "Soupe de poisson",
+"ing": "Poisson + Légume + Lait",
+"price": "368",
+"type": "entree",
+"stars": 3
+},
+{
+"fr": "Spaghetti arrabbiata",
+"ing": "Tomate + Blé + Piment",
+"price": "141",
+"type": "entree",
+"stars": 3
+},
+{
+"fr": "Steak de poisson",
+"ing": "Poisson + Tomate + Basilic",
+"price": "100",
+"type": "entree",
+"stars": 3
+},
+{
+"fr": "Steak de thazard aigre-doux",
+"ing": "Thazard + Canne à sucre + Citron",
+"price": "702",
+"type": "entree",
+"stars": 3
+},
+{
+"fr": "Sushi au fugu",
+"ing": "Fugu + Riz + Algue",
+"price": "1300",
+"type": "entree",
+"stars": 3
+},
+{
+"fr": "Tarte aux fruits de mer",
+"ing": "Fruit de mer + Blé + Beurre",
+"price": "331",
+"type": "entree",
+"stars": 3
+},
+{
+"fr": "Tarte végétarienne",
+"ing": "Légume + Beurre + Blé",
+"price": "279",
+"type": "entree",
+"stars": 3
+},
+{
+"fr": "Tilapia et légumes poêlés",
+"ing": "Tilapia + Légumes x2",
+"price": "862",
+"type": "entree",
+"stars": 3
+},
+{
+"fr": "Truite arc-en-ciel grillée",
+"ing": "Truite arc-en-ciel + Tomate + Oignon",
+"price": "338",
+"type": "entree",
+"stars": 3
+},
+{
+"fr": "Baudroie grillée à la poêle",
+"ing": "Baudroie + Tomate + Courgette + Pomme de terre",
+"price": "2500",
+"type": "entree",
+"stars": 4
+},
+{
+"fr": "Bouilli de fruits de mer",
+"ing": "Fruit de mer + Épice + Pomme de terre + Maïs",
+"price": "236",
+"type": "entree",
+"stars": 4
+},
+{
+"fr": "Brochettes végétariennes",
+"ing": "Champignon + Courgette + Oignon + Poivron",
+"price": "427",
+"type": "entree",
+"stars": 4
+},
+{
+"fr": "Casserole de légumes",
+"ing": "Légumes x2 + Fromage + Épice",
+"price": "340",
+"type": "entree",
+"stars": 4
+},
+{
+"fr": "Chaudrée",
+"ing": "Fruit de mer + Lait + Légume + Pomme de terre",
+"price": "613",
+"type": "entree",
+"stars": 4
+},
+{
+"fr": "Doré jaune en papillote",
+"ing": "Doré jaune + Basilic + Origan + Légume",
+"price": "1700",
+"type": "entree",
+"stars": 4
+},
+{
+"fr": "Esturgeon poché au beurre de basilic",
+"ing": "Esturgeon blanc + Basilic + Citron + Beurre",
+"price": "2200",
+"type": "entree",
+"stars": 4
+},
+{
+"fr": "Festin de lionne",
+"ing": "Champignon + Tomate + Origan + Poisson de l'Ici et Là",
+"price": "109",
+"type": "entree",
+"stars": 4
+},
+{
+"fr": "Fish 'n' Chips",
+"ing": "Poisson + Blé + Colza + Pomme de terre",
+"price": "392",
+"type": "entree",
+"stars": 4
+},
+{
+"fr": "Latkes",
+"ing": "Oignon + Pomme de terre + Colza + Œuf",
+"price": "937",
+"type": "entree",
+"stars": 4
+},
+{
+"fr": "Linguini au pesto",
+"ing": "Blé + Beurre + Ail + Origan",
+"price": "438",
+"type": "entree",
+"stars": 4
+},
+{
+"fr": "Maki au thon",
+"ing": "Thon + Soja + Algue + Riz",
+"price": "366",
+"type": "entree",
+"stars": 4
+},
+{
+"fr": "Omelette au basilic",
+"ing": "Basilic + Œuf + Fromage + Lait",
+"price": "982",
+"type": "entree",
+"stars": 4
+},
+{
+"fr": "Pâtes au poisson",
+"ing": "Poisson + Ail + Blé + Lait",
+"price": "475",
+"type": "entree",
+"stars": 4
+},
+{
+"fr": "Pétoncles crémeux à l'ail",
+"ing": "Pétoncle + Citron + Beurre + Ail",
+"price": "499",
+"type": "entree",
+"stars": 4
+},
+{
+"fr": "Pizza aux champignons",
+"ing": "Champignon + Blé + Tomate + Fromage",
+"price": "351",
+"type": "entree",
+"stars": 4
+},
+{
+"fr": "Pizza margherita",
+"ing": "Épice + Tomate + Fromage + Blé",
+"price": "336",
+"type": "entree",
+"stars": 4
+},
+{
+"fr": "Salade délicieuse",
+"ing": "Salade + Concombre + Légume + Épice",
+"price": "292",
+"type": "entree",
+"stars": 4
+},
+{
+"fr": "Sole meunière",
+"ing": "Sole + Blé + Beurre + Citron",
+"price": "637",
+"type": "entree",
+"stars": 4
+},
+{
+"fr": "Soupe wonton",
+"ing": "Œuf + Crevette + Blé + Oignon",
+"price": "1000",
+"type": "entree",
+"stars": 4
+},
+{
+"fr": "Sushi au thon",
+"ing": "Thon + Algue + Riz + Gingembre",
+"price": "413",
+"type": "entree",
+"stars": 4
+},
+{
+"fr": "Taco végétarien",
+"ing": "Maïs + Piment + Fromage + Légume",
+"price": "423",
+"type": "entree",
+"stars": 4
+},
+{
+"fr": "Tacos de poisson",
+"ing": "Poisson + Maïs + Piment + Fromage",
+"price": "448",
+"type": "entree",
+"stars": 4
+},
+{
+"fr": "Udon sucré",
+"ing": "Fruit de Dreamlight + Riz + Fruit de mer + Aliment sucré",
+"price": "180",
+"type": "entree",
+"stars": 4
+},
+{
+"fr": "Bouillabaisse",
+"ing": "Fruits de mer x2 + Crevette + Tomate + Légume",
+"price": "671",
+"type": "entree",
+"stars": 5
+},
+{
+"fr": "Bouillie de riz de Mushu",
+"ing": "Riz + Œuf + Champignon + Ail + Gingembre",
+"price": "753",
+"type": "entree",
+"stars": 5
+},
+{
+"fr": "Brandade de morue",
+"ing": "Morue + Pomme de terre + Lait + Citron + Ail",
+"price": "757",
+"type": "entree",
+"stars": 5
+},
+{
+"fr": "Burger de thon",
+"ing": "Thon + Oignon + Citron + Blé + Légume",
+"price": "491",
+"type": "entree",
+"stars": 5
+},
+{
+"fr": "Gombo",
+"ing": "Okra + Crevette + Piment + Tomate + Oignon",
+"price": "1000",
+"type": "entree",
+"stars": 5
+},
+{
+"fr": "Paëlla de cavalos",
+"ing": "Cavalos + Crevette + Fruit de mer + Tomate + Riz",
+"price": "1700",
+"type": "entree",
+"stars": 5
+},
+{
+"fr": "Pizza grecque",
+"ing": "Épice + Tomate + Oignon + Fromage + Blé",
+"price": "630",
+"type": "entree",
+"stars": 5
+},
+{
+"fr": "Pizza végétarienne",
+"ing": "Légumes x2 + Tomate + Fromage + Blé",
+"price": "350",
+"type": "entree",
+"stars": 5
+},
+{
+"fr": "Poisson créole",
+"ing": "Poisson + Légume + Ail + Riz + Tomate",
+"price": "280",
+"type": "entree",
+"stars": 5
+},
+{
+"fr": "Ratatouille",
+"ing": "Tomate + Aubergine + Courgette + Oignon + Épice",
+"price": "914",
+"type": "entree",
+"stars": 5
+},
+{
+"fr": "Salade méditerranéenne",
+"ing": "Concombre + Tomate + Oignon + Salade + Épice",
+"price": "605",
+"type": "entree",
+"stars": 5
+},
+{
+"fr": "Salade ranch",
+"ing": "Salade + Poivron + Maïs + Tomate + Oignon",
+"price": "396",
+"type": "entree",
+"stars": 5
+},
+{
+"fr": "Sandwich au homard",
+"ing": "Homard + Blé + Citron + Beurre + Ail",
+"price": "1900",
+"type": "entree",
+"stars": 5
+},
+{
+"fr": "Saumon teriyaki",
+"ing": "Soja + Saumon + Canne à sucre + Riz + Gingembre",
+"price": "637",
+"type": "entree",
+"stars": 5
+},
+{
+"fr": "Steak de poisson spectral",
+"ing": "Poisson de l'Ici et Là + Citron + Asperge + Poivron + Origan",
+"price": "349",
+"type": "entree",
+"stars": 5
+},
+{
+"fr": "Bonbon",
+"ing": "Aliment sucré",
+"price": "22",
+"type": "dessert",
+"stars": 1
+},
+{
+"fr": "Granité nature",
+"ing": "Glace pilée",
+"price": "180",
+"type": "dessert",
+"stars": 1
+},
+{
+"fr": "Milk shake",
+"ing": "Produit laitier",
+"price": "82",
+"type": "dessert",
+"stars": 1
+},
+{
+"fr": "Salade de fruits",
+"ing": "Fruit",
+"price": "25",
+"type": "dessert",
+"stars": 1
+},
+{
+"fr": "Bonbon à la menthe",
+"ing": "Menthe + Canne à sucre",
+"price": "128",
+"type": "dessert",
+"stars": 2
+},
+{
+"fr": "Gâteaux au pain d'épices de Minnie",
+"ing": "Blé + Gingembre",
+"price": "132",
+"type": "dessert",
+"stars": 2
+},
+{
+"fr": "Glace pilée sucrée",
+"ing": "Glace pilée + Aliment sucré",
+"price": "219",
+"type": "dessert",
+"stars": 2
+},
+{
+"fr": "Pommes au caramel",
+"ing": "Canne à sucre + Pomme",
+"price": "56",
+"type": "dessert",
+"stars": 2
+},
+{
+"fr": "Sorbet à la menthe",
+"ing": "Glace pilée + Menthe",
+"price": "299",
+"type": "dessert",
+"stars": 2
+},
+{
+"fr": "Sorbet au citron",
+"ing": "Glace pilée + Citron",
+"price": "237",
+"type": "dessert",
+"stars": 2
+},
+{
+"fr": "Sorbet aux fruits",
+"ing": "Glace pilée + Fruit",
+"price": "222",
+"type": "dessert",
+"stars": 2
+},
+{
+"fr": "Thé aux perles",
+"ing": "Canne à sucre + Lait",
+"price": "323",
+"type": "dessert",
+"stars": 2
+},
+{
+"fr": "Biscuit \"Mon héros\"",
+"ing": "Blé + Beurre + Aliment sucré",
+"price": "294",
+"type": "dessert",
+"stars": 3
+},
+{
+"fr": "Biscuits",
+"ing": "Blé + Canne à sucre + Beurre",
+"price": "294",
+"type": "dessert",
+"stars": 3
+},
+{
+"fr": "Chocolat chaud",
+"ing": "Canne à sucre + Lait + Fève de cacao",
+"price": "401",
+"type": "dessert",
+"stars": 3
+},
+{
+"fr": "Chocolat du printemps",
+"ing": "Œuf jaune + Canne à sucre + Fève de cacao",
+"price": "254",
+"type": "dessert",
+"stars": 3
+},
+{
+"fr": "Crème glacée",
+"ing": "Glace pilée + Canne à sucre + Lait",
+"price": "558",
+"type": "dessert",
+"stars": 3
+},
+{
+"fr": "Crème glacée de rêve",
+"ing": "Fruit de Dreamlight + Lait + Glace pilée",
+"price": "558",
+"type": "dessert",
+"stars": 3
+},
+{
+"fr": "Gâteau à la banane",
+"ing": "Banane + Blé + Beurre",
+"price": "308",
+"type": "dessert",
+"stars": 3
+},
+{
+"fr": "Gâteaux au pain d'épices d'Halloween",
+"ing": "Blé + Citrouille + Gingembre",
+"price": "1000",
+"type": "dessert",
+"stars": 3
+},
+{
+"fr": "Glace à l'eau",
+"ing": "Glace pilée + Canne à sucre + Fruit",
+"price": "265",
+"type": "dessert",
+"stars": 3
+},
+{
+"fr": "Granité acide",
+"ing": "Glace pilée + Citron + Canne à sucre",
+"price": "282",
+"type": "dessert",
+"stars": 3
+},
+{
+"fr": "Racinette",
+"ing": "Gingembre + Canne à sucre + Vanille",
+"price": "250",
+"type": "dessert",
+"stars": 3
+},
+{
+"fr": "Salade de fruits rouges",
+"ing": "Framboise + Myrtille + Groseille",
+"price": "139",
+"type": "dessert",
+"stars": 3
+},
+{
+"fr": "Sorbet à la pomme",
+"ing": "Glace pilée + Pomme + Canne à sucre",
+"price": "271",
+"type": "dessert",
+"stars": 3
+},
+{
+"fr": "Tarte aux cerises",
+"ing": "Cerise + Blé + Beurre",
+"price": "326",
+"type": "dessert",
+"stars": 3
+},
+{
+"fr": "Tarte aux fruits rouges",
+"ing": "Fruit + Blé + Beurre",
+"price": "297",
+"type": "dessert",
+"stars": 3
+},
+{
+"fr": "Tarte aux groseilles de Blanche Neige",
+"ing": "Groseille + Blé + Beurre",
+"price": "338",
+"type": "dessert",
+"stars": 3
+},
+{
+"fr": "Tarte aux myrtilles",
+"ing": "Myrtille + Blé + Beurre",
+"price": "308",
+"type": "dessert",
+"stars": 3
+},
+{
+"fr": "Tarte aux pommes",
+"ing": "Pomme + Blé + Beurre",
+"price": "303",
+"type": "dessert",
+"stars": 3
+},
+{
+"fr": "Tarte féerique",
+"ing": "Fruit de Dreamlight + Blé + Beurre",
+"price": "324",
+"type": "dessert",
+"stars": 3
+},
+{
+"fr": "Thé aux perles à la framboise",
+"ing": "Canne à sucre + Lait + Framboise",
+"price": "377",
+"type": "dessert",
+"stars": 3
+},
+{
+"fr": "Thé aux perles à la groseille",
+"ing": "Canne à sucre + Lait + Groseille",
+"price": "418",
+"type": "dessert",
+"stars": 3
+},
+{
+"fr": "Thé aux perles à la menthe",
+"ing": "Canne à sucre + Lait + Menthe",
+"price": "460",
+"type": "dessert",
+"stars": 3
+},
+{
+"fr": "Thé aux perles à la noix de coco",
+"ing": "Canne à sucre + Lait + Noix de coco",
+"price": "406",
+"type": "dessert",
+"stars": 3
+},
+{
+"fr": "Truc gris",
+"ing": "Produit laitier + Canne à sucre + Fève de cacao",
+"price": "175",
+"type": "dessert",
+"stars": 3
+},
+{
+"fr": "Bûche de Noël",
+"ing": "Blé + Fève de cacao + Vanille + Cerise",
+"price": "213",
+"type": "dessert",
+"stars": 4
+},
+{
+"fr": "Beignets",
+"ing": "Colza + Blé + Œuf + Canne à sucre",
+"price": "524",
+"type": "dessert",
+"stars": 4
+},
+{
+"fr": "Biscuits aux pépites de chocolat",
+"ing": "Fève de cacao + Blé + Canne à sucre + Beurre",
+"price": "373",
+"type": "dessert",
+"stars": 4
+},
+{
+"fr": "Biscuits du pays des merveilles",
+"ing": "Beurre + Canne à sucre + Vanille + Blé",
+"price": "406",
+"type": "dessert",
+"stars": 4
+},
+{
+"fr": "Cake aux fruits",
+"ing": "Blé + Fruits x3",
+"price": "96",
+"type": "dessert",
+"stars": 4
+},
+{
+"fr": "Cannoli",
+"ing": "Blé + Fromage + Œuf + Vanille",
+"price": "678",
+"type": "dessert",
+"stars": 4
+},
+{
+"fr": "Cheesecake",
+"ing": "Fromage + Blé + Canne à sucre + Fruit",
+"price": "332",
+"type": "dessert",
+"stars": 4
+},
+{
+"fr": "Chocolat à la menthe",
+"ing": "Menthe + Canne à sucre + Beurre + Fève de cacao",
+"price": "490",
+"type": "dessert",
+"stars": 4
+},
+{
+"fr": "Crème glacée à la banane",
+"ing": "Glace pilée + Banane + Lait + Canne à sucre",
+"price": "641",
+"type": "dessert",
+"stars": 4
+},
+{
+"fr": "Crème glacée à la noix de coco",
+"ing": "Glace pilée + Lait + Canne à sucre + Noix de coco",
+"price": "661",
+"type": "dessert",
+"stars": 4
+},
+{
+"fr": "Crème glacée à la vanille",
+"ing": "Glace pilée + Lait + Canne à sucre + Vanille",
+"price": "688",
+"type": "dessert",
+"stars": 4
+},
+{
+"fr": "Crème glacée au chocolat",
+"ing": "Fève de cacao + Canne à sucre + Lait + Glace pilée",
+"price": "678",
+"type": "dessert",
+"stars": 4
+},
+{
+"fr": "Crêpe",
+"ing": "Blé + Œuf + Lait + Vanille",
+"price": "768",
+"type": "dessert",
+"stars": 4
+},
+{
+"fr": "Gâteau à la carotte",
+"ing": "Carotte + Blé + Œuf + Canne à sucre",
+"price": "427",
+"type": "dessert",
+"stars": 4
+},
+{
+"fr": "Gâteau à la noix de coco",
+"ing": "Noix de coco + Blé + Œuf + Canne à sucre",
+"price": "424",
+"type": "dessert",
+"stars": 4
+},
+{
+"fr": "Gaufres",
+"ing": "Blé + Lait + Œuf + Aliment sucré",
+"price": "706",
+"type": "dessert",
+"stars": 4
+},
+{
+"fr": "Gaufres à la confiture",
+"ing": "Fruit + Blé + Œuf + Lait",
+"price": "24",
+"type": "dessert",
+"stars": 4
+},
+{
+"fr": "Gaufres au beurre de cacahuète",
+"ing": "Cacahuète + Blé + Œuf + Lait",
+"price": "978",
+"type": "dessert",
+"stars": 4
+},
+{
+"fr": "Gaufres au chocolat",
+"ing": "Fève de cacao + Blé + Œuf + Lait",
+"price": "735",
+"type": "dessert",
+"stars": 4
+},
+{
+"fr": "Glace à l'eau tropicale",
+"ing": "Glace pilée + Canne à sucre + Noix de coco + Fruit",
+"price": "347",
+"type": "dessert",
+"stars": 4
+},
+{
+"fr": "Guimauves grillées",
+"ing": "Guimauves roses x2 + Guimauves bleues x2",
+"price": "300",
+"type": "dessert",
+"stars": 4
+},
+{
+"fr": "Œufs mimosas de printemps",
+"ing": "Œuf jaune + Œuf bleu + Œuf rose + Basilic",
+"price": "298",
+"type": "dessert",
+"stars": 4
+},
+{
+"fr": "Pastéis de Nata",
+"ing": "Maïs + Œuf + Lait + Vanille",
+"price": "774",
+"type": "dessert",
+"stars": 4
+},
+{
+"fr": "Queue de Chat de Cheshire",
+"ing": "Fève de cacao + Œuf + Blé + Canne à sucre",
+"price": "418",
+"type": "dessert",
+"stars": 4
+},
+{
+"fr": "S'mores",
+"ing": "Guimauve rose + Guimauve bleue + Blé x2",
+"price": "156",
+"type": "dessert",
+"stars": 4
+},
+{
+"fr": "Sorbet aux fruits rouges",
+"ing": "Glace pilée + Framboise + Groseille + Canne à sucre",
+"price": "359",
+"type": "dessert",
+"stars": 4
+},
+{
+"fr": "Tarte meringuée",
+"ing": "Citron + Blé + Œuf + Beurre",
+"price": "667",
+"type": "dessert",
+"stars": 4
+},
+{
+"fr": "Banana Split",
+"ing": "Glace pilée + Banane + Lait + Canne à sucre + Aliment sucré",
+"price": "714",
+"type": "dessert",
+"stars": 5
+},
+{
+"fr": "Bol d'œufs printaniers",
+"ing": "Œuf rose + Œuf jaune + Œuf bleu + Fève de cacao + Canne à sucre",
+"price": "370",
+"type": "dessert",
+"stars": 5
+},
+{
+"fr": "Crème pâtissière et fruits",
+"ing": "Fruits x3 + Lait + Canne à sucre",
+"price": "497",
+"type": "dessert",
+"stars": 5
+},
+{
+"fr": "Cupcake à la framboise de la princesse Aurore",
+"ing": "Lait + Blé + Beurre + Canne à sucre + Framboise",
+"price": "738",
+"type": "dessert",
+"stars": 5
+},
+{
+"fr": "Cupcake de Minnie",
+"ing": "Lait + Blé + Beurre + Canne à sucre + Pomme",
+"price": "745",
+"type": "dessert",
+"stars": 5
+},
+{
+"fr": "Cupcake de sirène",
+"ing": "Lait + Blé + Beurre + Canne à sucre + Pétoncle",
+"price": "785",
+"type": "dessert",
+"stars": 5
+},
+{
+"fr": "Cupcake de Spaceship Earth",
+"ing": "Lait + Blé + Beurre + Canne à sucre + Noix de coco",
+"price": "772",
+"type": "dessert",
+"stars": 5
+},
+{
+"fr": "Cupcake de Stitch",
+"ing": "Lait + Blé + Beurre + Canne à sucre + Myrtille",
+"price": "751",
+"type": "dessert",
+"stars": 5
+},
+{
+"fr": "Gâteau d'anniversaire",
+"ing": "Fève de cacao + Blé + Canne à sucre + Œuf + Beurre",
+"price": "749",
+"type": "dessert",
+"stars": 5
+},
+{
+"fr": "Gâteau d'Aurore",
+"ing": "Blé + Canne à sucre + Œuf + Fruit + Lait",
+"price": "786",
+"type": "dessert",
+"stars": 5
+},
+{
+"fr": "Gâteau de mariage",
+"ing": "Beurre + Canne à sucre + Vanille + Œuf + Blé",
+"price": "785",
+"type": "dessert",
+"stars": 5
+},
+{
+"fr": "Maison en pain d'épices",
+"ing": "Blé + Gingembre + Canne à sucre + Vanille + Œuf",
+"price": "641",
+"type": "dessert",
+"stars": 5
+},
+{
+"fr": "Red Velvet",
+"ing": "Blé + Fromage + Œuf + Fève de cacao + Vanille",
+"price": "783",
+"type": "dessert",
+"stars": 5
+},
+{
+"fr": "Tarte au chocolat et à l'ail",
+"ing": "Fromage + Fève de cacao + Ail + Œuf + Blé",
+"price": "783",
+"type": "dessert",
+"stars": 5
+}
+]

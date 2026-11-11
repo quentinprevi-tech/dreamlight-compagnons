@@ -10,7 +10,7 @@ async function assignFromList(page: Page, name: string, profession: string) {
 }
 
 test('affectations conservées après actualisation et nouveau contexte de page', async ({ page, context }) => {
-  await page.goto('/')
+  await page.goto('/#/metiers')
   await expect(page.getByTestId('count-fishing')).toHaveText('0')
 
   await assignFromList(page, 'Dingo', 'Pêche')
@@ -18,7 +18,7 @@ test('affectations conservées après actualisation et nouveau contexte de page'
   await assignFromList(page, 'Rémy', 'Jardinage')
 
   await page.reload()
-  await page.goto('/#/')
+  await page.goto('/#/metiers')
   await expect(page.getByTestId('count-fishing')).toHaveText('2')
   await expect(page.getByTestId('count-gardening')).toHaveText('1')
 
@@ -33,14 +33,28 @@ test('affectations conservées après actualisation et nouveau contexte de page'
 })
 
 test('aucun défilement horizontal sur petit écran', async ({ page }) => {
-  for (const hash of ['#/', '#/personnages', '#/metier/digging', '#/numismagie', '#/infos']) {
+  for (const hash of [
+    '#/',
+    '#/aujourdhui/taches',
+    '#/personnages',
+    '#/metiers',
+    '#/metier/digging',
+    '#/numismagie',
+    '#/collection',
+    '#/collection/animaux',
+    '#/collection/animaux/aujourdhui',
+    '#/collection/puzzles',
+    '#/infos',
+  ]) {
     await page.goto('/' + hash)
     await page.waitForTimeout(400)
     const overflow = await page.evaluate(() => document.documentElement.scrollWidth - window.innerWidth)
     expect(overflow, hash).toBeLessThanOrEqual(0)
   }
   await page.goto('/#/')
-  await page.screenshot({ path: 'test-results/accueil-360.png', fullPage: true })
+  await page.screenshot({ path: 'test-results/aujourdhui-360.png', fullPage: true })
+  await page.goto('/#/metiers')
+  await page.screenshot({ path: 'test-results/metiers-360.png', fullPage: true })
   await page.goto('/#/personnages')
   await page.screenshot({ path: 'test-results/habitants-360.png' })
 })
@@ -74,8 +88,8 @@ test('PWA : manifeste valide et fonctionnement hors ligne', async ({ page, conte
 })
 
 test('Numismagie : navigation, filtre et affichage ordinateur', async ({ page }) => {
-  await page.goto('/')
-  await page.getByRole('link', { name: /Numismagie/ }).click()
+  await page.goto('/#/personnages')
+  await page.getByRole('navigation', { name: 'Vues des habitants' }).getByRole('link', { name: 'Numismagie' }).click()
   await expect(page.getByTestId('scramble-count')).toContainText('74 adversaires sur 74')
   await page.getByRole('group', { name: 'Filtrer par niveau' }).getByRole('button', { name: /Facile/ }).click()
   await expect(page.getByTestId('scramble-count')).not.toContainText('74 adversaires')
