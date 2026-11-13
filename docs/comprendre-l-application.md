@@ -211,6 +211,11 @@ Exemple réel (`updateRecipes`) : lit la clé `recipes`, applique l'opération s
 
 `commit()` est la même chose sans lecture : « écrire et supprimer plusieurs clés, tout ou rien ».
 
+**Garde-fou de version** : `transact` relit aussi `meta:schema` dans la transaction ; si les données ont été migrées par une version
+plus récente que le code (`MAX_WRITABLE_SCHEMA`), la transaction est annulée avec `NewerDataError` et l'écran demande de recharger
+l'app. Ce contrôle ne protège que le code qui le contient (pas une ancienne version déjà déployée) : pour protéger une donnée
+contre une ancienne version, on la range dans **sa propre clé** (exemple : `critterLevels`, niveaux des compagnons).
+
 ## 8. Données du jeu et données de la joueuse
 
 - Le **catalogue** (habitants, animaux, recettes…) est dans le code. Il ne change pas à l'exécution.
@@ -228,8 +233,8 @@ téléphone. Les copies `snapshot:*` ne protègent que d'une erreur de migration
 téléphone ni de l'effacement des données du navigateur.
 
 **Export** (`createBackup`) : un fichier JSON `{ app, format: 2, type, exportedAt, schema, sections }`. Chaque donnée est
-une *section* déclarée dans `DATA_SECTIONS` : `assignments`, `villagers`, `tasks`, `critters`, `tales`, `recipes`,
-`names` ; plus `photos` (facultative). Les photos sont converties en `data:image/jpeg;base64,…`.
+une *section* déclarée dans `DATA_SECTIONS` : `assignments`, `villagers`, `tasks`, `critters`, `critterLevels`,
+`tales`, `recipes`, `names` ; plus `photos` (facultative). Les photos sont converties en `data:image/jpeg;base64,…`.
 
 **Import** en trois temps, du plus prudent au plus engageant :
 

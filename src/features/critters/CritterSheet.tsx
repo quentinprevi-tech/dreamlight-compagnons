@@ -6,6 +6,9 @@ import { localDayKey, WEEKDAYS_FR } from '../tasks/recurrence'
 import { availabilityAt, formatWindows, windowsOn } from './availability'
 import { BIOME_BY_ID, CONDITION_TEXT, CRITTERS_SOURCE, CRITTERS_VERIFIED_AT, type CritterVariant } from './data'
 import { biomeName, NAME_KIND_LABEL, speciesName, variantName } from './display'
+import { gatherOf, GATHER_BY_ID, GATHERING_VERIFIED_AT } from './gathering'
+import { GatheringSources } from './GatheringSources'
+import { COMPANION_LEVEL_MAX, COMPANION_LEVEL_MIN, formatCompanionLevel } from './levels'
 import { MAX_FEEDINGS, type CritterProgress } from './model'
 import { AvailabilityChip } from './CritterRow'
 import { OBTAINED_RULE, feedingsLabel, reachedMessage, thresholdChip, thresholdExplanation, thresholdKind } from './thresholds'
@@ -13,12 +16,16 @@ import { OBTAINED_RULE, feedingsLabel, reachedMessage, thresholdChip, thresholdE
 interface Props {
   variant: CritterVariant
   progress?: CritterProgress
+  /** Niveau du compagnon (clé `critterLevels`) ; absent = non renseigné */
+  level?: number
   names: CustomNames
   now: Date
   onFeed: () => void
   onUnfeed: () => void
   onObtained: (value: boolean) => void
   onSetFeedings: (count: number) => void
+  /** `null` : efface le niveau (non renseigné) */
+  onSetLevel: (level: number | null) => void
   onRename: () => void
   onClose: () => void
 }
@@ -30,7 +37,8 @@ const dayText = (day: string) => new Date(`${day}T12:00:00`).toLocaleDateString(
 const KIND_STYLE = { exact: 'bg-emerald-100 text-emerald-800', 'at-least': 'bg-amber-100 text-amber-800', unknown: 'bg-plum-100 text-plum-700' } as const
 
 /** Détail d'une variante : noms, lieu, horaire, nourrissages, obtenu. */
-export function CritterSheet({ variant, progress, names, now, onFeed, onUnfeed, onObtained, onSetFeedings, onRename, onClose }: Props) {
+export function CritterSheet({ variant, progress, level, names, now, onFeed, onUnfeed, onObtained, onSetFeedings, onSetLevel, onRename, onClose }: Props) {
+  const gather = gatherOf(variant)
   const name = variantName(variant, names)
   const species = speciesName(variant.species)
   const biome = BIOME_BY_ID[variant.biome]
@@ -80,6 +88,21 @@ export function CritterSheet({ variant, progress, names, now, onFeed, onUnfeed, 
         <div>
           <dt className="inline font-semibold text-plum-800">Extension : </dt>
           <dd className="inline">{collection?.label ?? '—'}</dd>
+        </div>
+        <div data-testid="critter-gather">
+          <dt className="inline font-semibold text-plum-800">Aide à ramasser : </dt>
+          <dd className="inline">
+            {gather ? `${GATHER_BY_ID[gather].emoji} ${GATHER_BY_ID[gather].label}` : 'non renseigné'}
+            <span className="block text-xs text-plum-500">
+              {gather ? (
+                <>
+                  Donnée provisoire, d’après des guides de jeu relevés le {dayText(GATHERING_VERIFIED_AT)} (<GatheringSources />), à confirmer avec le wiki. Libellé français non vérifié en jeu.
+                </>
+              ) : (
+                'Non documentée ou contradictoire dans les guides consultés (espèce non couverte, variante de quête ou sources en désaccord) : rien n’est supposé.'
+              )}
+            </span>
+          </dd>
         </div>
       </dl>
 
@@ -147,6 +170,28 @@ export function CritterSheet({ variant, progress, names, now, onFeed, onUnfeed, 
         <input type="checkbox" className="size-5 accent-plum-700" checked={obtained} onChange={(e) => onObtained(e.target.checked)} />
         Obtenu (dans ma collection)
       </label>
+
+      <section className={`mt-3 rounded-2xl bg-plum-50 p-3 ${obtained ? '' : 'opacity-60'}`} aria-label="Niveau du compagnon">
+        <div className="flex items-center justify-between gap-2">
+          <h3 className="text-sm font-semibold text-plum-800">
+            <span aria-hidden>❤️</span> Niveau du compagnon
+          </h3>
+          <Stepper
+            label="Niveau du compagnon"
+            value={level}
+            min={COMPANION_LEVEL_MIN}
+            max={COMPANION_LEVEL_MAX}
+            disabled={!obtained}
+            format={formatCompanionLevel}
+            onChange={(v) => onSetLevel(v ?? null)}
+          />
+        </div>
+        <p className="mt-1 text-xs text-plum-500">
+          {obtained
+            ? `De ${COMPANION_LEVEL_MIN} à ${COMPANION_LEVEL_MAX}, saisi à la main (l’app ne le lit pas dans le jeu). Descends sous ${COMPANION_LEVEL_MIN} pour l’effacer.`
+            : 'Coche « Obtenu » pour suivre le niveau de ce compagnon.'}
+        </p>
+      </section>
 
       <section className="mt-4" aria-label="Horaires de la semaine">
         <h3 className="font-semibold text-plum-800">Horaires (heure locale)</h3>

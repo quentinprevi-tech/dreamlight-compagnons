@@ -1,6 +1,6 @@
 import { useCallback, useEffect, useMemo, useRef, useState } from 'react'
 import type { ProfessionId } from '../data/professions'
-import { readEntries } from './db'
+import { NewerDataError, readEntries } from './db'
 import { MigrationError, prepareDatabase } from './migrations'
 import { type Assignments, deletePortrait, loadAssignments, loadPortraits, requestPersistentStorage, savePortrait, updateAssignment } from './storage'
 import { createSync, type Sync } from './sync'
@@ -37,6 +37,8 @@ export interface Companions {
 }
 
 const SAVE_FAILED = 'La sauvegarde a échoué. Vérifie l’espace disponible sur le téléphone.'
+/** Données écrites par une version plus récente : message précis (recharger l'app) plutôt qu'un problème d'espace. */
+const saveFailed = (err: unknown) => (err instanceof NewerDataError ? err.message : SAVE_FAILED)
 
 async function isReadable(): Promise<boolean> {
   try {
@@ -120,8 +122,8 @@ export function useCompanions(): Companions {
           setVillagers(saved.villagers)
           syncRef.current?.notify('changed')
         },
-        () => {
-          setSaveError(SAVE_FAILED)
+        (err: unknown) => {
+          setSaveError(saveFailed(err))
           refresh()
         },
       )
@@ -146,7 +148,7 @@ export function useCompanions(): Companions {
           syncRef.current?.notify('changed')
         },
         (err: unknown) => {
-          setSaveError(err instanceof Error && err.name === 'VillagerError' ? err.message : SAVE_FAILED)
+          setSaveError(err instanceof Error && err.name === 'VillagerError' ? err.message : saveFailed(err))
           refresh()
         },
       )
@@ -164,7 +166,7 @@ export function useCompanions(): Companions {
           syncRef.current?.notify('changed')
         },
         (err: unknown) => {
-          setSaveError(err instanceof NameError ? err.message : SAVE_FAILED)
+          setSaveError(err instanceof NameError ? err.message : saveFailed(err))
           refresh()
         },
       )

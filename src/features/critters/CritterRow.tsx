@@ -1,6 +1,7 @@
 import { speciesName, type DisplayName } from './display'
 import { describeAvailability, type Availability } from './availability'
 import type { CritterVariant } from './data'
+import { COMPANION_LEVEL_MAX } from './levels'
 import type { CritterProgress } from './model'
 import { feedingsLabel } from './thresholds'
 
@@ -32,6 +33,8 @@ export function NameBadge({ name }: { name: DisplayName }) {
 interface Props {
   variant: CritterVariant
   progress?: CritterProgress
+  /** Niveau du compagnon (clé `critterLevels`), 1 à 5 ; absent = non renseigné */
+  level?: number
   name: DisplayName
   availability: Availability
   fedToday: boolean
@@ -41,7 +44,7 @@ interface Props {
 }
 
 /** Ligne d'une variante : obtenue ?, nom, horaire du jour, nourrissage rapide. */
-export function CritterRow({ variant, progress, name, availability, fedToday, onOpen, onObtained, onFeed }: Props) {
+export function CritterRow({ variant, progress, level, name, availability, fedToday, onOpen, onObtained, onFeed }: Props) {
   const obtained = progress?.obtained === true
   const count = progress?.feedings ?? 0
   const species = speciesName(variant.species)
@@ -82,7 +85,16 @@ export function CritterRow({ variant, progress, name, availability, fedToday, on
               </span>
             </span>
           )}
-          {obtained && <span className="mt-1 block text-xs font-semibold text-plum-600">Dans ta collection ✨</span>}
+          {obtained && (
+            <span className="mt-1 flex items-center gap-1.5 text-xs font-semibold text-plum-600">
+              Dans ta collection ✨
+              {level !== undefined && (
+                <span className="rounded-full bg-rose-50 px-1.5 py-0.5 text-rose-700" aria-label={`Niveau ${level} sur ${COMPANION_LEVEL_MAX}`} data-testid="critter-level">
+                  ❤️ {level}/{COMPANION_LEVEL_MAX}
+                </span>
+              )}
+            </span>
+          )}
         </button>
         {!obtained &&
           (fedToday ? (

@@ -1,5 +1,6 @@
 import { useMemo, useState } from 'react'
 import { FilterChips } from '../../components/FilterChips'
+import { ActiveFilters, SortBar, type SortOption, type SortState } from '../../components/ListControls'
 import { ProgressBar } from '../../components/ProgressBar'
 import { RenameSheet } from '../../components/RenameSheet'
 import { COLLECTIONS } from '../../data/characters'
@@ -11,6 +12,9 @@ import { localDayKey } from '../tasks/recurrence'
 import { availabilityAt } from './availability'
 import { CRITTER_DLC, CRITTER_VARIANTS, BIOMES, CRITTERS_SOURCE, CRITTERS_VERIFIED_AT, type CritterVariant } from './data'
 import { biomeName, NAME_KIND_LABEL, speciesName, variantName } from './display'
+import { GATHER_TYPES, GATHERING_VERIFIED_AT } from './gathering'
+import { GatheringSources } from './GatheringSources'
+import { matchesGather, sortVariantsByName, type CritterSortKey, type GatherFilter } from './list'
 import { isOwned, obtainedStats, summarizeToday, type VariantToday } from './model'
 import { CritterRow, NameBadge } from './CritterRow'
 import { CritterSheet } from './CritterSheet'
@@ -18,6 +22,18 @@ import { ExtensionsSetup } from './ExtensionsSetup'
 import type { CrittersState } from './useCritters'
 
 type Mode = 'all' | 'todo' | 'obtained' | 'today'
+
+const SORT_OPTIONS: SortOption<CritterSortKey>[] = [
+  { id: 'biome', label: 'Par biome' },
+  { id: 'name', label: 'Nom', directions: { asc: 'A → Z', desc: 'Z → A' } },
+]
+const DEFAULT_SORT: SortState<CritterSortKey> = { key: 'biome', direction: 'asc' }
+
+const GATHER_CHIPS: { id: GatherFilter; label: string }[] = [
+  { id: 'all', label: 'Toutes' },
+  ...GATHER_TYPES.map((g) => ({ id: g.id as GatherFilter, label: `${g.emoji} ${g.label}` })),
+  { id: 'unknown', label: '❔ Non renseignée' },
+]
 
 interface Props {
   critters: CrittersState
@@ -30,10 +46,12 @@ interface Props {
 type Renaming = { key: string; title: string; officialName: string; officialNote: string; value?: string } | null
 
 export function CrittersScreen({ critters, companions, now, view }: Props) {
-  const { data, apply, error } = critters
+  const { data, levels, apply, setLevel, error } = critters
   const { names, setName } = companions
   const [filter, setFilter] = useState<Exclude<Mode, 'today'>>('all')
   const [query, setQuery] = useState('')
+  const [sort, setSort] = useState<SortState<CritterSortKey>>(DEFAULT_SORT)
+  const [gather, setGather] = useState<GatherFilter>('all')
   const [openId, setOpenId] = useState<string | null>(null)
   const [renaming, setRenaming] = useState<Renaming>(null)
   const mode: Mode = view === 'today' ? 'today' : filter
@@ -44,6 +62,7 @@ export function CrittersScreen({ critters, companions, now, view }: Props) {
   const q = normalize(query)
 
   const matches = (v: CritterVariant) => {
+    if (!matchesGather(v, gather)) return false
     if (!q) return true
     const text = [v.nameEn, v.nameFr, names[nameKey('critter', v.id)], speciesName(v.species).text, v.area].filter(Boolean).join(' ')
     return normalize(text).includes(q)
@@ -64,6 +83,7 @@ export function CrittersScreen({ critters, companions, now, view }: Props) {
         key={variant.id}
         variant={variant}
         progress={progress}
+        level={levels[variant.id]}
         name={variantName(variant, names)}
         availability={entry?.availability ?? availabilityAt(variant, now)}
         fedToday={progress?.lastFed === day}
@@ -107,16 +127,40 @@ export function CrittersScreen({ critters, companions, now, view }: Props) {
     { id: 'today', label: '🐾 À nourrir aujourd’hui' },
   ]
 
-  // — Liste par biome (Tous / À obtenir / Obtenus)
-  const groups = BIOMES.map((biome) => ({
-    biome,
-    items: CRITTER_VARIANTS.filter((v) => {
-      if (v.biome !== biome.id || !isOwned(data, v.collection) || !matches(v)) return false
-      const obtained = data.progress[v.id]?.obtained === true
-      return mode === 'obtained' ? obtained : mode === 'todo' ? !obtained : true
-    }),
-  })).filter((g) => g.items.length > 0)
-  const listed = groups.reduce((n, g) => n + g.items.length, 0)
+  // — Liste (Tous / À obtenir / Obtenus), par biome ou triée par nom
+  const inList = (v: CritterVariant) => {
+    if (!isOwned(data, v.collection) || !matches(v)) return false
+    const obtained = data.progress[v.id]?.obtained === true
+    return mode === 'obtained' ? obtained : mode === 'todo' ? !obtained : true
+  }
+  const sortedByName = sort.key === 'name'
+  const flat = sortedByName ? sortVariantsByName(CRITTER_VARIANTS.filter(inList), names, sort.direction) : []
+  const groups = sortedByName
+    ? []
+    : BIOMES.map((biome) => ({ biome, items: CRITTER_VARIANTS.filter((v) => v.biome === biome.id && inList(v)) })).filter((g) => g.items.length > 0)
+  const listed = sortedByName ? flat.length : groups.reduce((n, g) => n + g.items.length, 0)
+
+  // — Filtres et tris actifs (rappel, retrait individuel, retour à l'affichage complet)
+  const sortOption = SORT_OPTIONS.find((o) => o.id === sort.key)!
+  const gatherLabel = GATHER_CHIPS.find((c) => c.id === gather)?.label
+  const activeFilters = [
+    ...(query.trim() ? [{ id: 'query', label: `Recherche : « ${query.trim()} »` }] : []),
+    ...(mode === 'todo' || mode === 'obtained' ? [{ id: 'mode', label: chips.find((c) => c.id === mode)!.label }] : []),
+    ...(gather !== 'all' && gatherLabel ? [{ id: 'gather', label: `Collecte : ${gatherLabel}` }] : []),
+    ...(mode !== 'today' && sort.key !== DEFAULT_SORT.key ? [{ id: 'sort', label: `Tri : ${sortOption.label} (${sortOption.directions?.[sort.direction]})` }] : []),
+  ]
+  const removeActive = (id: string) => {
+    if (id === 'query') setQuery('')
+    else if (id === 'mode') setFilter('all')
+    else if (id === 'gather') setGather('all')
+    else if (id === 'sort') setSort(DEFAULT_SORT)
+  }
+  const resetAll = () => {
+    setQuery('')
+    setFilter('all')
+    setGather('all')
+    setSort(DEFAULT_SORT)
+  }
 
   // — Vue « Aujourd'hui »
   const section = (title: string, hint: string | null, items: VariantToday[], testId: string) =>
@@ -146,6 +190,20 @@ export function CrittersScreen({ critters, companions, now, view }: Props) {
           className="mt-2 w-full rounded-2xl border-0 bg-white px-4 py-3 text-base text-plum-900 shadow-sm ring-1 ring-gold-300/40 outline-none placeholder:text-plum-300 focus:ring-2 focus:ring-gold-400"
         />
         <FilterChips label="Filtrer les animaux" chips={chips} value={mode} onChange={changeMode} />
+      </div>
+
+      <div className="mt-2 space-y-2" data-testid="list-controls">
+        {mode !== 'today' && <SortBar label="Trier les animaux" options={SORT_OPTIONS} value={sort} onChange={setSort} />}
+        <div>
+          <FilterChips label="Filtrer par capacité de collecte" chips={GATHER_CHIPS} value={gather} onChange={setGather} />
+          {gather !== 'all' && (
+            <p className="mt-1 px-1 text-xs text-plum-200/80" data-testid="gather-note">
+              Donnée provisoire : capacités relevées dans des guides de jeu le {new Date(`${GATHERING_VERIFIED_AT}T12:00:00`).toLocaleDateString('fr-FR')} (<GatheringSources />), à confirmer avec le wiki.
+              {gather === 'unknown' && ' « Non renseignée » : espèce non couverte, variante de quête ou sources en désaccord.'}
+            </p>
+          )}
+        </div>
+        <ActiveFilters items={activeFilters} onRemove={removeActive} onReset={resetAll} />
       </div>
 
       {error && (
@@ -224,6 +282,14 @@ export function CrittersScreen({ critters, companions, now, view }: Props) {
             Nourrissages : « 2/3 » = seuil exact indiqué par le wiki ; « au moins 3 » = le seuil réel est inconnu ; « seuil inconnu » = non indiqué. Aucun nombre ne garantit l’obtention : seule la case « Obtenu » fait foi.
           </p>
 
+          {sortedByName && flat.length > 0 && (
+            <section className="mt-5" data-testid="critters-sorted">
+              <h2 className="mb-2 px-1 font-display text-lg font-semibold text-gold-200">✦ Triés par nom ({sort.direction === 'asc' ? 'A → Z' : 'Z → A'})</h2>
+              <ul className="space-y-2" aria-label="Animaux triés par nom">
+                {flat.map((v) => row(v))}
+              </ul>
+            </section>
+          )}
           {groups.map(({ biome, items }) => {
             const label = biomeName(biome, names)
             const owned = CRITTER_VARIANTS.filter((v) => v.biome === biome.id)
@@ -253,6 +319,11 @@ export function CrittersScreen({ critters, companions, now, view }: Props) {
                 🔍
               </p>
               <p className="mt-2">Aucun animal ne correspond.</p>
+              {activeFilters.length > 0 && (
+                <button type="button" onClick={resetAll} className="mt-2 rounded-full bg-white/10 px-3 py-1.5 text-sm font-semibold text-gold-200 ring-1 ring-white/20 active:scale-95">
+                  Tout afficher
+                </button>
+              )}
             </div>
           )}
         </>
@@ -270,12 +341,14 @@ export function CrittersScreen({ critters, companions, now, view }: Props) {
         <CritterSheet
           variant={open}
           progress={data.progress[open.id]}
+          level={levels[open.id]}
           names={names}
           now={now}
           onFeed={() => apply({ type: 'feed', id: open.id })}
           onUnfeed={() => apply({ type: 'unfeed', id: open.id })}
           onObtained={(value) => apply({ type: 'obtained', id: open.id, value })}
           onSetFeedings={(count) => apply({ type: 'set-feedings', id: open.id, count })}
+          onSetLevel={(level) => setLevel(open.id, level)}
           onRename={() => startRenameVariant(open)}
           onClose={() => setOpenId(null)}
         />

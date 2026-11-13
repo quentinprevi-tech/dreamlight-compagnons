@@ -2,6 +2,7 @@ import { isCharacterId } from '../data/characters'
 import { isPlainObject, PORTRAIT_PREFIX, readEntries, readKey, readKeys, sameJson, transact, type DataMap } from './db'
 import { CURRENT_SCHEMA, MIGRATION_KEY, schemaOf, snapshotKey } from './migrations'
 import { NAMES_KEY, sanitizeNames } from './names'
+import { CRITTER_LEVELS_KEY, sanitizeCritterLevels } from '../features/critters/levels'
 import { CRITTERS_KEY, sanitizeCritters } from '../features/critters/model'
 import { RECIPES_KEY, sanitizeRecipes } from '../features/recipes/model'
 import { sanitizeTales, TALES_KEY } from '../features/tales/model'
@@ -142,6 +143,18 @@ export const DATA_SECTIONS: DataSection<Record<string, unknown>>[] = [
     count: crittersSize,
     size: crittersSize,
     unit: ['élément', 'éléments'],
+  },
+  {
+    // Section À PART de « critters » : l'ancienne version de l'app (qui ne connaît pas cette section) refuse donc
+    // une restauration complète de ce fichier, et ne peut de toute façon jamais écrire cette clé.
+    // Un fichier SANS cette section (ancienne sauvegarde) laisse les niveaux du téléphone intacts.
+    id: 'critterLevels',
+    key: CRITTER_LEVELS_KEY,
+    label: 'Niveaux des compagnons',
+    version: 1,
+    sanitize: sanitizeCritterLevels,
+    count: objectCount,
+    unit: ['niveau', 'niveaux'],
   },
   {
     id: 'tales',

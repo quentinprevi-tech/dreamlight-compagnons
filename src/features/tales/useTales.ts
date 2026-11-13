@@ -1,5 +1,5 @@
 import { useCallback, useEffect, useMemo, useRef, useState } from 'react'
-import { readEntries } from '../../lib/db'
+import { NewerDataError, readEntries } from '../../lib/db'
 import { MigrationError, prepareDatabase } from '../../lib/migrations'
 import { createSync, type Sync } from '../../lib/sync'
 import type { LoadError } from '../../lib/useCompanions'
@@ -82,7 +82,7 @@ export function useTales(): TalesState {
         syncRef.current?.notify('changed')
         return null
       } catch (err) {
-        const message = err instanceof TaleError ? err.message : 'L’enregistrement a échoué. Vérifie l’espace disponible sur le téléphone.'
+        const message = err instanceof TaleError || err instanceof NewerDataError ? err.message : 'L’enregistrement a échoué. Vérifie l’espace disponible sur le téléphone.'
         // Un refus (négatif, insuffisant…) est affiché là où l'action a lieu (ligne, fiche de confirmation) :
         // le bandeau global ne sert qu'aux échecs inattendus.
         if (!(err instanceof TaleError)) setError(message)

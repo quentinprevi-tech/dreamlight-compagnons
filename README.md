@@ -8,6 +8,7 @@ Petite PWA pour retrouver quel habitant de Disney Dreamlight Valley a quel méti
 - [`docs/modifications-audit-2026-11.md`](docs/modifications-audit-2026-11.md) : journal de l’audit des phases 0 à 5 : constats, corrections, alternatives écartées, limites des contrôles.
 
 - [`docs/ameliorations-ux-2026-11.md`](docs/ameliorations-ux-2026-11.md) : fermeture des fiches (croix, glissement, Échap) et images des ingrédients : fonctionnement, choix, tests, limites.
+- [`docs/suivi-habitants-animaux-2026-11.md`](docs/suivi-habitants-animaux-2026-11.md) : tri par amitié et filtre « < 10 » (habitants), tri par nom, capacité de collecte et niveau 1 à 5 (animaux) : choix, données, limites.
 - [`docs/etude-synchronisation-sauvegarde-ddv.md`](docs/etude-synchronisation-sauvegarde-ddv.md) : étude de faisabilité d’un import de la sauvegarde du jeu (aucune synchronisation cloud développée).
 
 ## Lancer
@@ -179,6 +180,9 @@ Le workflow n’a pas pu être exécuté en local : le premier déploiement apr�
   - `null` : photos non incluses (ou aucune sur le téléphone) → celles du téléphone sont **conservées** ;
   - `{ v, data: {} }` : aucune photo → celles du téléphone sont **supprimées** ;
   - `{ v, data: { id: dataURL } }` : le téléphone aura **exactement** ces photos.
+- **Niveaux des compagnons** : section `critterLevels`, stockée dans une **clé IndexedDB à part** (jamais dans `critters`) pour qu'une
+  ancienne version de l’app, qui réécrit `critters`, ne puisse pas les effacer. Une ancienne sauvegarde sans cette section laisse
+  les niveaux du téléphone intacts. Détails et limites : [`docs/suivi-habitants-animaux-2026-11.md`](docs/suivi-habitants-animaux-2026-11.md).
 - **Compatibilité** : un export v2 contient aussi `assignments` au premier niveau (identique à la section), pour que la
   première version de l’app sache encore en lire les métiers. Deux copies différentes font refuser le fichier.
 - **Taille maximale** : 25 Mo (`MAX_BACKUP_BYTES`, `src/lib/backup.ts`). Un export réaliste pèse environ 4 Mo (photos de

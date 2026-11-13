@@ -79,6 +79,27 @@ export function readKeys(keys: string[]): Promise<unknown[]> {
   return getMany(keys, db())
 }
 
+/**
+ * Garde-fou des FUTURES versions : version des données au-delà de laquelle ce code refuse d'écrire.
+ *
+ * `meta:schema` est relu DANS chaque transaction d'écriture ; s'il est plus récent que ce code, la transaction est
+ * annulée (rien n'est écrit) avec `NewerDataError`. À augmenter en même temps que `CURRENT_SCHEMA`
+ * (migrations.ts) : un test vérifie que les deux valeurs restent égales.
+ *
+ * LIMITE : ce contrôle n'existe que dans le code qui le contient. Il ne protège PAS contre la version 3 déjà publiée,
+ * qui ne vérifie jamais la version avant d'écrire. Les écritures directes de photos (`savePortrait`, `deletePortrait`)
+ * ne passent pas par `transact` et ne sont pas gardées.
+ */
+export const DATA_SCHEMA_KEY = 'meta:schema'
+export const MAX_WRITABLE_SCHEMA = 3
+
+export class NewerDataError extends Error {
+  constructor() {
+    super('Tes données ont été enregistrées par une version plus récente de l’app. Recharge l’app (ou mets-la à jour) avant de modifier quoi que ce soit.')
+    this.name = 'NewerDataError'
+  }
+}
+
 export interface CommitOps {
   set?: [string, unknown][]
   del?: string[]
@@ -112,6 +133,7 @@ export function transact<T>(
       const tx = s.transaction
       const values: Record<string, unknown> = {}
       let result: T
+      let storedSchema: unknown
       let pending = 1 // jeton libéré après l'envoi des lectures
 
       tx.oncomplete = () => resolve(result)
@@ -120,6 +142,7 @@ export function transact<T>(
       const step = () => {
         if (--pending > 0) return
         try {
+          if (typeof storedSchema === 'number' && storedSchema > MAX_WRITABLE_SCHEMA) throw new NewerDataError()
           const out = plan(values)
           result = out.result
           for (const [key, value] of out.ops?.set ?? []) s.put(value, key)
@@ -135,6 +158,12 @@ export function transact<T>(
         }
       }
 
+      pending++
+      const rs = s.get(DATA_SCHEMA_KEY)
+      rs.onsuccess = () => {
+        storedSchema = rs.result
+        step()
+      }
       for (const key of reads.keys ?? []) {
         pending++
         const r = s.get(key)

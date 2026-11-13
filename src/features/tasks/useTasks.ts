@@ -1,5 +1,5 @@
 import { useCallback, useEffect, useMemo, useRef, useState } from 'react'
-import { readEntries } from '../../lib/db'
+import { NewerDataError, readEntries } from '../../lib/db'
 import { MigrationError, prepareDatabase } from '../../lib/migrations'
 import type { LoadError } from '../../lib/useCompanions'
 import { createSync, type Sync } from '../../lib/sync'
@@ -100,7 +100,7 @@ export function useTasks(): TasksState {
           syncRef.current?.notify('changed')
         },
         (err: unknown) => {
-          setError(err instanceof TaskError ? err.message : 'L’enregistrement a échoué. Vérifie l’espace disponible sur le téléphone.')
+          setError(err instanceof TaskError || err instanceof NewerDataError ? err.message : 'L’enregistrement a échoué. Vérifie l’espace disponible sur le téléphone.')
           refresh()
         },
       )
